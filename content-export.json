@@ -1,0 +1,779 @@
+{
+  "site": "mondzorgpraktijkveenendaal.nl",
+  "exportedAt": "2026-08-31",
+  "note": "Content export for Next.js rebuild. Long-form blog posts are condensed summaries with a note pointing to the live URL for verbatim copy where noted; treatment/service pages and homepage are close-to-verbatim. Duplicate/junk pages are flagged in their own note field.",
+  "pages": [
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/bedankt-voor-uw-aanvraag/",
+      "title": "Bedankt voor uw aanvraag | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/bedankt-voor-uw-aanvraag/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Bedankt voor uw aanvraag!\n\nWe hebben uw aanvraag goed ontvangen. Ons team neemt binnen 1 werkdag telefonisch contact met u op om uw afspraak in te plannen.\n\nHeeft u een spoedgeval of wilt u liever direct bellen?\n\n📞 0318 501376\n\nTerug naar de website",
+      "images": []
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/tandarts-veenendaal-maak-direct-een-afspraak/",
+      "title": "Tandarts Veenendaal - Maak Direct een Afspraak | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Snel een afspraak bij de tandarts in Veenendaal. Ervaren team, ook voor angstpatiënten en kinderen. Plan direct online of bel 0318 501376.",
+      "canonical": "",
+      "robots": "noindex, follow",
+      "text": "",
+      "images": [],
+      "note": "landing page content is JS-rendered/lazy, textLen 0 on this extraction pass — verify manually"
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/ons-team/huusder-barmer-2/",
+      "title": "Huusder Barmer | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Maak kennis met Huusder Barmer, tandarts bij Mondzorgpraktijk Veenendaal, gespecialiseerd in algemene tandheelkunde.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/ons-team/huusder-barmer-2/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Huusder Barmer\nTandarts\nBehandelingen\nPeriodieke controle\nVullingen\nWortelkanaalbehandeling\nKroon en brug\nProthese (kunstgebit)\nAligner (doorzichtige beugel)\n\nBig-nummer: 49051467902",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/Huusder-Barmer.jpg",
+          "alt": "Huusder Barmer"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/ons-team/wenda-van-de-lagemaat/",
+      "title": "Wenda van de Lagemaat | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Maak kennis met Wenda van de Lagemaat, allround assistente bij Mondzorgpraktijk Veenendaal.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/ons-team/wenda-van-de-lagemaat/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Wenda van de Lagemaat\nAllround assistente\n\nBehandelingen / Taken\nBalie werkzaamheden\nBehandelkamer gereed maken\nAssisteert bij behandelingen\nRegistreert de patiënt- en behandelgegevens",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/09/team-2.jpg",
+          "alt": "Wenda van de Lagemaat​"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/",
+      "title": "Behandelingen | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Alle behandelingen bij Mondzorgpraktijk Veenendaal: periodieke controles, vullingen, kronen, facings, aligners en kindertandheelkunde. Maak snel een afspraak.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Periodieke controles\n\nRegelmatige controles om de gezondheid van je tanden en tandvlees te controleren en problemen in een vroeg stadium op te sporen.\n\n \n\nMEER INFO\nVullingen\n\nHet herstellen van een gaatje in een tand door het vullen met een geschikt materiaal zoals amalgaam of composiet.\n\n \n\nMEER INFO\nWortelkanaalbehandeling\n\nBehandeling waarbij het geïnfecteerde weefsel in de wortel van de tand wordt verwijderd om de tand te redden.\n\n \n\nMEER INFO\nKronen en bruggen\n\nDuurzame oplossingen om beschadigde of ontbrekende tanden te vervangen door een kroon of brug.\n\n \n\nMEER INFO\nProthese (kunstgebit)\n\nEen verwijderbare tandvervanging voor ontbrekende tanden of kiezen, zodat je weer goed kunt kauwen en spreken.\n\n \n\nMEER INFO\nTanden trekken (extracties)\n\nHet verwijderen van een tand die niet te redden is door bijvoorbeeld een infectie of schade.\n\n \n\nMEER INFO\nAligner (doorzichtige beugel)\n\nEen bijna onzichtbare beugel die je tanden rechtzet zonder dat het opvalt.\n\n \n\nMEER INFO\nFacings/veneers\n\nDunne schalen die op de voorkant van je tanden worden geplaatst om ze er mooier uit te laten zien.\n\n \n\nMEER INFO\nTandenbleken\n\nEen cosmetische behandeling die je tanden witter maakt door vlekken te verwijderen.\n\n \n\nMEER INFO\nPreventie & mondhygiënist\n\nAdvies en behandelingen om je mondgezondheid te behouden, zoals het verwijderen van tandplak en het geven van tips voor goede mondverzorging.\n\n \n\n \n\nMEER INFO\nKindertandheelkunde\n\nTandzorg speciaal voor kinderen, met aandacht voor hun behoeften en comfort.\n\n \n\n \n\nMEER INFO\nTandvleesbehandeling\n\nBehandeling van tandvleesproblemen, zoals ontsteking of infectie, om de gezondheid van je tandvlees te verbeteren.\n\n \n\nMEER INFO\nPijnloze gebitsreiniging (GBT)\n\nEen technologie voor het pijnloos reinigen van je tanden en tandvlees om tandplak en tandsteen te verwijderen.\n\n \n\nMEER INFO\nVerwijderen witte vlekken\n\nBehandeling om witte vlekken of verkleuringen op je tanden te verminderen of te verwijderen.\n\n \n\nMEER INFO\nAngstvrije tandheelkunde\n\nBehandelingen die speciaal zijn afgestemd om angstige patiënten een comfortabele ervaring te bieden, bijvoorbeeld door sedatie of rustige begeleiding.\n\n \n \nMEER INFO",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner10-768x768.jpg",
+          "alt": "Cristian-Zandi"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/diversity-policy/",
+      "title": "Diversity Policy | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/diversity-policy/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Beleid voor Diversiteit\nIn onze tandartspraktijk hechten we veel waarde aan diversiteit en inclusie in al onze diensten. We behandelen elke patiënt met respect en we geloven dat iedereen recht heeft op hoogwaardige tandheelkundige zorg.\n\nZorg voor iedereen: We bieden zorg aan alle sociale en culturele groepen en garanderen gelijke behandeling in elk stadium van je behandeling.\nAandacht voor speciale behoeften: We nemen de tijd om te luisteren naar jouw specifieke behoeften en passen de behandelingen aan op basis van jouw situatie.\nRespect voor alle patiënten: We behandelen elke patiënt met zorg, respect en vriendelijkheid.",
+      "images": [],
+      "note": "Likely a generic auto-generated boilerplate page (theme/plugin/AI artifact), not real practice-authored content. Review before porting."
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/ethics-policy/",
+      "title": "Ethics Policy | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/ethics-policy/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Ethiekbeleid\nIn onze tandartspraktijk houden wij ons aan de hoogste ethische normen en behandelen wij iedereen met respect. Dit betekent dat we tandheelkundige zorg van de hoogste kwaliteit bieden, de privacy van onze patiënten respecteren en transparant zijn over de behandelingen die we aanbieden.\n\nRespect voor privacy: Je persoonlijke informatie wordt altijd vertrouwelijk behandeld en wordt alleen gedeeld met jouw toestemming.\nProfessioneel gedrag: Ons team volgt altijd de hoogste professionele en ethische standaarden bij de behandeling van onze patiënten.\nTransparantie in behandelingen: We geven je alle benodigde informatie zodat je een weloverwogen beslissing kunt nemen over je behandeling.",
+      "images": [],
+      "note": "Likely a generic auto-generated boilerplate page, not real practice-authored content. Review before porting."
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/actionable-feedback-policy/",
+      "title": "Actionable Feedback Policy | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/actionable-feedback-policy/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Beleid voor Actieve Feedback\nIn onze tandartspraktijk hechten we veel waarde aan jouw mening en feedback. We geven je de mogelijkheid om je ervaringen met ons te delen. Jouw feedback helpt ons niet alleen om onze dienstverlening te verbeteren, maar zorgt er ook voor dat we altijd de best mogelijke ervaring voor jou kunnen bieden.\n\nJe kunt je feedback sturen via e-mail of het contactformulier.\nAlle feedback wordt zorgvuldig bekeken en waar nodig snel gecorrigeerd.",
+      "images": [],
+      "note": "Likely a generic auto-generated boilerplate page, not real practice-authored content. Review before porting."
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/angst-tandartsangst/",
+      "title": "Angst voor de tandarts? Mondzorgpraktijk Veenendaal helpt",
+      "metaDescription": "Bang voor de tandarts? Bij Mondzorgpraktijk Veenendaal krijg je de zorg en aandacht die je nodig hebt in een rustige en vertrouwde omgeving.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/angst-tandartsangst/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Behandeling voor patiënten met tandartsangst\n\nVeel mensen ervaren tandartsangst, en dat is helemaal niet vreemd. Het kan de toegang tot tandheelkundige zorg bemoeilijken en kan leiden tot uitstelgedrag, wat uiteindelijk meer problemen met zich meebrengt. In onze praktijk begrijpen we deze angst en doen we er alles aan om je zo comfortabel mogelijk te maken. Met onze rustige benadering en zachte behandeling helpen wij je om je angst te overwinnen en zorg te ontvangen zonder stress.\n\nHOE GAAN WIJ OM MET ANGST?\n\nOnze aanpak is altijd rustig, vriendelijk en geduldig. We begrijpen dat elke persoon anders is en dat de ervaring bij de tandarts soms overweldigend kan zijn. Daarom nemen we de tijd om naar je zorgen te luisteren en je te begeleiden tijdens elke stap van de behandeling.\n\nZachte communicatie: We leggen elke stap van de behandeling uit en zorgen ervoor dat je altijd weet wat er gebeurt.\n\nSfeervolle omgeving: Onze praktijk is ontworpen met het oog op comfort en rust, zodat je je op je gemak voelt. Van de inrichting tot de verlichting, alles is gericht op een ontspannen sfeer.\n\nKeuze in behandelmethoden: We bieden verschillende behandelingsopties, zoals lokale verdovingen en kalmerende technieken, zodat je altijd kiest wat voor jou het beste werkt.\n\nRustige en pijnvrije aanpak\n\nOnze behandelingen zijn ontworpen om pijn te minimaliseren en je gerust te stellen. Voor patiënten met tandartsangst hebben we speciale technieken ontwikkeld die zorgen voor een pijnvrije ervaring.\n\nPijnloze behandelingen: Dankzij moderne apparatuur en technieken kunnen we de meeste behandelingen uitvoeren zonder pijn. Je zult merken dat de behandelingen minder intens zijn dan je misschien verwacht.\n\nLangzame en zorgvuldige benadering: We nemen de tijd voor elke behandeling en werken op jouw tempo. Je mag altijd om een pauze vragen als je even tot rust wilt komen.\n\nTips om ontspannen naar de tandarts te gaan\n\nVoor veel mensen kan de gedachte aan de tandarts een bron van angst zijn, maar er zijn manieren om deze angst te verminderen. Hier zijn enkele tips die je kunnen helpen om ontspannen naar de tandarts te gaan:\n\nAdemhalingsoefeningen: Adem diep in en uit voor je afspraak om je zenuwen te kalmeren. Dit helpt je om rustig te blijven en de spanning los te laten.\n\nBreng een vriend of familielid mee: Het kan geruststellend zijn om iemand die je vertrouwt mee te nemen naar je afspraak. Zij kunnen je ondersteunen en helpen om je op je gemak te voelen.\n\nPlan je afspraak op een rustig moment: Kies een tijdstip voor je afspraak wanneer je niet gehaast bent of gestrest door andere verplichtingen. Dit zorgt voor een meer ontspannen ervaring.\n\nGebruik ontspanningstechnieken: Luister naar kalmerende muziek of gebruik een ontspannende app om je gedachten af te leiden tijdens de behandeling.\n\nCommuniceer je angsten: Vertel de tandarts of assistente over je angsten. Wij passen de behandeling aan op jouw behoeften en zorgen ervoor dat je je op je gemak voelt.\n\nOnze angstvrije tandarts in Veenendaal biedt een comfortabele tandheelkundige ervaring.\n\nVeelgestelde vragen (FAQ)\nIs het mogelijk om onder lichte sedatie behandeld te worden?\n\nJa, wij bieden lichte sedatie aan voor patiënten die zich extra angstig voelen. Dit zorgt ervoor dat je de behandeling in een ontspannen staat ondergaat, zonder bewusteloos te zijn.\n\nHoe lang duurt een behandeling als ik angst heb?\nMoet ik mijn angst met de tandarts bespreken?\nKan ik iemand meenemen naar mijn afspraak?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/10/Periodieke-Controle.jpg",
+          "alt": "Periodieke Controle​"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/white-spots-verwijderen-witte-vlekken/",
+      "title": "White spots verwijderen bij tandarts Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Verlies je witte vlekken? Tandarts Mondzorgpraktijk Veenendaal verwijdert white spots voor een stralende en egale glimlach. Maak een afspraak!",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/white-spots-verwijderen-witte-vlekken/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "White spots verwijderen zonder boren\n\nHet hebben van witte vlekken op je tanden kan zorgen voor een minder stralende glimlach. Gelukkig is het verwijderen van deze vlekken nu mogelijk zonder dat er geboord hoeft te worden. Bij onze praktijk bieden we een effectieve behandeling aan om witte vlekken op een veilige en pijnloze manier te verwijderen. Met de juiste zorg en behandeling kunnen we je helpen om weer een stralende glimlach te krijgen zonder ongemak.\n\nOORZAKEN VAN WITTE VLEKKEN OP TANDEN\n\nWitte vlekken kunnen verschillende oorzaken hebben. Ze ontstaan meestal door een ophoping van tandplak, een slechte mondhygiëne, of als gevolg van het overmatig gebruik van fluoride in de jeugd. Ook kunnen ze ontstaan door te veel zuur in de mond, bijvoorbeeld van bepaalde voedingsmiddelen of dranken. Andere oorzaken kunnen te maken hebben met de structurele opbouw van de tanden, zoals bij beginnende tandbederf of door demineralisatie van het tandglazuur.\n\nHet is belangrijk om te weten dat witte vlekken geen gaatjes zijn, maar wel een indicatie van een onvolledige mineralisatie van het glazuur. Als ze niet behandeld worden, kunnen ze uiteindelijk leiden tot gaatjes. Daarom is het belangrijk om ze tijdig aan te pakken.\n\nICON-behandeling: hoe werkt het?\n\nDe ICON-behandeling is een moderne techniek die speciaal is ontwikkeld voor het verwijderen van witte vlekken zonder boren. Het is een eenvoudige en pijnloze behandeling waarbij een speciaal vloeistof wordt aangebracht op de witte vlekken. Deze vloeistof penetreert de poriën van de tanden en vult de demineralisatie op, waardoor de vlekken verdwijnen.\n\nDe behandeling begint met een grondige reiniging van je tanden. Vervolgens wordt het ICON-gel aangebracht op de witte vlekken. Het gel wordt geactiveerd door een speciaal licht, waardoor het demineralisatieproces wordt gecorrigeerd en de witte vlekken verminderen. Deze behandeling is snel, effectief en volledig pijnloos.\n\nResultaat en veiligheid\n\nHet resultaat van de ICON-behandeling is vaak direct zichtbaar, en de witte vlekken worden aanzienlijk verminderd of volledig geëlimineerd. Omdat de behandeling geen boren vereist, is het een zachte en veilige manier om je tanden te herstellen zonder dat er schade aan het tandglazuur wordt toegebracht.\n\nDe ICON-behandeling is veilig en is goedgekeurd door tandheelkundige professionals. Het is een effectieve oplossing voor het verminderen van esthetische vlekken op je tanden zonder het gebruik van invasieve technieken. Na de behandeling kun je weer met vertrouwen glimlachen, zonder je zorgen te maken over de witte vlekken.\n\nVoor het verwijderen van witte vlekken op je tanden, bezoek onze praktijk in Veenendaal.\n\nVeelgestelde vragen (FAQ)\nIs de ICON-behandeling pijnlijk?\n\nNee, de ICON-behandeling is volledig pijnloos. Je zult geen ongemak ervaren tijdens de behandeling.\n\nHoe snel zie ik resultaten?\nMoet ik na de behandeling speciale zorg nemen?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner26.jpg",
+          "alt": "White spots (verwijderen witte vlekken)"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/pijnloze-gebitsreiniging-gbt/",
+      "title": "Pijnloze gebitsreiniging (GBT) | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Geniet van een pijnloze gebitsreiniging! Tandarts Mondzorgpraktijk Veenendaal biedt GBT-behandelingen voor een gezonde en frisse mond.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/pijnloze-gebitsreiniging-gbt/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Pijnloze gebitsreiniging met GBT\n\nEen gezonde mond begint bij een goede reiniging, en dat is precies wat wij bieden met onze pijnloze gebitsreiniging via Guided Biofilm Therapy (GBT). Deze moderne en geavanceerde techniek zorgt ervoor dat je tanden en tandvlees grondig gereinigd worden, zonder dat je ongemak ervaart. Dankzij GBT kunnen we tandplak en tandsteen efficiënt verwijderen, terwijl we tegelijkertijd het risico op tandvleesproblemen zoals gingivitis en parodontitis verminderen.\n\nWAT IS GUIDED BIOFILM THERAPY?\n\nGuided Biofilm Therapy (GBT) is een revolutionaire methode voor gebitsreiniging die gebruik maakt van biofilm-detectie en -verwijdering. Biofilm is een dunne laag bacteriën die zich op je tanden en tandvlees vormt en die tandplak en tandsteen kan veroorzaken. GBT maakt gebruik van een speciaal apparaat om deze biofilm zichtbaar te maken, zodat we het gericht kunnen verwijderen zonder je tanden of tandvlees te beschadigen.\n\nDe behandeling is uiterst effectief en pijnloos. Het zorgt voor een grondige reiniging van je mond, waarbij tandsteen, tandplak en andere ongewenste stoffen worden verwijderd. GBT maakt het mogelijk om ook moeilijk bereikbare plekken in je mond goed te reinigen, wat bijdraagt aan een optimale mondgezondheid.\n\nVoordelen van GBT\n\nGBT biedt verschillende voordelen, zowel voor jou als patiënt, als voor je mondgezondheid:\n\nPijnloos en comfortabel: Omdat de techniek uiterst zorgvuldig is, zul je geen pijn ervaren tijdens de behandeling.\n\nGrondige reiniging: GBT zorgt voor een diepgaande reiniging van je tanden en tandvlees, wat bijdraagt aan het voorkomen van tandvleesontstekingen en gaatjes.\n\nGezonder tandvlees: Door biofilm effectief te verwijderen, helpt GBT je tandvlees gezond te houden en ontstekingen te voorkomen.\n\nVerbeterde mondgezondheid: Regelmatige behandelingen met GBT kunnen tandplak en tandsteen op een veilige en efficiënte manier verwijderen, wat bijdraagt aan een langdurige gezonde mond.\n\nMinder gevoeligheid: Omdat de behandeling zo mild is, is de kans op gevoeligheid of irritatie van je tandvlees minimaal.\n\nDoet Guided Biofilm Therapy pijn?\n\nNee, GBT is juist bekend om zijn zachte aanpak. We gebruiken een fijne poeder-luchtstraal in plaats van scherpe instrumenten, waardoor de behandeling ook geschikt is voor mensen met een gevoelig gebit of tandvleesangst.\n\nHoe lang duurt een GBT-behandeling?\nKan ik na de behandeling gewoon eten?\nVoor wie is deze behandeling geschikt?\n\nGBT is geschikt voor vrijwel iedereen die zijn mondgezondheid wil verbeteren en tandvleesproblemen wil voorkomen. Of je nu gezond tandvlees hebt of last hebt van lichte tandvleesontstekingen, deze behandeling kan helpen om je mond optimaal schoon en gezond te houden.\n\nSpecifieke situaties waarin GBT bijzonder nuttig kan zijn:\n\nTandvleesproblemen: Als je last hebt van ontstoken tandvlees (gingivitis) of parodontitis, kan GBT helpen om de ontstekingen te verminderen en je tandvlees te herstellen.\n\nPreventie van gaatjes: Door biofilm te verwijderen, kun je de kans op gaatjes en andere tandproblemen aanzienlijk verkleinen.\n\nMensen met gevoelige tanden: GBT is een zachte en comfortabele manier van reinigen, dus het is een uitstekende optie voor mensen met gevoelig tandvlees of tanden.\n\nErvaar pijnloze gebitsreiniging bij onze tandartspraktijk in Veenendaal.\n\n \n\nVeelgestelde vragen (FAQ)\nIs GBT echt pijnloos?\n\nJa, GBT is een uiterst pijnloze behandeling. Je zult geen ongemak ervaren, en het is veel minder invasief dan traditionele reinigingsmethoden.\n\nHoe lang duurt de behandeling?\nHoe vaak moet ik GBT ondergaan?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/10/Mondzorg.jpg",
+          "alt": "Pijnloze gebitsreiniging (GBT)"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/tandvleesbehandeling-parodontitis/",
+      "title": "Tandvleesbehandeling (Parodontitis) | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Last van tandvleesproblemen? Tandarts Mondzorgpraktijk Veenendaal biedt effectieve behandelingen voor parodontitis in een rustige en zorgzame omgeving.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/tandvleesbehandeling-parodontitis/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Behandeling van ontstoken tandvlees en parodontitis\n\nTandvleesontsteking (gingivitis) en parodontitis zijn veelvoorkomende tandvleesproblemen die je mondgezondheid ernstig kunnen beïnvloeden als ze niet tijdig worden behandeld. Gelukkig kunnen deze aandoeningen vaak goed worden behandeld met de juiste zorg en preventie. In onze praktijk bieden we deskundige behandelingen aan om ontstoken tandvlees en parodontitis te verhelpen en de gezondheid van je tandvlees te herstellen. We doen dit op een zorgzame, rustige en professionele manier, zodat jij je op je gemak voelt.\n\nSYMPTOMEN VAN TANDVLEESONTSTEKING\n\nHet herkennen van de symptomen van tandvleesontsteking is belangrijk om verdere complicaties te voorkomen. Veel voorkomende symptomen zijn:\n\nBloedend tandvlees: Het tandvlees kan gaan bloeden, vooral bij het poetsen of het gebruik van flosdraad.\n\nRood, gezwollen tandvlees: Je tandvlees kan gezwollen, gevoelig en rood zijn, wat duidt op ontsteking.\n\nTandvlees dat zich terugtrekt: Bij parodontitis kan het tandvlees zich terugtrekken, waardoor de tanden langer lijken.\n\nSlecht adem: Een aanhoudende slechte adem kan ook wijzen op een tandvleesontsteking of infectie.\n\nPijn of ongemak: Soms kan het tandvlees pijnlijk zijn, vooral als het ontstoken is.\n\nAls je één of meer van deze symptomen ervaart, is het belangrijk om snel een afspraak te maken bij de tandarts of mondhygiënist. Vroegtijdige behandeling voorkomt dat de ontsteking verergert en zich verspreidt naar de onderliggende weefsels.\n\nProfessionele reiniging & diepe reiniging\n\nDe behandeling van tandvleesontsteking en parodontitis begint meestal met een professionele reiniging. Dit proces bestaat uit het verwijderen van tandplak en tandsteen, die zich onder de tandvleesrand kunnen ophopen en de ontsteking kunnen veroorzaken. Dit wordt gedaan door een mondhygiënist of tandarts, die ervoor zorgt dat je tanden en tandvlees grondig gereinigd worden.\n\nBij meer gevorderde gevallen van parodontitis kan een diepe reiniging noodzakelijk zijn. Dit houdt in dat we ook onder het tandvlees reinigen om diep gewortelde tandsteen en bacteriën te verwijderen. Het doel is om de infectie te bestrijden, de ontsteking te verminderen en je tandvlees gezond te maken.\n\nIn sommige gevallen kunnen er ook aanvullende behandelingen worden uitgevoerd, zoals het reinigen van de worteloppervlakken van de tanden of het gebruik van antibiotica om bacteriën te bestrijden.\n\nOorzaken en voorkomen\n\nDe belangrijkste oorzaken van tandvleesontsteking en parodontitis zijn slechte mondhygiëne, roken, een slechte voeding en bepaalde medische aandoeningen. Tandplak, een plakachtige film van bacteriën, is de belangrijkste veroorzaker van deze aandoeningen. Als tandplak niet regelmatig wordt verwijderd door goed te poetsen en flossen, kan het verharden tot tandsteen, wat de oorzaak is van tandvleesproblemen.\n\nHoe kun je tandvleesontsteking voorkomen?\n\nPoets twee keer per dag: Poets je tanden grondig, minstens twee keer per dag, met een fluoride tandpasta.\n\nFlos dagelijks: Flossen helpt om tandplak te verwijderen tussen je tanden en langs de tandvleesrand.\n\nGezonde voeding: Een uitgebalanceerd dieet, rijk aan vitamines en mineralen, ondersteunt een gezond tandvlees.\n\nVermijd roken: Roken verhoogt de kans op tandvleesontsteking en parodontitis, dus stoppen met roken is cruciaal voor een gezond gebit.\n\nRegelmatige controles: Bezoek de tandarts of mondhygiënist regelmatig voor professionele reinigingen en controles.\n\nDoor deze eenvoudige gewoonten in je dagelijkse routine op te nemen, kun je veel tandvleesproblemen voorkomen en je mondgezondheid op lange termijn behouden.\n\nOnze tandartspraktijk in Veenendaal biedt behandelingen voor tandvleesproblemen aan.\n\nVeelgestelde vragen (FAQ)\nHoe weet ik of ik tandvleesontsteking heb?\n\nDe symptomen van tandvleesontsteking zijn onder andere bloedend tandvlees, gezwollen of rode plekken, en een slechte adem. Als je deze symptomen hebt, is het belangrijk om een afspraak te maken bij de tandarts.\n\nKan parodontitis worden genezen?\nHoe vaak moet ik naar de mondhygiënist voor een reiniging?\nKan ik tandvleesontsteking behandelen zonder de tandarts?\nKan een slechte adem door tandvleesproblemen komen?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner21.jpg",
+          "alt": "mondzorgpraktijkveenendaal.nl"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/preventie-mondhygienist/",
+      "title": "Preventie & mondhygiënist | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Zorg voor je mondgezondheid! Bij tandarts Mondzorgpraktijk Veenendaal bieden we preventieve zorg en mondhygiënebehandelingen voor een gezonde glimlach.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/preventie-mondhygienist/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Professionele gebitsreiniging en preventie\n\nEen gezond gebit begint met goede preventie. In onze praktijk staan we voor het belang van regelmatige controles en een goede mondhygiëne. Onze mondhygiënisten helpen je niet alleen om je tanden schoon te houden, maar geven ook waardevolle adviezen om tandproblemen te voorkomen. Samen werken we aan het behoud van een gezond, stralend gebit, zodat je je altijd op je gemak voelt bij het lachen, praten en eten.\n\nWAT DOET EEN MONDHYGIËNIST?\n\nEen mondhygiënist is een specialist op het gebied van mondgezondheid. Ze helpt je niet alleen met het verwijderen van tandplak en tandsteen, maar geeft je ook persoonlijk advies over hoe je jouw mondhygiëne kunt verbeteren. Dit kan door middel van het geven van poetsinstructies, het adviseren over tandpasta's en mondspoelingen, en het bespreken van je eet- en drinkgewoonten.\n\nDaarnaast behandelt de mondhygiënist tandvleesproblemen, zoals gingivitis (tandvleesontsteking), en kan ze je adviseren over de juiste techniek voor het flossen en het gebruik van andere hulpmiddelen, zoals ragers of tandenstokers. Ook bij het behandelen van meer gevorderde tandvleesproblemen kan de mondhygiënist helpen door diepere reinigingen van het tandvlees uit te voeren.\n\nVoorkomen van gaatjes & tandvleesontsteking\n\nHet voorkomen van gaatjes en tandvleesontsteking is een essentieel onderdeel van mondgezondheid. Regelmatig poetsen en het verwijderen van tandplak is daarbij van groot belang.\n\nGaatjes (cariës): Gaatjes ontstaan door bacteriën die zich ophopen in tandplak en de tanden aantasten.\n\nTandvleesontsteking (gingivitis): Dit begint vaak met geïrriteerd tandvlees dat bloedt tijdens het poetsen.\n\nPOETS- EN REINIGINGSADVIES\n\nPoets twee keer per dag, flos dagelijks, gebruik een goede mondspoeling, vermijd suiker en zuurtjes, bezoek de mondhygiënist regelmatig.\n\nVeelgestelde vragen (FAQ)\nHoe vaak moet ik naar de mondhygiënist?\n\nHet wordt aanbevolen om twee keer per jaar naar de mondhygiënist te gaan voor een professionele reiniging en controle.\n\nIs het pijnlijk om naar de mondhygiënist te gaan?\nWat gebeurt er tijdens een professionele gebitsreiniging?\nWat kan ik doen om tandvleesontsteking te voorkomen?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner14.jpg",
+          "alt": "zandi-Preventie & mondhygiënist"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/tandenbleken/",
+      "title": "Tanden bleken bij tandarts Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Wil je een stralende glimlach? Tandarts Mondzorgpraktijk Veenendaal biedt professionele tandenbleekbehandelingen voor een frisse en heldere lach.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/tandenbleken/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Professioneel tanden bleken\n\nTanden bleken in Veenendaal is een veilige en effectieve manier om je glimlach weer te laten stralen. Bij Mondzorgpraktijk Veenendaal bieden we professionele tandenbleekbehandelingen aan.\n\nVERSCHIL TUSSEN THUISBLEKEN EN IN-PRAKTIJK BLEKEN\n\nThuisbleken: op maat gemaakte bleeklepels met bleekgel, gedurende een paar uur per dag over enkele weken.\n\nIn-praktijk bleken: sterkere bleekgels en speciaal licht, sneller zichtbaar resultaat.\n\nIs tandenbleken veilig?\n\nJa, volledig veilig onder professionele begeleiding. Te veel bleken kan de tandglazuurlaag aantasten, daarom altijd via een gekwalificeerde tandarts.\n\nHoe lang blijft het resultaat zichtbaar?\n\nGemiddeld tussen 6 maanden en 2 jaar, afhankelijk van eet- en drinkgewoonten.\n\nVeelgestelde vragen (FAQ)\nIs tandenbleken pijnlijk?\n\nDe meeste mensen ervaren geen pijn, soms lichte gevoeligheid voor warme/koude dranken, tijdelijk.\n\nHoe vaak kan ik mijn tanden bleken?\nKan ik zelf mijn tanden bleken?\nWat zijn de kosten van tandenbleken?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner20.jpg",
+          "alt": "mondzorgpraktijkveenendaal"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/facings-voor-een-stralende-glimlach/",
+      "title": "Facings voor een stralende glimlach | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Wil je een stralende glimlach? Tandarts Mondzorgpraktijk Veenendaal biedt hoogwaardige facings voor een natuurlijke uitstraling. Maak snel een afspraak!",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/facings-voor-een-stralende-glimlach/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Wat zijn facings?\n\nFacings zijn dunne schildjes die op de voorkant van je tanden worden geplaatst om ze een esthetische verbetering te geven, gebruikt bij verkleurde, beschadigde of scheve tanden.\n\nMATERIAAL: COMPOSIET VS. PORSELEIN\n\nComposiet facings: goedkoper, één afspraak, iets minder duurzaam.\nPorseleinen facings: sterker, duurzamer, laboratoriumwerk, natuurlijker resultaat.\n\nHoe verloopt de behandeling?\n\nTwee afspraken: eerst beoordeling en voorbereiding (slijpen, afdruk), daarna plaatsen van de definitieve facings.\n\nRESULTATEN EN DUURZAAMHEID\n\nComposiet: 5-7 jaar. Porselein: 10+ jaar.\n\nVeelgestelde vragen (FAQ)\nZijn facings pijnlijk om te plaatsen?\n\nNee, meestal pijnloos dankzij lokale verdoving.\n\nHoe lang duurt het voordat mijn facings klaar zijn?\nMoet ik mijn facings onderhouden?\nKan ik met facings weer normaal eten en drinken?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/10/Cristian-Zandi.jpg",
+          "alt": "Cristian-Zandi-Facings voor een stralende glimlach"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/aligner-doorzichtige-beugel/",
+      "title": "Aligner (doorzichtige beugel) | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Wil je je glimlach verbeteren? Mondzorgpraktijk Veenendaal biedt aligners voor een mooie, rechte lach in een vertrouwde omgeving.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/aligner-doorzichtige-beugel/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Wat zijn aligners en hoe werken ze?\n\nAligners, ook wel doorzichtige beugels genoemd, zijn op maat gemaakte, doorzichtige trays die je tanden geleidelijk verschuiven naar de gewenste positie. Bijna onzichtbaar, eenvoudig te verwijderen tijdens eten, drinken en tandenpoetsen.\n\nJe draagt elke set 20 tot 22 uur per dag, meestal twee weken, waarna een nieuwe set volgt.\n\nVOORDELEN\n\nEsthetisch aantrekkelijk, verwijderbaar, comfortabeler dan metalen beugels, minder tandartsbezoeken nodig.\n\nBehandelduur en kosten\n\nMeestal tussen 6 en 18 maanden, afhankelijk van de correctie. Kosten variëren met ernst en duur.\n\nVoor wie geschikt?\n\nMilde tot matige afwijkingen: scheve tanden, overbeet/onderbeet, gaten tussen tanden. Bij complexere kaakproblemen kunnen traditionele beugels beter zijn.\n\nFAQ\nZijn aligners echt onzichtbaar?\n\nJa, doorzichtig en nauwelijks zichtbaar.\n\nHoe lang moet ik de aligners dragen?\nDoet het dragen van aligners pijn?\nKan ik mijn aligners zelf schoonmaken?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/oUNr8-7k7dxkxgufwjpwo6ntruv34b-1.jpg",
+          "alt": "Aligner (doorzichtige beugel)"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/tanden-trekken-extracties/",
+      "title": "Tanden trekken (extracties) | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/tanden-trekken-extracties/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Extraction glitch: title/meta tags captured mid-navigation were stale (showed the Prothese page's tags). Body text below is verified correct for this extractions page; re-check the live title tag / meta description for this URL directly before porting.",
+      "text": "Wanneer is een extractie nodig?\n\nHet trekken van een tand is soms noodzakelijk om je mondgezondheid te herstellen: ernstige beschadiging door tandbederf, breuken, infecties, scheve tand of overbevolking van de kiezen. Ook bij tandvleesproblemen of verstandskiezen die problemen veroorzaken.\n\nSOORTEN EXTRACTIES: EENVOUDIG & CHIRURGISCH\n\nEenvoudige extractie: zichtbare, goed bereikbare tand, met een tang getrokken onder lokale verdoving.\n\nChirurgische extractie: tand diep onder tandvlees of gebroken, soms in stukjes gesplitst, eventueel lichte narcose.\n\nHoe verloopt de behandeling?\n\nGesprek, lokale verdoving, extractie (max ~30 min), nazorginstructies. Hechtingen na een paar weken verwijderd indien nodig.\n\nHERSTEL, ZWELLING EN NAZORG\n\nLichte zwelling normaal, eerste 24 uur geen hard/warm voedsel, koud kompres helpt, mondspoelen met warm zoutwater, controleafspraken bij chirurgische extracties.\n\nVeelgestelde vragen (FAQ)\nIs het trekken van een tand pijnlijk?\n\nNiet met lokale verdoving; wel druk/beweging voelbaar, geen pijn.\n\nHoe lang duurt het herstel na het trekken van een tand?\nWat kan ik doen tegen de zwelling na een extractie?\nKan ik na de extractie gewoon eten?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner20.jpg",
+          "alt": "mondzorgpraktijkveenendaal"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/prothese-kunstgebit/",
+      "title": "Prothese (kunstgebit) bij tandarts Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Verlies je tanden niet de glimlach! Bij tandarts Mondzorgpraktijk Veenendaal bieden we hoogwaardige protheses in een rustige, vertrouwde omgeving.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/prothese-kunstgebit/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Verschillende soorten protheses\n\nVolledig kunstgebit: vervangt alle tanden in boven- of onderkaak.\nPartiële prothese: vult lege plekken op, bevestigd met klammers aan eigen tanden.\nImplantaatgedragen prothese: vastgezet op tandimplantaten voor extra stabiliteit.\n\nWANNEER HEB JE EEN PROTHESE NODIG?\n\nBij verlies van meerdere tanden of onherstelbare schade, door ouderdom, tandbederf of ongeluk.\n\nHoe werkt het aanmeten?\n\nOnderzoek, afdruk van de kaak, voorlopige prothese om te passen en aan te passen, definitieve prothese na enkele weken (laboratoriumwerk).\n\nTips voor onderhoud\n\nDagelijks reinigen met zachte borstel en prothesereiniger (geen gewone tandpasta), 's nachts uit in water/oplossing, regelmatig controleren op scheuren, hard voedsel vermijden, jaarlijkse controle-afspraak.\n\nVeelgestelde vragen (FAQ)\nHoe lang gaat een kunstgebit mee?\n\n5 tot 10 jaar, afhankelijk van onderhoud.\n\nIs het dragen van een kunstgebit pijnlijk?\nKan ik mijn kunstgebit zelf reinigen?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner16.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/kronen-en-bruggen/",
+      "title": "Kronen en bruggen bij tandarts Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Herstel je glimlach met kronen en bruggen bij tandarts Mondzorgpraktijk Veenendaal. Persoonlijke zorg in een rustige en vertrouwde omgeving.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/kronen-en-bruggen/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Wanneer heb je een kroon of brug nodig?\n\nBij beschadiging door diep gaatje, breuk of slijtage (kroon), of om een ontbrekende tand te vervangen (brug).\n\nMATERIAALOPTIES: KERAMIEK, PORSELEIN, ZIRKONIUM\n\nKeramiek: esthetisch, natuurlijke kleur, geschikt voor voortanden.\nPorselein: sterk, duurzaam, goede kleurmatch.\nZirkonium: zeer sterk, geschikt voor kiezen, esthetisch.\n\nHoe verloopt de behandeling?\n\nTand voorbereiden (slijpen), afdruk maken, eventueel tijdelijke kroon, definitieve kroon/brug plaatsen in laboratorium vervaardigd.\n\nLevensduur en onderhoud\n\n5 tot 15 jaar afhankelijk van materiaal en mondhygiëne. Goede poets- en flosroutine verlengt levensduur.\n\nHerstel en nazorg\n\nTijdelijke gevoeligheid normaal, jaarlijkse controle aanbevolen.\n\nVeelgestelde vragen (FAQ)\nIs de behandeling voor kronen en bruggen pijnlijk?\n\nMeestal niet dankzij verdoving, lichte gevoeligheid nadien mogelijk.\n\nHoe lang duurt de behandeling voor een kroon of brug?\nKan ik dezelfde dag nog eten na de behandeling?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner08.jpg",
+          "alt": "Kronen en bruggen"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/wortelkanaalbehandeling/",
+      "title": "Wortelkanaalbehandeling bij tandarts Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Heeft u last van een infectie? Laat uw wortelkanaalbehandeling uitvoeren bij tandarts Mondzorgpraktijk Veenendaal in een rustige, vertrouwde omgeving.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/wortelkanaalbehandeling/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "WANNEER IS EEN WORTELKANAALBEHANDELING NODIG?\n\nBij ontstoken of geïnfecteerde zenuw door diep gaatje, beschadiging of verspreide infectie. Redt de tand en verlicht de pijn.\n\nHOE GAAT DE BEHANDELING IN ZIJN WERK?\n\nVerdoving, klein gaatje naar de zenuw, verwijderen geïnfecteerd weefsel, kanaal reinigen/desinfecteren en vullen, eventueel afsluiten met een kroon. Meestal 1-2 sessies.\n\nSYMPTOMEN VAN EEN ONTSTOKEN ZENUW\n\nAanhoudende tandpijn, pijn bij bijten, langdurige gevoeligheid voor koud/warm, zwelling tandvlees, verkleuring van de tand.\n\nHERSTEL EN NAZORG\n\nTijdelijke gevoeligheid normaal, zacht eten aanbevolen, harde/plakkerige voeding vermijden.\n\nVeelgestelde vragen (FAQ)\nIs een wortelkanaalbehandeling pijnlijk?\n\nVrijwel pijnloos met goede verdoving.\n\nHoe lang duurt een wortelkanaalbehandeling?\n\n60-90 minuten, soms een tweede afspraak voor vulling/kroon.\n\nWat moet ik doen na de behandeling?\n\nZacht eten, behandelde tand niet direct belasten, eventueel pijnstillers.",
+      "images": []
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/vullingen-gaatjes-vullen/",
+      "title": "Vullingen bij Mondzorgpraktijk Veenendaal – Zorg met aandacht",
+      "metaDescription": "Heb je gaatjes? Laat ze vullen bij Mondzorgpraktijk Veenendaal. Persoonlijke zorg in een rustige, vertrouwde omgeving. Maak snel een afspraak!",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/vullingen-gaatjes-vullen/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Wanneer heb je een vulling nodig?\n\nBij een gaatje (cariës) veroorzaakt door bacteriën in tandplak; gevoeligheid voor warmte/kou/zoet kan een teken zijn.\n\nSOORTEN TANDVULLINGEN\n\nComposietvullingen: esthetisch, kleur van de tand, voor voortanden en zichtbare plekken.\nKeramische vullingen: stevig en esthetisch, voor grotere/meer beschadigde vullingen.\n\nHoe verloopt de behandeling?\n\nControle, reinigen en verwijderen van het gaatje, vullen met gekozen materiaal. Duurt 20-30 minuten.\n\nPijn en nazorg\n\nVerdoving vooraf, enkele uren gevoeligheid na de behandeling normaal, eerste uren geen hard/plakkerig voedsel.\n\nVeelgestelde vragen (FAQ)\nIs het pijnlijk om een vulling te laten zetten?\n\nNee, met verdoving voel je geen pijn.\n\nHoe lang duurt een behandeling voor een vulling?\nKan ik na de behandeling gewoon eten?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner23.jpg",
+          "alt": "mondzorgpraktijkveenendaal"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/behandelingen/periodieke-controles/",
+      "title": "Periodieke controles – Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Laat je periodieke controle uitvoeren bij Mondzorgpraktijk Veenendaal. Persoonlijke zorg in een rustige, vertrouwde omgeving. Maak snel een afspraak!",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/behandelingen/periodieke-controles/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Periodieke controle bij de tandarts\n\nRegelmatige controles zijn essentieel voor het behoud van een gezond gebit: vroegtijdige opsporing van gaatjes, tandvleesontstekingen en andere problemen.\n\nWat gebeurt er tijdens een periodieke controle?\n\nInspectie van tanden en kiezen, tandvleescontrole, professionele reiniging indien nodig, röntgenfoto's indien nodig, persoonlijk advies.\n\nHoe vaak moet ik langskomen?\n\nMinimaal twee keer per jaar; risicogroepen vaker.\n\nVoorkomen van gaatjes & tandvleesproblemen\n\nAdvies over poetsen, flossen en mondverzorgingsproducten; vroegtijdige signalering van tandvleesontsteking voorkomt parodontitis.\n\nVeelgestelde vragen (FAQ)\nHoe vaak moet ik naar de tandarts voor een controle?\n\nTwee keer per jaar, vaker bij specifieke problemen.\n\nDoet een periodieke controle pijn?\nWaarom moet ik regelmatig naar de tandarts, zelfs als ik geen pijn heb?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner10.jpg",
+          "alt": "Cristian-Zandi"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/blog/",
+      "title": "blog | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "",
+      "robots": "noindex, follow",
+      "text": "Blog listing page (archive) — lists all posts with excerpts, titled with date/month, 'CONTINUE READING' links, 'LOAD MORE POSTS' pagination. Not standalone content; use the individual post entries in this export instead.",
+      "images": []
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/ons-team/cristian-zandi/",
+      "title": "Cristian Zandi | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "Meet Cristian Zandi, a registered dental hygienist dedicated to oral health and providing expert dental treatments.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/ons-team/cristian-zandi/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "metaDescription is in English while rest of site is Dutch — inconsistency to fix during rebuild.",
+      "text": "Cristian Zandi\nGeregistreerd mondhygiënist, Praktijkeigenaar\n\nBehandelingen\nTandsteen verwijderen\nTandvleesbehandeling (Parodontale behandeling)\nSlechte adem (halitose)\nBehandeling van kinderen\n\nBIG-nummer: 09932082879\n\nFacebook Profile\nlinkedin Profile\nInstagram Profile",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/09/team-1.jpg",
+          "alt": "Cristian Zandi​"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/mondzorg/",
+      "title": "Mondzorg | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/mondzorg/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Mondzorg & Mondhygiëne – Preventie als basis voor een gezonde mond\n\nEen gezonde mond is essentieel voor je algehele gezondheid en welzijn. Preventieve mondzorg staat centraal, met de mondhygiënist in een sleutelrol.\n\nWat doet een mondhygiënist?\n\nGespecialiseerd in voorkomen én behandelen van tandvleesproblemen (gingivitis, parodontitis), gaatjes (cariës) en andere mondklachten.\n\nTaken: professionele gebitsreiniging, verwijderen van tandsteen/plaque/aanslag, behandelen van bloedend/teruggetrokken tandvlees, voorlichting over poetsen/flossen/voeding, begeleiding bij frisse adem en gevoelige tanden.\n\nGecertificeerd in Guided Biofilm Therapy (GBT)\n\nGecertificeerd volgens EMS (Swiss Dental Academy) richtlijnen. GBT gebruikt AIRFLOW® technologie (warm water, lucht, poeder) voor zachte, pijnvrije verwijdering van biofilm, tandsteen en verkleuringen.\n\nVoordelen van GBT: comfortabel (vaak zonder haakjes), effectiever dan traditionele methodes, veilig voor glazuur/vullingen/implantaten/beugels, aangenaam warm water, geschikt voor kinderen, ouderen en angstige patiënten.\n\nWaarom kiezen voor preventieve mondzorg bij ons?\n\nGecertificeerde mondhygiënisten en GBT-specialisten, aandacht voor mondgezondheid én comfort, moderne apparatuur, persoonlijke begeleiding, samenwerking tandarts-mondhygiënist.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/10/Mondzorg.jpg",
+          "alt": "Pijnloze gebitsreiniging (GBT)"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/kindertandheelkunde/",
+      "title": "Kindertandheelkunde Veenendaal – Gewoon Gaaf & zorgzaam",
+      "metaDescription": "Kindvriendelijke tandarts in Veenendaal volgens de Gewoon Gaaf-methode. Preventie, poetsadvies, sealen en een ontspannen eerste tandartsbezoek voor je kind.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/kindertandheelkunde/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Kindertandheelkunde – Een gezonde glimlach begint jong\n\nPreventie staat centraal, juist bij kinderen. Een gezonde mond op jonge leeftijd vormt de basis voor een leven lang sterke tanden.\n\nKindvriendelijke aanpak\n\nRustig, positief, afgestemd op leeftijd en tempo van het kind.\n\nOnze kindertandheelkundige zorg omvat:\nEerste tandartsbezoek vanaf 2 jaar\nControle en monitoring van de gebitsontwikkeling\nPreventieve behandelingen zoals fluoride en sealen\nUitleg op kindniveau over poetsen en voeding\nBehandeling van gaatjes op een kindvriendelijke manier\n\nGewoon Gaaf – Preventieve mondzorg volgens een bewezen methode\n\nGecertificeerd voor de Gewoon Gaaf-methode (ontwikkeld door het Ivoren Kruis), gericht op kinderen 0-18 jaar en hun ouders.\n\nBelangrijke elementen: poetsinstructie op maat, aandacht voor voeding, preventieve controles op maat, betrokkenheid van ouders, minder ingrepen en kosten op lange termijn.\n\nWaarom kiezen voor een Gewoon Gaaf-praktijk?\nGecertificeerde mondzorgverleners, persoonlijke begeleiding voor kind én ouder, aantoonbaar minder gaatjes, positieve ervaring met mondzorg vanaf jonge leeftijd.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/10/Kindertandheelkunde.jpg",
+          "alt": "Kindertandheelkunde"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/algemene-tandheelkunde/",
+      "title": "Algemene tandheelkunde Veenendaal – Voor een gezonde lach",
+      "metaDescription": "Algemene tandheelkunde in Veenendaal: periodieke controle, vullingen, kronen, protheses, facings en tanden bleken in een rustige praktijk.",
+      "canonical": "",
+      "robots": "noindex, follow",
+      "note": "DUPLICATE CONTENT — this page condenses content already covered on the dedicated /behandelingen/ subpages (periodieke-controles, vullingen, wortelkanaalbehandeling, prothese, kronen-en-bruggen, aligner, facings, tandenbleken). It was deliberately set to noindex earlier as an SEO fix for duplicate content. SKIP or merge when rebuilding — do not treat as a separate page in the new site's IA unless intentionally repurposed as a category overview.",
+      "text": "Condensed overview covering: Periodieke Controle, Vullingen Plaatsen, Wortelkanaalbehandeling, Kunstgebit (Prothese), Kronen en Bruggen, Doorzichtige Beugel, Facings/Veneers, Tanden Bleken (incl. detailed comparison of professional vs. cosmetic/salon whitening: professional bleken uses BIG-registered practitioner, higher-grade peroxide up to 6%, condition-matched treatment, safer for enamel/gums, more predictable/lasting results, preceded by a dental check; cosmetic/salon bleken often lacks trained supervision, uses lower-concentration peroxide (<0.1%) or alternative ingredients, weaker/temporary results, no prior dental check, higher risk of gum/mucosa burns, uneven results with fillings/tartar present). See individual treatment pages elsewhere in this export for full detail on each topic — this page is a shorter remix of the same content.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/10/Periodieke-Controle.jpg",
+          "alt": "Periodieke Controle​"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/maak-een-afspraak-2/",
+      "title": "Maak een afspraak – 2 | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/maak-een-afspraak-2/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "",
+      "images": [],
+      "note": "DUPLICATE utility page (booking form only, likely embedded via widget/iframe not captured by static extraction). Appears to duplicate /maak-een-afspraak-1/ and /afspraak-maken/. Consolidate into a single booking page in the new site."
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/maak-een-afspraak-1/",
+      "title": "Maak een afspraak - 1 | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/maak-een-afspraak-1/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "",
+      "images": [],
+      "note": "DUPLICATE utility page (booking form only, not captured by static extraction — likely a form widget/iframe). Also reached via /afspraak-maken/ redirect. Consolidate into a single booking page in the new site."
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/informatie/",
+      "title": "Informatie | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/informatie/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Tarieven\n\nKlik hier voor onze tarieven\n\nHuisregels\nZiektekostenverzekering\nBetaling",
+      "images": [],
+      "note": "Very thin page — mostly links (Tarieven/pricing PDF or page, Huisregels, Ziektekostenverzekering, Betaling). Verify what these links actually point to before rebuilding; this page needs real content, not just link stubs."
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/contact/",
+      "title": "Contact | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/contact/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Contactmogelijkheden\n\nWij zijn klaar om u te helpen\n\nWolweg 29 3901 TD Veenendaal\ninfo@mondzorgpraktijkveenendaal.nl\n0318501376",
+      "images": []
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/de-praktijk/",
+      "title": "De praktijk | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/de-praktijk/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "Mondzorgpraktijk Veenendaal - Waar mondzorg persoonlijk wordt\n\nWelkom bij onze praktijk, waar kwaliteit, aandacht en menselijkheid centraal staan. Jarenlange ervaring in de tandheelkunde én een achtergrond in de zorg voor mensen met een verstandelijke beperking.\n\nOnze missie\n\nTandheelkundige zorg waarbij de mens achter de patiënt centraal staat. Geen lopende band-mentaliteit, geen commerciële druk — persoonlijke aandacht, rust en tijd voor ieder individu.\n\nJarenlange ervaring en bijzondere affiniteit\n\nRoots in algemene mondzorg én verstandelijk gehandicaptenzorg, via jarenlange samenwerking met Zideris. Zorg aangepast aan tempo, begrip en comfort van de patiënt.\n\nWaarom kiezen voor onze praktijk?\n• Kleinschalig en huiselijk: vertrouwd gezicht, rustige sfeer\n• Geen overbehandeling of verkoopdruk: alleen wat nodig is, heldere uitleg\n• Aandacht voor duurzaamheid: bewust groen ingericht\n• Menselijke benadering: geen 'casus', een persoon met een verhaal\n• Gecertificeerde kwaliteit: moderne technieken, preventieve zorg volgens bewezen methodes\n\nOnze visie\n\nMondzorg is meer dan gaatjes vullen of tandsteen verwijderen — belangrijk onderdeel van algehele gezondheid en zelfvertrouwen. Langdurige, duurzame zorgrelaties gebaseerd op vertrouwen, begrip en kwaliteit.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/10/mondzorgpraktijkveenendaal14.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/ons-team/",
+      "title": "Ons team | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/ons-team/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Elmira Eslami has no 'Lees meer' link / dedicated bio page unlike Cristian and Huusder — asymmetric team presentation, previously flagged as a lower-priority fix (add a bio page for her to match the others).",
+      "text": "Team roster:\n\nCristian Zandi — Geregistreerd mondhygiënist, Praktijkeigenaar. Behandelingen: Gebitsreiniging (GBT gecertificeerd), Tandvleesbehandeling (parodontitis), Kindertandheelkunde (GewoonGaaf methode gecertificeerd), Angstbegeleiding. [Lees meer → /ons-team/cristian-zandi/]\n\nHuusder Barmer — Tandarts. Behandelingen: Periodieke controle, Vullingen, Wortelkanaalbehandeling, Kroon en brug, Prothese (kunstgebit), Aligner (doorzichtige beugel). BIG-nummer: 49051467902. [Lees meer → /ons-team/huusder-barmer-2/]\n\nElmira Eslami — Tandarts. Behandelingen: Periodieke controle, Vullingen, Wortelkanaalbehandeling, Kroon en brug, Prothese (kunstgebit), Aligner (doorzichtige beugel). BIG-nummer: 69934497602. (No dedicated bio page currently.)\n\nNarjis — Allround assistente. Taken: Balie werkzaamheden, behandelkamer gereed maken, assisteert bij behandelingen, registreert patiënt- en behandelgegevens.\n\nMahsa — Allround assistente / Preventie assistente. Taken: zelfde als Narjis plus preventieve behandelingen/gebitsreiniging.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/09/team-1.jpg",
+          "alt": "Cristian Zandi​"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/afspraak-maken/",
+      "title": "Maak een afspraak - 1 | Mondzorgpraktijk Veenendaal",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/maak-een-afspraak-1/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "",
+      "images": [],
+      "note": "This URL redirects to /maak-een-afspraak-1/ (301). Booking form content is JS/widget-rendered, not captured statically."
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/",
+      "title": "Tandarts Veenendaal | mondzorgpraktijk (snelle afspraak)",
+      "metaDescription": "Maak vandaag nog een afspraak en ervaar tandheelkundige en zorgdiensten zonder wachttijd in een volledig stressvrije en vriendelijke omgeving.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "text": "HOMEPAGE\n\nHero: Tandarts in Veenendaal — Mondzorgpraktijk veenendaal. CTAs: INSCHRIJVEN / MAAK EEN AFSPRAAK. ☎ 0318501376. ★★★★★ 4,6/5 | 47 Google-reviews | ✓ Wij nemen nieuwe patiënten aan.\n\nONZE PRAKTIJK\nWelkom bij onze tandartspraktijk in Veenendaal! Warme en huiselijk ingerichte praktijk: algemene tandheelkunde, kunstgebit, kindertandheelkunde, mondhygiëne, doorzichtige beugels. Tandartspraktijk in Veenendaal centrum waar iedereen van jong tot oud zich welkom voelt.\n\n01 Algemene tandheelkunde — Persoonlijke aandacht, rustige aanpak\n02 Kindertandheelkunde — Een warme omgeving, geschikt voor kinderen\n03 Mondhygiëne — Doorzichtige beugels, kunstgebit behandelingen\n\nDoor jarenlange ervaring, een rustige aanpak en persoonlijke aandacht zijn ook angstige patiënten en kinderen goed op hun plek bij onze groene praktijk.\n\nONZE DIENSTEN — Diensten en behandelingen\n\nMondzorg: mondhygiënisten helpen bij voorkomen van tandvleesproblemen en tandbederf, advies over poets-/reinigingstechnieken, professionele gebitsreinigingen, begeleiding bij optimale mondgezondheid. [LEES MEER]\n\nKindertandheelkunde: kindertandheelkunde en verzorging van kindertanden, tandartsbezoeken leuk en leerzaam, voorlichting over tandenpoetsen en gezonde voeding, kindvriendelijke behandeling van cariës. [LEES MEER]\n\nAlgemene tandheelkunde: behoud van gezond gebit voor alle leeftijden, routinecontroles, vullingen, wortelkanaalbehandelingen, tandextracties, preventie en mondhygiëne-advies centraal. [LEES MEER]\n\nONZE VOORDELEN — Waarom kiezen voor ons?\n\nGeen wachtlijst — flexibele planning, snel terecht.\nNieuwste apparatuur — nauwkeurige, comfortabele behandelingen.\nErvaring met angstpatiënten & kinderen — vriendelijke aanpak, speciale technieken.\nKleinschalig & persoonlijk — warme benadering, zorg op maat.\n\nONZE PRAKTIJK — MAAK KENNIS MET ONS\n\nBij Mondzorgpraktijk Veenendaal geloven wij dat een goede dag begint met een gezonde glimlach. Toegang tot professionele en consistente mondzorg voor alle leeftijden. Focus op preventie, behoud van gezond gebit, en herstel waar nodig. Kinderen van harte welkom.\n\n01 Persoonlijke aandacht en een deskundig en betrokken team.\n02 Moderne apparatuur en professionele tandheelkundige zorg.\n03 Ervaring met angstpatiënten, kinderen en mensen met een beperking.\n\n5 dagen per week geopend\n\nONS TEAM — Ons Team\n\n(Same team roster as /ons-team/ — see that entry for full detail: Cristian Zandi, Huusder Barmer, Elmira Eslami, Narjis, Mahsa)\n\nBLOG — Lees onze nieuwste verhalen\n\n(Latest post teaser: 'Kind wil niet tandenpoetsen? Oorzaken, risico's en wat je er aan kunt doen')\n\nSPOEDGEVAL — SPOEDGEVALLEN BUITEN ONZE OPENINGSTIJDEN\n\nHeeft u een spoedgeval buiten onze openingstijden, zoals 's avonds of in het weekend? Neem dan contact op met: Dental365 Ede — Website: dental365.nl — Adres: Telefoonweg 46, 6712 GD Ede — Telefoon: 09001515.\n\nKOSTEN SPOED TANDARTS: De spoed tandarts hanteert dezelfde tarieven als bij een reguliere tandartspraktijk. Tarieven jaarlijks vastgesteld door de Nederlandse Zorgautoriteit (NZa).\n\nPATIËNTEN — Wat zeggen onze patiënten?\n\n\"Professionele behandeling, erg klantvriendelijk en prettig qua afspraken.\" — Ellen Waalewijn\n\"Al een aantal jaren patiënt bij mevrouw Zandi en nu ook bij de tandarts die bij haar werkzaam is. Hele fijne praktijk met veel aandacht voor de mens en totaal niet commercieel. Vriendelijke en deskundige tandartsen en mondhygiënist. Warme ontvangst altijd en luisteren goed naar je wensen. Zeker een aanrader!\" — Amir Karimi\n\"10/10 very nice and friendly people. Everybody is very professional, I am happy that I chose this team.\" — Ivo Varga\n\"Deskundigheid en rust was mijn eerste indruk en bij vertrek had ik een hele grote bevestiging voor mijn eerste indruk. Wat een top mondhygiëniste is Cristian. Zeker een aanrader. Ze neemt de tijd, adviseert je op maat en is ook een hele vriendelijke behandelaar.\" — Aria Tehrani\n\nFAQ — Veelgestelde vragen\n\nWelke regio's bedient uw tandartspraktijk in Veenendaal?\nCentraal gelegen, makkelijk bereikbaar voor de hele regio. Naast Veenendaal (incl. Veenendaal-Oost en Groenpoort): Rhenen, Ede, Leersum, Amerongen, Kesteren, Renswoude, Lunteren, Wageningen, Bennekom, Scherpenzeel, Woudenberg en omstreken.\n\nWorden nieuwe patiënten aangenomen bij uw tandartspraktijk in Veenendaal?\nWordt mijn behandeling bij de tandarts in Veenendaal vergoed?\nWelke behandelingen biedt Mondzorgpraktijk Veenendaal aan?",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/09/banner01.jpg",
+          "alt": "Welkom bij onze tandartspraktijk in Veenendaal!"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/kind-wil-niet-tandenpoetsen/",
+      "title": "Kind wil niet tandenpoetsen? Praktische tips voor ouders",
+      "metaDescription": "Wat doe je als je kind weigert te tandenpoetsen? Lees de oorzaken, risico's en bewezen aanpakken die écht werken, rechtstreeks vanuit onze tandartspraktijk.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/kind-wil-niet-tandenpoetsen/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Full-length blog article (~12.7k chars). Trimmed here to key sections/headings and FAQ to save space — see live URL for complete verbatim body copy before porting 1:1 for SEO continuity.",
+      "text": "KINDERTANDZORG\nKind wil niet tandenpoetsen? Oorzaken, risico's en wat je er aan kunt doen\nCristian Zandi — juni 19, 2026\n\nIntro: poetsweigering bij kinderen is zelden koppigheid — vaker een ontwikkelingsfase, zintuiglijke gevoeligheid of eerdere negatieve ervaring. Slechte mondhygiëne op jonge leeftijd heeft echte gevolgen: gaatjes in melktanden, schade aan blijvende kiezen, effect op zelfvertrouwen.\n\nSecties: Waarom weigert een kind te tandenpoetsen (controle/autonomie bij <3 jaar; smaak/gevoel/zintuiglijke gevoeligheid bij oudere kinderen) — Risico's bij niet poetsen (melktanden houden ruimte vrij voor blijvende tanden; te vroeg verlies verstoort tandstand; cariës kan blijvende tand eronder beschadigen) — Veelgemaakte fouten van ouders (fysieke dwang, dreigen met de tandarts, geen vaste routine, tandpasta voor volwassenen gebruiken) — Praktische tips (1. maak er een spel van, 2. geef keuze binnen grenzen, 3. doe het zelf voor, 4. laat kind eerst zelf proberen, 5. echte complimenten i.p.v. snoep, 6. bij zintuiglijke gevoeligheid: zachte haren, eerst zonder tandpasta) — Vanaf welke leeftijd zelfstandig poetsen (meeste kinderen tot 7-8 jaar nog niet voldoende fijne motoriek; vuistregel: kan het kind zelf schoenen strikken) — Wat de kindertandarts kan betekenen (Gewoon Gaaf-methode; eerste bezoek rond 2e verjaardag, geen behandeling, alleen kennismaking) — Praktische gids tandenborstel/tandpasta (fluoride dosering: tot 2jr rijstkorrel zonder fluoride, 2-6jr erwtgrootte 1000ppm, vanaf 6jr strookje 1cm 1450ppm; twee keer per dag, avondpoetsen belangrijkst) — Wanneer professionele hulp inschakelen (aanhoudende weerstand, zintuiglijke verwerkingsstoornis, verkleuring/vlekken/slechte adem/kiespijn = snel naar tandarts).\n\nFAQ: Vanaf welke leeftijd begin je met tandenpoetsen? (zodra eerste tand doorkomt, ~6 maanden) — Wat gebeurt er als mijn kind 's avonds niet poetst? (minder speeksel tijdens slaap = meer risico) — Is een elektrische tandenborstel beter voor kinderen? (vaak wel, tenzij kind trillingen niet prettig vindt) — Mag ik mondwater gebruiken voor mijn kind? (afgeraden onder 6 jaar) — Mijn kind is bang voor de tandarts, wat kan ik doen? ('tell-show-do' aanpak) — Waarom zijn melktanden zo belangrijk? (houden ruimte vrij voor blijvende tanden).\n\nConclusie: geen dwang, geen angst, maar een rustige routine van jongs af aan. Link naar kindertandheelkunde-pagina voor kennismakingsbezoek.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/06/Kind-wil-niet-tandenpoetsen.webp",
+          "alt": "Kind wil niet tandenpoetsen?"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/invisalign-tijdens-zwangerschap/",
+      "title": "Invisalign tijdens de zwangerschap: veiligheid, risico's en advies",
+      "metaDescription": "Zwanger en benieuwd of Invisalign veilig is? Lees waar u op moet letten bij hormonen, tandvlees, misselijkheid, röntgenfoto's en orthodontische controles.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/invisalign-tijdens-zwangerschap/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Full-length blog article (~12k chars), includes a 'Medische noot' disclaimer. Trimmed to key sections/FAQ here — see live URL for complete verbatim body copy before porting 1:1.",
+      "text": "UNCATEGORIZED\nInvisalign tijdens de zwangerschap: Wat u moet weten\nCristian Zandi — mei 17, 2026\n\nIntro: Invisalign is niet-invasief, meestal veilig tijdens zwangerschap mits mondgezondheid stabiel en begeleid door tandarts/orthodontist. Zwangerschap brengt gevoeliger tandvlees, verhoogd risico op tandvleesontsteking, misselijkheid/overgeven met zich mee.\n\nSecties: Is Invisalign veilig tijdens zwangerschap (bespreek altijd met behandelaar, nooit op eigen initiatief starten/pauzeren/wijzigen) — Materialen en digitale scans (SmartTrack thermoplastisch, BPA-vrij; iTero 3D-scan is geen röntgenfoto) — Invloed van zwangerschapshormonen (zwangerschapsgingivitis: gevoeliger tandvlees, sneller bloeden/zwellen; extra belangrijk bij Invisalign omdat aligners veel uren per dag over tanden zitten) — Ochtendmisselijkheid, overgeven en draagtijd (20-22 uur/dag nodig; na overgeven: spoelen met water/fluoride mondspoeling, aligners reinigen, 30 min wachten met poetsen ivm verzwakt glazuur door maagzuur) — Starten, doorgaan of uitstellen (al gestart: informeer behandelaar, vaak voortzetten mits geen complicaties; nog te starten: tweede trimester vaak praktischer, minder misselijkheid; derde trimester: lang achteroverliggen minder comfortabel).\n\nPraktische tips: 2x/dag poetsen met fluoride tandpasta, dagelijks tussen tanden reinigen, niet terugplaatsen na eten/drinken zonder spoelen, alleen water drinken met aligners in, aligners dagelijks reinigen volgens instructies.\n\nFAQ: Mag ik röntgenfoto's laten maken tijdens zwangerschap? (niet automatisch verboden, bij voorkeur uitgesteld tenzij dringend nodig) — Heeft mijn baby calcium nodig uit mijn tanden? (nee, misverstand — calcium komt uit voeding/lichaamsvoorraad) — Wat als ik aligners minder dan 20-22 uur draag? (behandeling vertraagt, contact opnemen met behandelaar) — Kan ik attachments laten plaatsen tijdens zwangerschap? (meestal wel, afhankelijk van comfort/misselijkheid) — Moet ik stoppen bij bloedend tandvlees? (niet op eigen initiatief, contact opnemen; blijf wel zorgvuldig poetsen).\n\nMedische noot: informatie is algemeen, vervangt geen persoonlijk medisch advies — bespreek altijd met tandarts, orthodontist, verloskundige of gynaecoloog.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/05/invisalign-tijdens-zwangerschap.jpeg",
+          "alt": "Zwangere vrouw met een zachte glimlach en transparante Invisalign-aligners in een lichte tandartspraktijk"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/waarom-onzichtbare-beugel-beter-is-dan-slotjesbeugel/",
+      "title": "Waarom een onzichtbare beugel beter is dan een slotjesbeugel",
+      "metaDescription": "Twijfelt u tussen aligners of een vaste beugel? Vergelijk de verschillen in comfort, behandeltijd en kosten voor de beste keuze.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/waarom-onzichtbare-beugel-beter-is-dan-slotjesbeugel/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Full-length blog article (~9.7k chars) including external citation links to RealSelf.com for Invisalign/Braces patient data. Trimmed to key sections/FAQ here — see live URL for complete verbatim body copy including the external links before porting 1:1.",
+      "text": "ALIGNER\nWaarom een onzichtbare beugel vaak beter is dan een slotjesbeugel: De belangrijkste factoren vergeleken\nCristian Zandi — mei 9, 2026\n\nIntro: steeds meer volwassenen kiezen aligners boven metalen slotjesbeugel, niet alleen cosmetisch maar om praktische/technologische redenen.\n\nSecties: Integratie met levensstijl en comfort (geen dieetbeperkingen — uitneembaar tijdens maaltijden; betere mondhygiëne — geen draden/slotjes in de weg; fysiek comfort — glad polymeer, geen wondjes; discretie — nauwelijks zichtbaar) — Efficiënte behandeltijd (aligners: 6-18 maanden gemiddeld vs. slotjesbeugel 18-36 maanden; minder afspraken: elke 6-8 weken controle vs. elke 4 weken bijstellen) — Transparante kostenvergelijking (aligners hogere opstartkosten door 3D-scans/labwerk, maar slotjesbeugel meer consulten over langere tijd — totale kosten vaak vergelijkbaar) — Voorspelbaarheid dankzij 3D-technologie (ClinCheck digitale simulatie toont eindresultaat vooraf) — Patiëntgetuigenissen (verwijzing naar RealSelf.com onafhankelijke data over Invisalign en Braces).\n\nFAQ: Is zoenen/intimiteit ongemakkelijk met een onzichtbare beugel? (nee, glad materiaal, geen wrijving) — Wat mag ik drinken met de aligners in? (alleen water; warme dranken vervormen kunststof, suikerhoudende/gekleurde dranken geven vlekken/gaatjesrisico) — Hoe reinig ik mijn aligners? (lauw water + zachte tandenborstel, geen gewone tandpasta ivm micro-krasjes) — Wat is een retainer en heb ik deze nodig? (ja, na elke orthodontische behandeling nodig om terugverschuiven te voorkomen) — Biedt Invisalign voordelen tijdens de zwangerschap? (uitneembaar = makkelijker mondhygiëne bij zwangerschapsgevoelig tandvlees; verwijst naar het aparte Invisalign-zwangerschap artikel).\n\nConclusie: aligners superieur voor mild-matige correcties, vereisen wel discipline (min. 22 uur/dag dragen); bij zeer complexe kaakafwijkingen blijft traditionele beugel soms nodig. Link naar aligner-behandelpagina.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/05/voordelen-onzichtbare-beugel-veenendaal-2.jpeg",
+          "alt": "Een mannelijke student op de universiteitscampus met een onzichtbare beugel (aligner) op zijn tanden"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/parodontitis-behandeling-of-kunstgebit/",
+      "title": "Parodontitis vs. Kunstgebit: Wetenschappelijke criteria voor de juiste behandelkeuze",
+      "metaDescription": "",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/parodontitis-behandeling-of-kunstgebit/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Full-length blog article (~8.9k chars) with a 'Bronnen en Wetenschappelijke Literatuur' section citing 5 external journal articles (Journal of Periodontology, Journal of Clinical Periodontology x2, Journal of Prosthodontics, International Journal of Oral & Maxillofacial Implants) with links. This post was earlier edited in this session to remove a rickroll link and de-link 3 sketchy third-party case-study links (NeYo Dental, PerioImplant, PPI Noord-Holland) — the text below reflects the corrected, de-linked version. See live URL for complete verbatim body copy including the scientific citation links before porting 1:1.",
+      "text": "KUNSTGEBIT\nParodontitis vs. Kunstgebit: Wetenschappelijke criteria voor de juiste behandelkeuze\nCristian Zandi — april 19, 2026\n\nIntro: bij pockets dieper dan 9mm onmogelijk voor patiënt om bacteriën effectief te verwijderen — chronische ontstekingsbron met systemische gevolgen (hart- en vaatziekten, verstoorde bloedsuikerspiegel bij diabetes).\n\nBehoud van het natuurlijke gebit: medische voorkeur mits >50% botondersteuning. Behandeltraject: scaling/root planing, in gevorderde gevallen flapoperatie. Voordelen: behoud natuurlijke kauwkracht en proprioceptie, kaakbot blijft gestimuleerd. Nadelen: vereist ijzeren discipline in mondhygiëne, risico op herhaling. Kosten: lager op korte termijn dan volledige prothese, maar kunnen oplopen door jarenlange nazorg.\n\nDe overstap naar een kunstgebit: Immediaatprothese (pasvorm zelden direct optimaal door botresorptie, eerste maanden aanpassingen/rebasing nodig) — Klikgebit op implantaten (meer stabiliteit, minder ongemak bij spreken/eten) — Psychologische/sociale impact (acceptatie is mentale transitie, wennen aan verandering in spraak/uiterlijk).\n\nPraktijkvoorbeelden: verwijzingen naar externe case-study bronnen zijn in dit export geanonimiseerd/de-linked (zie note hierboven) — tekst spreekt nu in algemene termen over 'een vergelijkbare casestudie', 'een patiënte in een vergelijkbare situatie', 'praktijkervaringen van specialisten'. Ook: 'Wanneer het misgaat: Complexe ingrepen kennen niet altijd een gunstige afloop, wat het belang van een eerlijke medische indicatie en realistische verwachtingen onderstreept.'\n\nFAQ: Is een kunstgebit een definitieve oplossing voor pijn? (vaak wel, nieuwe uitdaging is wennen aan vreemd object) — Worden de kosten vergoed? (parodontitis-behandeling vereist meestal aanvullende verzekering; volledig kunstgebit 75% gedekt vanuit basisverzekering, klikgebit-implantaten niet altijd volledig) — Kan ik direct alles weer eten? (nee, opnieuw leren kauwen, bijtkracht lager in het begin).\n\nConclusie: parodontitis-behandeling focust op behoud natuurlijke functie, kunstgebit lost chronische pijn/infectie op. Link naar prothese/kunstgebit-pagina.\n\nBronnen: 5 wetenschappelijke artikelen geciteerd over parodontitis, systemische gezondheid, kosteneffectiviteit, implantaten en full-arch rehabilitatie (Journal of Periodontology, Journal of Clinical Periodontology x2, Journal of Prosthodontics, International Journal of Oral & Maxillofacial Implants) — zie live pagina voor volledige titels en links.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/parodontitis-stadia-infographic.jpg",
+          "alt": "Diagram die de stadia van parodontitis laat zien, van gezond tandvlees tot ernstig botverlies rond de tandwortel."
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/gewoon-gaaf-methode-kindertandheelkunde/",
+      "title": "Wat is de Gewoon Gaaf-methode? | Preventieve mondzorg voor kinderen",
+      "metaDescription": "Ontdek hoe de Gewoon Gaaf-methode helpt bij het behouden van een gezond en gaatjesvrij gebit voor uw kind. Lees alles over deze wetenschappelijk onderbouwde aanpak.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/gewoon-gaaf-methode-kindertandheelkunde/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~5k char original. See live URL for full verbatim copy before porting 1:1.",
+      "text": "KINDERTANDZORG\nWat is de Gewoon Gaaf-methode en hoe helpt het uw kind?\nCristian Zandi — april 16, 2026\n\nSecties: De filosofie (preventie als basis, continue begeleiding i.p.v. alleen halfjaarlijkse controle) — Hoe werkt het in de praktijk (risico-inschatting, plaque zichtbaar maken met kleurstof-indicator, coaching/educatie met poetsinstructie in de stoel, voedingsadvies over eet-/drinkmomenten) — Rol van de ouders (tot ~10 jaar onvoldoende fijne motoriek, behandelaar begeleidt 'napoetsen') — Effectieve aanpak tegen tandartsangst (afspraken bestaan uit inspecteren/kleuren/uitleggen/oefenen, dus pijnloos en vertrouwenwekkend).\n\nFAQ: Voor welke leeftijd bedoeld? (0-18 jaar, vanaf eerste melktandje) — Is de methode succesvol? (onafhankelijk NL onderzoek: tot 70% minder gaatjes vergeleken met reguliere mondzorg) — Worden kosten vergoed? (preventieve jeugdmondzorg tot 18 jaar volledig vergoed vanuit basisverzekering).\n\nConclusie: link naar tandartsangst-artikel en kindertandheelkunde-pagina.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/Dentist-en-kind-in-een-tandartspraktijk.jpg",
+          "alt": "\"Tandarts in wit uniform praat met een meisje in een tandartspraktijk, met een knuffeldinosaurus op de tafel.\""
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/kunstgebit-onderhouden-praktische-tips/",
+      "title": "Kunstgebit onderhouden: Wetenschappelijk advies",
+      "metaDescription": "Leer hoe u uw kunstgebit optimaal onderhoudt. Ontdek wetenschappelijk onderbouwde tips voor dagelijkse reiniging en een gezonde mondhygiëne.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/kunstgebit-onderhouden-praktische-tips/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~4.4k char original. See live URL for full verbatim copy before porting 1:1.",
+      "text": "MONDGEZONDHEID\nHoe onderhoudt u een kunstgebit? Wetenschappelijk advies voor een langere levensduur\nCristian Zandi — april 15, 2026\n\nStappenplan dagelijkse reiniging: 1) spoelen na elke maaltijd onder lauw stromend water, 2) grondig poetsen 1-2x/dag met speciale protheseborstel (buiten- en binnenkant), boven wasbak met water/handdoek tegen breuk, 3) reinigen eigen mondholte (tandvlees, gehemelte, tong met zachte borstel).\n\nReinigingsmiddelen — veilig: milde vloeibare zeep, speciale reinigingsgel/vloeistof voor protheses, lauw water (nooit kokend). Te vermijden: reguliere tandpasta (schuurmiddelen beschadigen kunststof), bleekmiddel/chloor (tast kleur aan), agressieve antikalkmiddelen.\n\nNachtelijke verzorging: 's nachts uit laten (rust voor tandvlees/kaakbot), grondig reinigen voor opbergen, bewaren in schoon droog bakje of water (advies behandelaar), water dagelijks verversen.\n\nFAQ: Hoe vaak laten controleren? (minimaal 1x/jaar, kaak verandert en pasvorm kan wijzigen) — Kunstgebit zit los, wat doen? ('relining' — nieuwe voering door specialist) — Kan ik tandsteen zelf verwijderen? (nacht laten weken in water+natuurazijn 50/50; hardnekkig geval professioneel laten doen).\n\nConclusie: link naar prothese/kunstgebit-pagina.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/Dentuurmal-op-doek-met-oudere-persoon-op-de-achtergrond.jpg",
+          "alt": "\"Een vrouwelijke tandarts houdt een dentuurmal in haar hand met een lichte glimlach en een professionele uitstraling.\""
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/kindertandangst-tips/",
+      "title": "Effectieve methoden tegen tandartsangst bij kinderen",
+      "metaDescription": "Is uw kind bang voor de tandarts? Ontdek effectieve, wetenschappelijk onderbouwde methoden voor een angstvrij bezoek. Lees onze professionele gids.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/kindertandangst-tips/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "This post's FAQ 'Wat is de beste aanpak als een kind blijft weigeren mee te werken?' answer was previously found duplicated/garbled in the raw block data and was fixed in this session (see prior fix log for post 1462) — the corrected answer reads: 'Blijf zelf rustig en dwing niets af. Plan eventueel eerst een korte, vrijblijvende kennismakingsafspraak zonder behandeling, zodat uw kind rustig aan de praktijk kan wennen. Positieve aanmoediging, korte pauzes en een tandarts met ervaring in kindertandheelkunde maken meestal het verschil.' Condensed from ~4.6k char original — see live URL for full verbatim copy.",
+      "text": "KINDERTANDZORG\nEffectieve methoden voor het overwinnen van tandartsangst bij kinderen\nCristian Zandi — april 15, 2026\n\nSecties: Begrijp de oorsprong van de angst (onbekende, zintuiglijke prikkels, overgenomen spanning van ouders) — Rol van de ouder: voorbereiding thuis (vermijd beladen woorden als 'pijn'/'spuit'/'eng' zelfs ontkennend; voorleesboekjes en naspelen helpen normaliseren) — De 'Tell-Show-Do' methode (Vertel-Toon-Doe: gouden standaard in kindertandheelkunde) — Kindvriendelijke omgeving en taalgebruik (prikkelarme wachtkamer, eufemismen als 'slaapwater' en 'tanden douchen').\n\nFAQ: Vanaf welke leeftijd naar de tandarts? (vanaf eerste melktand, ~1 jaar, gewenningsbezoek) — Wat is de beste aanpak bij blijvende weigering? (zie corrected answer in note above) — Kan tandartsangst volledig verdwijnen? (ja, met gerichte gedragstechnieken en geduldige aanpak).\n\nConclusie: werkt volgens Gewoon Gaaf-methode; link naar leeftijd-eerste-tandartsbezoek artikel en kindertandheelkunde-pagina.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/Mother-and-Daughter-Walking-to-the-Dentist.jpg",
+          "alt": "\"A mother holding her young daughter's hand, walking towards a dental clinic.\""
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/symptomen-problemen-verstandskies/",
+      "title": "Hoe weet u of uw verstandskies problemen veroorzaakt?",
+      "metaDescription": "Heeft u last van uw kaak of tandvlees? Ontdek de objectieve signalen van een doorkomende verstandskies en lees wanneer een tandartsbezoek aan te raden is.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/symptomen-problemen-verstandskies/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~6.1k char original, includes 2 cited scientific sources with links (NCBI/PMC, ScienceDirect). Fixed earlier in this session: replaced Persian ' و ' connectors with Dutch ' en ' (8 occurrences). See live URL for full verbatim copy and citation links.",
+      "text": "INFORMATIE\nHoe weet u of uw verstandskies problemen veroorzaakt?\nCristian Zandi — april 13, 2026\n\nSecties: Signalen van doorkomende verstandskies (zeurende kaakpijn uitstralend naar oor/hals, gevoelig gezwollen tandvlees, moeite met slikken/mond openen) — Scheve groei / geïmpacteerde kies (druk op naburige kies beschadigt glazuur, moeilijk schoon te houden = meer cariësrisico) — Ontstoken tandvlees / Pericoronitis (vieze smaak, slechte adem, soms pus bij druk) — Is trekken altijd nodig? (nee — alleen bij regelmatige ontstekingen, schade aan omliggend weefsel, of onbehandelbaar gaatje in de kies zelf).\n\nFAQ: Waarom ineens klachten op latere leeftijd? (bacterieopbouw onder tandvleesrand of hernieuwde doorgroei) — Is de behandeling pijnlijk? (met verdoving pijnloos, lichte napijn normaal) — Heeft iedereen vier verstandskiezen? (nee — ~10% heeft er drie, ~4% heeft er geen enkele/agenese, vaak genetisch).\n\nConclusie: verwijst ook naar wortelkanaalbehandeling-pagina als alternatieve oorzaak van vergelijkbare pijn. Bronnen: 2 wetenschappelijke reviews geciteerd (NCBI/PMC 2021, ScienceDirect) — zie live pagina voor links.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/Magnified-X-ray-of-Impacted-Wisdom-Tooth.jpg",
+          "alt": "Detailed magnification of an X-ray showing the lower right wisdom tooth"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/waarom-tanden-pijn-bij-koude-of-warme-dranken/",
+      "title": "Pijn bij koude of warme dranken? Oorzaken & Tips",
+      "metaDescription": "Last van gevoelige tanden? Ontdek de oorzaken en oplossingen op basis van wetenschappelijke inzichten en wereldwijde medische bronnen. Lees meer.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/waarom-tanden-pijn-bij-koude-of-warme-dranken/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~6.6k char original, includes 2 cited scientific sources with links (Springer/BMC Oral Health, MDPI) plus a labeled histology-style illustration (A/B panel referenced twice in source — likely an image embedded mid-article, verify on live page). See live URL for full verbatim copy and citation links.",
+      "text": "INFORMATIE\nWaarom doen uw tanden pijn bij koude of warme dranken?\nCristian Zandi — april 13, 2026\n\nSecties: Hoe werkt tandgevoeligheid (dentine-overgevoeligheid: glazuur beschermt, onder ligt dentine met microscopische kanaaltjes naar de zenuw; blootligging → vloeistofbeweging in kanaaltjes prikkelt zenuw = scherpe pijn) — Belangrijkste oorzaken van blootliggend dentine (tandenknarsen/bruxisme, tanderosie door zuren in voeding/dranken, verkeerde/te harde poetstechniek, terugtrekkend tandvlees door gingivitis/parodontitis of ouderdom) — Wanneer wijst het op iets anders (cariës, lekkende/beschadigde vullingen, gebarsten tand) — Oplossingen (desensibiliserende tandpasta — enkele weken voor resultaat, zachtere poetstechniek, professionele fluoridelak, composietvulling ter isolatie van blootliggende tandhals).\n\nFAQ: Hoe snel helpt tandpasta tegen gevoeligheid? (2-4 weken bij 2x daags gebruik) — Is pijn bij kou altijd een gaatje? (nee, korte steek die snel verdwijnt is vaak gevoeligheid; aanhoudende/kloppende pijn kan wijzen op gaatje/zenuwontsteking) — Kan teruggetrokken tandvlees weer aangroeien? (nee, herstelt niet vanzelf, behandeling richt zich op voorkomen verdere terugtrekking).\n\nBronnen: 2 wetenschappelijke artikelen geciteerd (BMC Oral Health 2020 — hydrodynamische theorie; Applied Sciences/MDPI 2023) — zie live pagina voor links.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/Gevoelige-tanden-bij-het-drinken-van-koude-water.jpg",
+          "alt": "Mannelijke patiënt met gevoelige tanden die reageert op koude drank met lichte pijnreactie"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/porseleinen-of-composiet/",
+      "title": "Porselein of Composiet Facings? (De juiste keuzehulp)",
+      "metaDescription": "Facings kiezen: porselein of composiet? Wij helpen u beslissen met een heldere vergelijking van de voordelen, kosten en resultaten voor uw gebit.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/porseleinen-of-composiet/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~5.1k char original. See live URL for full verbatim copy before porting 1:1.",
+      "text": "INFORMATIE\nPorselein of composiet facings: Wat is de beste keuze voor uw gebit?\nCristian Zandi — april 12, 2026\n\nWat zijn facings: dunne schildjes op voorkant van tanden — directe facings (composiet) vs. indirecte facings (porselein/porseleinlaminaat).\n\nBelangrijkste verschillen: Materiaal (porselein=keramiek, composiet=tandkleurige kunsthars). Duurzaamheid (porselein 10-15+ jaar, slijtvaster). Esthetiek (porselein behoudt glans, kleurvast, licht valt er natuurlijker doorheen). Behandeling (porselein vereist meer voorbereiding/slijpen, composiet vaak direct/non-prep). Reparatie (composiet makkelijk te repareren in de stoel, porselein bij breuk meestal volledige vervanging).\n\nWanneer porselein: grotere standsafwijkingen, sterke verkleuringen, duurzame kleurvaste hoogwaardige oplossing. Wanneer composiet: subtiele correcties, kleine spleetjes (diastemen), afgebroken randjes, sneller/kostenefficiënter.\n\nBehandeling: composiet direct gemodelleerd en uitgehard met lamp; porselein — glazuur prepareren, afdruk, laboratoriumvervaardiging.\n\nKosten: NZa-vastgestelde tarieven + variabele techniekkosten (labkosten); porselein duurder door laboratoriumwerk.\n\nFAQ: Hoe lang gaan facings mee? (porselein 10-15 jaar, composiet 5-7 jaar) — Doet de behandeling pijn? (vrijwel pijnloos, verdoving mogelijk bij prepareren) — Hoe onderhouden? (zoals natuurlijke tanden: 2x poetsen, ragers/flosdraad, controle).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/before-after-laminaat-composiet-facings.jpg",
+          "alt": "Voor en na resultaat van facings met laminaat en composiet bij tanden"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/preventieve-mondzorg-gezondheid/",
+      "title": "Preventieve Mondzorg: Richtlijnen voor Gezonde Tanden",
+      "metaDescription": "Leer effectieve methoden voor mondverzorging om tandbederf en tandvleesproblemen structureel te voorkomen.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/preventieve-mondzorg-gezondheid/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~5k char original. See live URL for full verbatim copy before porting 1:1.",
+      "text": "MONDGEZONDHEID\nPreventieve Mondzorg: Wetenschappelijk Onderbouwde Methoden voor het Behoud van uw Mondgezondheid\nCristian Zandi — april 10, 2026\n\n5 pijlers: 1) Mechanische Plaqueverwijdering (2x/dag, 2 volledige minuten, focus op tandvlees-tandovergang/sulcus). 2) Interdentale Reiniging (tandenborstel reinigt slechts ~60% van het oppervlak; dagelijks ragers/stokers/flosdraad nodig). 3) Fluoride en Remineralisatie (fluoride bindt aan glazuur, stimuleert remineralisatie, beschermt tegen zuur). 4) Voedingsgewoonten en Zuur-Base Balans (frequentie belangrijker dan hoeveelheid suiker; max 7 eet-/drinkmomenten per dag inclusief 3 hoofdmaaltijden, geeft speeksel tijd om te neutraliseren). 5) Professionele Preventie en Diagnostiek (periodiek onderzoek detecteert problemen vroeg; professionele reiniging verwijdert tandsteen dat thuis niet weg te poetsen is).\n\nFAQ: Hoe vaak tandenborstel vervangen? (elke 3 maanden, eerder bij rafelende haren) — Zijn mondspoelmiddelen noodzakelijk? (aanvulling, geen vervanging; vooral bij specifieke aandoeningen op advies) — Is elektrisch effectiever dan handmatig? (ja, klinisch bewezen bij oscillerend-roterende types — significant meer plakverwijdering en minder tandvleesontsteking).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/04/DentalCare_Essentials-3.png",
+          "alt": "Een verzameling van benodigde hulpmiddelen voor mondgezondheid"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/waarom-gebitsreiniging/",
+      "title": "Waarom gebitsreiniging? Wetenschappelijke inzichten",
+      "metaDescription": "72 studies (ADA) bewijzen: gebitsreiniging (SRP) is de gouden standaard tegen parodontitis en tandverlies. Lees de wetenschappelijke feiten.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/waarom-gebitsreiniging/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Fixed earlier in this session: 8 occurrences of Persian ' و ' connector replaced with Dutch ' en '. Condensed from ~3.3k char original — see live URL for full verbatim copy including the ADA citation link.",
+      "text": "MONDGEZONDHEID\nWaarom is een professionele gebitsreiniging essentieel?\nCristian Zandi — februari 15, 2026\n\nDe noodzaak van preventie: onbereikbare plekken bij poetsen → tandplak verkalkt tot tandsteen → tandvleesirritatie (roodheid/bloeden) → onbehandeld kan ontsteking zich uitbreiden naar kaakbot.\n\nDirecte voordelen: voorkomen van schade (minder kans op gaatjes/tandvleesproblemen), frisheid (minder ademgeur van bacteriën in tandsteen), natuurlijke uitstraling (oppervlakkige verkleuringen door voeding/roken verdwijnen).\n\nFAQ: Is gebitsreiniging pijnlijk? (meestal niet, kan gevoelig zijn bij licht ontstoken tandvlees, intensiteit aanpasbaar) — Waarom reinigen zonder klachten? (tandvleesaandoeningen doen in beginstadium vaak geen pijn — wachten op pijn = vaak al te laat) — Hoe vaak nodig? (voor de meeste mensen 1x per half jaar).\n\nWetenschappelijke verantwoording: ADA evidence-based richtlijn gebaseerd op 72 onderzoeken — professionele reiniging (scaling en root planing) is de standaard niet-chirurgische behandeling voor parodontitis, verbetert aantoonbaar tandvleesgezondheid en helpt tandverlies voorkomen. Bron: American Dental Association (2015), JADA — zie live pagina voor link.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/02/waarom-gebitsreiniging.jpg",
+          "alt": "waarom gebitsreiniging"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/leeftijd-eerste-tandartsbezoek/",
+      "title": "Wanneer gaan kinderen naar de tandarts? | Advies voor ouders",
+      "metaDescription": "Vroegtijdig tandartsbezoek verlaagt risico's en helpt uw kind wennen. Lees wanneer de eerste controle nodig is en bekijk onze praktische tips voor ouders.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/leeftijd-eerste-tandartsbezoek/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~5k char original. See live URL for full verbatim copy before porting 1:1.",
+      "text": "INFORMATIE\nWanneer moet een kind voor het eerst naar de tandarts?\nCristian Zandi — februari 7, 2026\n\nIdeale leeftijd: zodra eerste tandjes doorkomen, uiterlijk rond 2e verjaardag. Voordelen: gewenning/preventie (verlaagt drempel, voorkomt latere angst), praktische vorming (visuele ervaring heeft meer impact dan mondelinge instructie thuis).\n\nVergoeding: mondzorg voor kinderen tot 18 jaar volledig vergoed vanuit basisverzekering, geen eigen risico van toepassing.\n\nPositieve ervaring: rustige pedagogische aanpak, tijd nemen voor begrijpelijke uitleg.\n\nVoorbereiding thuis: luchtig aankondigen zonder nadruk op angst ('tanden tellen', 'bekijken met spiegeltje'), rustgevende muziek helpt.\n\nMondhygiënist: vaak zinvol vanaf basisschoolleeftijd (~5-6 jaar) — poetstechnieken, tandplak verwijderen, voedingsadvies, in overleg met tandarts.\n\nFAQ: Vanaf welke leeftijd naar de tandarts? (zodra eerste melktand door, uiterlijk 2 jaar) — Wanneer moet een baby voor het eerst? (zodra eerste tandje zichtbaar, ~6-9 maanden) — Is een melkgebit echt zo belangrijk? (ja — bepalend voor stand van definitief gebit en kaakontwikkeling, gaatjes kunnen onderliggende kiemen beschadigen).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/02/kindertandarts-veenendaal-poetsen.jpg",
+          "alt": "A female dentist in a modern pediatric clinic demonstrates tooth brushing using a small dinosaur toy."
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/ontstoken-tandvlees-symptomen-behandeling/",
+      "title": "Ontstoken tandvlees: Symptomen en Snelle Behandeling",
+      "metaDescription": "Dit artikel, gebaseerd op wetenschappelijke bevindingen, bespreekt de oorzaken van bloedend tandvlees en bewezen behandelingen om parodontitis te voorkomen.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/ontstoken-tandvlees-symptomen-behandeling/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~3.5k char original, includes 3 cited scientific sources with links (Journal of Clinical Periodontology, Nature Reviews Disease Primers, BMC Oral Health). See live URL for full verbatim copy and citation links.",
+      "text": "MONDGEZONDHEID\nOntstoken tandvlees: Onderzoek naar symptomen en behandeloplossingen\nCristian Zandi — januari 27, 2026\n\nHoe herkent u ongezond tandvlees: gezond tandvlees is roze, ligt strak, bloedt niet. Signalen: bloeden bij poetsen/flossen/hard voedsel, donkerrode/gezwollen/glanzende kleur, slechte adem (halitose).\n\nVan Gingivitis naar Parodontitis: gingivitis = oppervlakkige ontsteking door tandplak; onbehandeld breidt uit naar kaakbot = parodontitis met 'pockets' vol bacteriën, kan leiden tot onomkeerbaar botverlies.\n\nBelangrijkste oorzaken: tandplak/biofilm (primair), verhardt tot tandsteen; risicofactoren: roken/tabak, systemische ziekten (diabetes), hormonale schommelingen.\n\nWanneer professionele hulp: tandsteen en bacteriën diep in pockets kunt u zelf niet verwijderen; mondhygiënist meet DPSI-score en reinigt pockets grondig.\n\nFAQ: Doet een tandvleesbehandeling pijn? (nee, verdoving indien nodig bij diepere reinigingen) — Wordt het vergoed? (vaak gedeeltelijk via aanvullende verzekering, T-serie codes).\n\nBronnen: 3 wetenschappelijke artikelen geciteerd (Journal of Clinical Periodontology 2018, Nature Reviews Disease Primers 2017, BMC Oral Health 2006) — zie live pagina voor links.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/01/ontstoken-tandvlees-behandeling.jpg.jpg",
+          "alt": "Ontstoken tandvlees symptomen en behandeling - Mondzorg Veenendaal"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/kiezen-trekken-voor-een-beugel/",
+      "title": "Kiezen trekken voor beugel: Is het zonde? | Kosten & Info",
+      "metaDescription": "Maakt u zich zorgen over het opofferen van gezonde kiezen voor een beugel bij onze praktijk in Veenendaal? Lees waarom dit nodig is, de kosten en hoe de ruimte wordt opgevuld.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/kiezen-trekken-voor-een-beugel/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~4.4k char original. See live URL for full verbatim copy before porting 1:1.",
+      "text": "ALIGNER\nKiezen trekken voor een beugel: Waarom, de kosten en ervaringen\nCristian Zandi — januari 7, 2026\n\nWaarom kiezen trekken: ruimtegebrek — tanden te groot voor de kaak; strategisch trekken creëert ruimte om overige tanden netjes te zetten, voorkomt terugval (relapse).\n\nIs het zonde? Een gebit dat te krap staat is moeilijker schoon te houden = meer kans op gaatjes/tandvleesontsteking; trekken is investering in langetermijngezondheid.\n\nWelke kiezen: 4 kiezen (meest voorkomend, premolaren, symmetrisch boven/onder), 2 kiezen (alleen bovenkaak, bv. bij overbeet), melktanden bij kinderen (om doorbraak van blijvende tand te sturen).\n\nBehandeling: verdoving → extractie → herstel (volgende orthodontist-afspraak na 1-2 weken).\n\nBij volwassenen: kaak volledig uitgegroeid, trekken vaker enige optie (vs. kinderen waar kaak soms nog verbreed kan worden).\n\nKosten 2026: NZa-codes H10 (trekken, excl. verdoving), H15 (moeizame extractie). Kinderen tot 18 vaak vergoed via basisverzekering als onderdeel orthodontische indicatie; volwassenen aanvullende verzekering nodig.\n\nFAQ: Blijven er gaatjes/spleten zichtbaar? (nee, orthodontist gebruikt ruimte om tanden te verschuiven, spleten sluiten volledig) — Is het pijnlijk? (ingreep pijnloos door verdoving, kaak kan na afloop beurs aanvoelen) — Zijn er alternatieven? ('strippen'/beslijpen zijkanten, of kaakverbreding — onderzocht via röntgenfoto's).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2026/01/Kiezen-trekken-voor-een-beugel-1.jpg",
+          "alt": "Kiezen trekken voor een beugel"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/bang-voor-de-tandarts/",
+      "title": "Angst voor de tandarts? Tips van ervaren tandartsen",
+      "metaDescription": "Bang voor de tandarts? Bij Mondzorgpraktijk Veenendaal begrijpen we uw angst. Ervaar onze warme sfeer, pijnloze technieken en volledige controle.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/bang-voor-de-tandarts/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~5.8k char original. Contains the statistic '~40% of Dutch adults are afraid of the dentist'. See live URL for full verbatim copy before porting 1:1.",
+      "text": "INFORMATIE\nBang voor de tandarts? Zo maken wij uw bezoek ontspannen en pijnloos\nCristian Zandi — januari 3, 2026\n\nIntro: naar schatting bijna 40% van de Nederlandse volwassenen is bang voor de tandarts. Praktijk gelooft in 'angstvrije tandheelkunde'.\n\nSecties: Waarom zijn we bang (natuurlijke reactie, jeugdervaring, angst voor pijn/controleverlies — 'uw gevoel mag er zijn') — De sfeer maakt het verschil (warme moderne inrichting i.p.v. steriele kliniekuitstraling, voelt als lounge) — Team met inlevingsvermogen (geselecteerd op sociale vaardigheden) — Volledige controle/geen verrassingen (duidelijke uitleg vooraf, toestemming nodig, voorspelbaarheid) — Pijnloos verdoven (voor-verdovende gel, langzaam injecteren).\n\n5 tips: 1) bespreek uw angst bij het maken van de afspraak (extra tijd gereserveerd), 2) maak een kennismakingsafspraak zonder boren, 3) afleiding met eigen muziek/podcast, 4) buikademhaling, 5) spreek een Stop-signaal af (knipperen met ogen of zacht geluidje volstaat, team is getraind om dit direct op te merken).\n\nFAQ: Wat als ik extreme angst heb? (kennismakingsgesprek zonder behandeling, bouwt vertrouwen op) — Is een behandeling bij een angsttandarts duurder? (standaardtarieven gelden, extra tijd transparant besproken) — Doet verdoving pijn? (met voor-verdovende gel nagenoeg pijnloos).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/banner21.jpg",
+          "alt": "mondzorgpraktijkveenendaal.nl"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/hoe-werken-doorzichtige-aligners/",
+      "title": "Hoe werken doorzichtige aligners? (Wetenschappelijk uitgelegd)",
+      "metaDescription": "Leer eenvoudig hoe doorzichtige aligners werken: wetenschappelijke uitleg van botremodellering tot behandelproces. Discrete en comfortabele correctie.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/hoe-werken-doorzichtige-aligners/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~4.2k char original, includes 2 cited scientific sources with links (Angle Orthodontist / PubMed, Journal of Orthodontic Science / PubMed). See live URL for full verbatim copy and citation links.",
+      "text": "ALIGNER\nHoe werken doorzichtige aligners?\nCristian Zandi — december 28, 2025\n\nWat zijn aligners: op maat transparante kunststof hoesjes (Invisalign, Spark), glad medisch materiaal, uitneembaar, geen irritatie zoals metalen beugels.\n\nWetenschappelijke werking — botremodellering (bone remodeling): aligner oefent lichte constante druk uit via tandwortel op parodontaal ligament en kaakbot. Drukzijde activeert osteoclasten (breken oud bot af), spanningszijde stimuleert osteoblasten (maken nieuw bot aan). Tand verschuift ~0,2-0,3mm per aligner. Soms tandkleurige attachments voor extra grip. Onderzoek toont vergelijkbare effectiviteit als traditionele beugels bij consequent dragen.\n\nBehandelproces: 1) Diagnose en planning — digitale 3D-scan, softwareplan met vooraf zichtbaar eindresultaat. 2) Productie van aligners op maat, elke set voor 1-2 weken. 3) Dragen en wisselen — 20-22 uur/dag, controles elke 6-8 weken (minder frequent dan vaste beugel).\n\nNazorg en retentie: vaste of uitneembare retainer nodig om resultaat levenslang te behouden.\n\nBronnen: 2 wetenschappelijke artikelen geciteerd (Angle Orthodontist 2015 — systematic review efficacy clear aligners; Journal of Orthodontic Science 2023 — clear aligner therapy review) — zie live pagina voor PubMed-links.",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/12/Hoe-werken-doorzichtige-aligners.jpg",
+          "alt": "Hoe werken doorzichtige aligners"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/wanneer-vullingen-vervangen/",
+      "title": "Wanneer vullingen vervangen? Signalen & advies van de tandarts",
+      "metaDescription": "Twijfelt u wanneer vullingen vervangen moeten worden? Ontdek de symptomen, risico's en het juiste moment om uw tandvulling te laten vervangen.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/wanneer-vullingen-vervangen/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~6.1k char original, includes a cited source with link (JADA — Journal of the American Dental Association, on amalgam filling microleakage). See live URL for full verbatim copy and citation link.",
+      "text": "VULLINGEN\nWanneer vullingen vervangen? Zo herken je het juiste moment\nCristian Zandi — december 24, 2025\n\nSignalen voor vervanging: beschadigde/gebroken vullingen (scheurtjes laten bacteriën binnen), pijn of gevoeligheid (kan wijzen op lekkende/versleten vulling), verkleuring rond de vulling (teken van secundair cariës), loszittende/uitgevallen vullingen (snel vervangen om verdere schade te voorkomen).\n\nLevensduur per materiaal: composiet 5-10 jaar, amalgaam 10-15 jaar, keramisch 15+ jaar. Regelmatige controle belangrijk.\n\nWaarom uiteindelijk vervangen: beperkte levensduur vulmateriaal (slijtage door kauwkrachten), breuk/beschadiging door trauma (harde beet, tandenknarsen), veranderingen door veroudering, cariës in aangrenzende tand, terugtrekkend tandvlees (blootleggen rand van vulling).\n\nGevolgen van niet-vervangen: verergering tandbederf (bacteriën dringen onder lekkende vulling = secundair cariës, vaak onopgemerkt), ontsteking/infectie tandzenuw (hevige pijn/zwelling), grotere kans op wortelkanaalbehandeling of kroon.\n\nFAQ: Hoe weet je of een vulling vervangen moet worden? (klinisch onderzoek + eventueel röntgenfoto's) — Moeten alle oude vullingen vervangen worden? (nee, alleen bij problemen zoals pijn/lekkage/cariës) — Kan een amalgaam vulling lekken? (ja, microlekkage door thermische veranderingen/uitzetting/krimp — JADA-onderzoek bevestigt zelfs bij nieuwe vullingen enige lekkage) — Is vervangen pijnlijk? (over het algemeen niet, met lokale verdoving).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/12/Wanneer-vullingen-vervangen-Zo-herken-je-het-juiste-moment2.jpg",
+          "alt": "Wanneer vullingen vervangen Zo herken je het juiste moment"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/alles-wat-je-moet-weten-over-het-vullen-van-tanden/",
+      "title": "Hoe vult de tandarts een gaatje? Uitleg stap voor stap",
+      "metaDescription": "Hoe vult de tandarts een gaatje? Lees stap voor stap hoe de behandeling verloopt, welke soorten vullingen er zijn en wat je kunt verwachten.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/alles-wat-je-moet-weten-over-het-vullen-van-tanden/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~6.3k char original. See live URL for full verbatim copy before porting 1:1.",
+      "text": "VULLINGEN\nWelke instrumenten gebruikt de tandarts bij het vullen van een gaatje?\nCristian Zandi — december 21, 2025\n\n5 stappen: 1) Diagnose en voorbereiding (verdovingsmiddel op tandvlees/tand). 2) Reinigen van de tand / verwijderen beschadigd weefsel (aangetast weefsel verwijderd zonder gezond tandweefsel te beschadigen). 3) Vullen van het gaatje (geschikte vulling geplaatst). 4) Vormgeven en aanpassen (composiet hardt uit onder speciaal licht). 5) Controle en nazorg (bijt-op-papier test om ongemak bij kauwen te checken).\n\nSoorten vullingen: Composiet (lijkt op tandglazuur, voor voortanden, esthetisch, aanpasbaar aan tandvorm). Porselein (voor sterk beschadigde tanden of esthetische wens, sterker dan composiet, minder verkleuring, ideaal voor zichtbare tanden). Amalgaam (mengsel zilver/tin/koper/zink, duurzaam en goedkoop, voor kiezen, niet esthetisch — donker van kleur).\n\nKosten: variëren €50-€200 afhankelijk van type vulling, grootte gaatje, praktijk; amalgaam goedkoper dan composiet/porselein.\n\nNazorg: eerste dagen geen hard/plakkerig voedsel, voorzichtig met behandelde tand, regelmatig poetsen en flossen.\n\nFAQ: Doet het pijn? (nee door verdoving, lichte gevoeligheid nadien normaal) — Hoe lang duurt het? (20 min tot 1 uur, afhankelijk van grootte/type) — Wanneer vervangen? (bij slijtage/beschadiging/loskomen).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/12/Alles-wat-je-moet-weten-over-het-vullen-van-tanden2.jpg",
+          "alt": "Alles wat je moet weten over het vullen van tanden"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/hoe-vaak-tanden-bleken/",
+      "title": "Hoe Vaak Tanden Bleken? Gids voor Veilige en Blijvende Resultaten",
+      "metaDescription": "Leer hoe vaak je tanden veilig kunt bleken voor een stralende glimlach, met tips over bleekmethodes, nazorg en langdurige resultaten.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/hoe-vaak-tanden-bleken/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "This post currently RANKS #1 organically for 'tandenbleken veenendaal' (verified live in this session, ahead of the confusingly-similarly-named competitor Mondzorg Veenendaal) — high-value content, port with extra care for SEO continuity (exact headings/FAQ schema markup if present). Condensed from ~6.3k char original — see live URL for full verbatim copy, internal cross-links to the 'vanaf welke leeftijd' and 'risico's' sister articles, and pricing details before porting 1:1.",
+      "text": "TANDEN BLEKEN\nHoe vaak tanden bleken? Gids voor veilige en blijvende resultaten\nCristian Zandi — oktober 31, 2025\n\nIntro: professionele opfrisbehandeling elke 6-12 maanden aanbevolen; frequentie hangt af van dagelijkse gewoonten (koffie/thee/rode wijn/roken), type behandeling, mondhygiëne/dieet, gezondheid van het gebit.\n\nWaarom verkleuren tanden: extrinsieke verkleuring (oppervlak, makkelijk te verwijderen met whitening tandpasta) vs. intrinsieke verkleuring (diep in tandbeen, professionele behandeling nodig). Oorzaken: koffie/thee/frisdrank/rode wijn, kleurstoffen in voeding, roken, veroudering (dunner glazuur).\n\nHoe werkt bleken: waterstofperoxide of carbamideperoxide breekt kleurpigmenten af via oxidatiereactie. Professioneel tot 6% peroxide (veilig onder begeleiding) vs. vrij verkrijgbaar max 0,1%.\n\nMethodes: Thuisbleken (op maat bleeklepels + gel, paar uur/dag over weken, eigen tempo) vs. In-praktijk bleken (sterkere gels + licht, sneller resultaat, nauwkeurige begeleiding).\n\nFrequentie: professionele opfrissing elke 6-12 maanden of 1-2x/jaar; thuisproducten minder duurzaam resultaat, professionele begeleiding aanbevolen.\n\nDuur resultaat: gemiddeld 1-2 jaar, met goede verzorging tot 3 jaar. Tips: 2x poetsen, flosdraad/ragers, 2x/jaar mondhygiënist, stoppen met roken, kleurstofrijke voeding beperken. Resultaat: 5-10 tinten verbetering gemiddeld.\n\nVoorwaarden: vanaf 18 jaar, niet bij zwangerschap/borstvoeding, eerst gaatjes behandelen, kronen/facings/vullingen blijven ongewijzigd van kleur (kunnen na bleken opvallen — vervanging overwegen).\n\nDirecte nazorg — 'witte dieet' eerste 48 uur: aan te raden melk/yoghurt/witte kaas/wit vlees/witte rijst/pasta met witte saus; vermijden koffie/thee/rode wijn/gekleurde sausjes/rode biet. Gevoeligheid: licht en tijdelijk, tandpasta voor gevoelige tanden helpt.\n\nKosten: professioneel home-bleaching met op maat lepel €235-€295 (lepel herbruikbaar, opfris goedkoper); cosmetische behandeling, niet vergoed door zorgverzekering.\n\nFAQ: Hoe vaak per jaar? (max 1-2x professioneel) — Hoe lang blijft resultaat? (1-3 jaar) — Is zelf bleken veilig? (vrij verkrijgbare producten brengen risico's, professionele begeleiding veiligst).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/Hoe-vaak-tanden-bleken-Gids-voor-veilige-en-blijvende-resultaten.jpg",
+          "alt": "Hoe vaak tanden bleken? Gids voor veilige en blijvende resultaten"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/vanaf-welke-leeftijd-tanden-bleken/",
+      "title": "Tanden Bleken: Vanaf Welke Leeftijd en Belangrijke Tips",
+      "metaDescription": "Lees vanaf welke leeftijd tanden bleken veilig is en ontdek tips voor een stralende glimlach, risico's en kosten.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/vanaf-welke-leeftijd-tanden-bleken/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~4.7k char original. Part of the tandenbleken content cluster (with hoe-vaak-tanden-bleken and risico-tanden-bleken) that ranks #1 organically for 'tandenbleken veenendaal'. See live URL for full verbatim copy before porting 1:1.",
+      "text": "TANDEN BLEKEN\nTanden bleken: Vanaf welke leeftijd en belangrijke tips\nCristian Zandi — oktober 31, 2025\n\nKernpunten: wettelijk toegestaan vanaf 18 jaar; max 1 behandeling/jaar geadviseerd; professioneel bleken voorkomt glazuurschade; gemiddelde kosten ~€300, soms vergoed via aanvullende verzekering.\n\nVanaf welke leeftijd: bleken bij tandarts/specialist onder 18 jaar wettelijk niet toegestaan, ook niet met ouderlijke toestemming.\n\nWaarom 18-jaargrens: tanden bij jongeren nog in ontwikkeling, zenuwkamer (pulpa) relatief groot = hoger schaderisico; pas bij volwassen gebit veilig.\n\nMinderjarigen: sommige thuisbleekproducten claimen veilig vanaf 12 jaar, maar tandartsen raden dit sterk af — risico op permanente glazuurbeschadiging.\n\nFrequentie: max 1x per jaar; te frequent bleken kan leiden tot poreus glazuur en blijvende gevoeligheid.\n\nRisico's: irritatie tandvlees, overgevoeligheid voor koude/warme dranken — vooral bij goedkope thuissets.\n\nKosten: in-office vanaf €200/sessie, thuisbleken met maatlepels vanaf €250, gemiddeld ~€300 compleet traject; cosmetische ingreep, meestal niet vergoed door basisverzekering.\n\nTips voor wittere tanden zonder bleken: milde whitening tandpasta 2x/dag, dagelijks (water)flosser (veilig vanaf 12 jaar), kleurende voeding beperken, tong dagelijks reinigen.\n\nFAQ: Vanaf welke leeftijd mag je bleken? (minimaal 18 jaar) — Hoe oud voor facings? (ook meestal vanaf 18, als kaak volledig is uitgegroeid) — Hoe vaak per jaar? (max 1x) — Wordt het vergoed? (hangt af van aanvullende polis, basisverzekering dekt meestal niet).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/Tanden-bleken-Vanaf-welke-leeftijd-en-belangrijke-tips.jpg",
+          "alt": "Tanden bleken: Vanaf welke leeftijd en belangrijke tips"
+        }
+      ]
+    },
+    {
+      "url": "https://mondzorgpraktijkveenendaal.nl/risico-tanden-bleken/",
+      "title": "Je Tanden Bleken: De Risico's en Hoe Je Ze Vermijdt",
+      "metaDescription": "Ontdek de risico's van tanden bleken, zoals glazuurbeschadiging en gevoeligheid, en leer hoe je veilig kunt bleken met professioneel advies.",
+      "canonical": "https://mondzorgpraktijkveenendaal.nl/risico-tanden-bleken/",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "note": "Condensed from ~9k char original (longest post in the export). Part of the tandenbleken content cluster that ranks #1 organically for 'tandenbleken veenendaal'. See live URL for full verbatim copy before porting 1:1.",
+      "text": "TANDEN BLEKEN\nJe Tanden Bleken: De Risico's en Hoe Je Ze Vermijdt\nCristian Zandi — oktober 31, 2025\n\nPeroxide-risico's en wettelijke limieten: hoog geconcentreerd waterstofperoxide kan tandwortel aantasten. EU-regels: tandartsen/mondhygiënisten max 6% peroxide per behandeling; schoonheidsspecialisten max 0,1%; winkelproducten max 0,1%. Chloor thuis gebruiken wordt sterk afgeraden.\n\nStructurele schade: bleken maakt glazuur/tandbeen poreuzer = gevoeliger voor nieuwe verkleuring; onjuiste/overmatige toepassing kan leiden tot beschadigd glazuur, gevoeligheid, meer cariësrisico.\n\nGevoeligheid en irritatie: tijdelijke gevoeligheid voor warmte/kou/zoet/zuur; tandvleesirritatie bij onjuiste toepassing/slecht passende lepel, in zeldzame gevallen brandwonden aan tandvlees.\n\nProfessioneel vs. zelf bleken: professioneel = juiste concentratie, beschermd tandvlees, snellere/betere resultaten; zelf bleken thuis zonder toezicht = risico op te lang op tanden laten zitten, glazuurverzwakking, schadelijke ingrediënten.\n\nEsthetische complicaties: onregelmatige resultaten/vlekken, overbleken (onnatuurlijk wit/blauwachtig), geen effect op vullingen/kronen/facings (kleurverschil ontstaat), tijdelijk wit tandvlees.\n\nTijdelijkheid en vicieuze cirkel: resultaat houdt enkele maanden tot een jaar aan; risico op cyclus van bleken > gevoeligheid > verkleuring > opnieuw bleken die tanden verzwakt.\n\nBleekmethoden: levende tanden — bij tandarts (lamp/laser), bleeklepel thuis, of zelf-kit (risicovoller); dode tanden — interne bleaching van binnenuit door tandarts.\n\nKosten: cosmetische tandzorg, niet vergoed door basisverzekering, sommige aanvullende verzekeringen bieden gedeeltelijke tegemoetkoming.\n\nConclusie: persoonlijke afweging tussen voordelen (stralende glimlach, zelfvertrouwen) en nadelen (gevoeligheid, irritatierisico, onvoorspelbare resultaten, kosten, herhaling nodig) — professionele begeleiding vermindert risico's aanzienlijk.\n\nFAQ: Is bleken permanent? (nee, 6 maanden tot 2 jaar afhankelijk van levensstijl) — Nadelen van laser-bleken? (duurder, iets meer kans op gevoeligheid door hitte, geen wondermiddel — werking komt van de gel) — Wat te doen bij gevoeligheid? (tandpasta voor gevoelige tanden, 48u extreme temperaturen vermijden, fluoride-gel/mondspoeling; bij aanhoudende hevige pijn contact opnemen) — Waarom wordt tandvlees wit na bleken? (tijdelijke uitdroging/lichte irritatie, meestal ongevaarlijk en verdwijnt binnen uren; bij aanhoudende pijn kan het een chemische brandwond zijn) — Is bleken slecht voor glazuur? (bij correcte professionele uitvoering minimale/tijdelijke schade, glazuur remineraliseert; frequent/onjuist bleken kan permanent verzwakken).",
+      "images": [
+        {
+          "src": "https://mondzorgpraktijkveenendaal.nl/wp-content/uploads/2025/11/Je-Tanden-BlekenDe-Risicos-en-Hoe-Je-Ze-Vermijdt-1.jpg",
+          "alt": "Je Tanden Bleken: De Risico's en Hoe Je Ze Vermijdt"
+        }
+      ]
+    }
+  ]
+}
