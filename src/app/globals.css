@@ -185,7 +185,6 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
 .home-hero .hero-copy[data-revealed="true"] { opacity: var(--hero-opacity); transform: translate3d(0, var(--hero-copy-y), 0); }
 .hero-copy h1 { max-width: 8ch; }
 .hero-line { --hero-line-enter-y: 0px; display: block; transition: opacity var(--motion-editorial) var(--ease-out), transform 520ms var(--ease-standard); }
-[data-motion="ready"] .hero-copy:not([data-revealed="true"]) .hero-line-one { --hero-line-enter-y: 1.25rem; }
 [data-motion="ready"] .hero-copy:not([data-revealed="true"]) .hero-line-two { --hero-line-enter-y: 1.625rem; }
 .hero-line-one { transform: translate3d(var(--pointer-depth-x-soft), calc(var(--pointer-depth-y-soft) + var(--hero-line-enter-y)), 0); }
 .hero-line-two { width: max-content; transform: translate3d(var(--pointer-depth-x), calc(var(--pointer-depth-y) + var(--hero-line-enter-y)), 0); transition-delay: 50ms; }
