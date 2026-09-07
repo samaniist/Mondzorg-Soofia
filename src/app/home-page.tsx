@@ -174,7 +174,6 @@ export function HomePage({ locale }: { locale: Locale }) {
               <Image
                 alt={en ? "Warm reception area at Mondzorgpraktijk Veenendaal" : "Warme ontvangstruimte van Mondzorgpraktijk Veenendaal"}
                 fill
-                priority
                 sizes="(max-width: 768px) 38vw, 18vw"
                 src="/wp-content/uploads/2025/09/banner01.jpg"
               />

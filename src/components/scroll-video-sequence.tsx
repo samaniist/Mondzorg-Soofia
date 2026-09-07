@@ -254,7 +254,7 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
               onPause={() => setIsPlaying(false)}
               onPlay={() => setIsPlaying(true)}
               playsInline
-              poster="/videos/clinic-experience-poster.jpg"
+              poster="/videos/clinic-experience-poster.webp"
               preload="none"
               ref={videoRef}
             >

@@ -481,7 +481,14 @@ export function TreatmentIndex({ treatments, locale = "nl" }: { treatments: Trea
         <div className="treatment-preview" data-pointer-reactive ref={previewRef}>
           {/* A plain img avoids coupling this frequently changing preview to the image loader. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className="treatment-preview-image" key={active.href} src={active.image} alt={active.imageAlt} />
+          <img
+            alt={active.imageAlt}
+            className="treatment-preview-image"
+            decoding="async"
+            key={active.href}
+            loading="lazy"
+            src={active.image}
+          />
           <span aria-live="polite">{active.name}</span>
         </div>
       ) : null}

@@ -227,6 +227,7 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
   touch-action: pan-y;
 }
 .hero-tooth-image-frame {
+  --tooth-mask-image: url("/images/hero-tooth-mask.webp");
   position: absolute;
   inset: 5%;
   filter: drop-shadow(0 2.8rem 2rem rgb(34 39 36 / 18%)) drop-shadow(-.5rem .8rem .7rem rgb(153 111 46 / 10%));
@@ -244,8 +245,8 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
   inset: 0;
   content: "";
   pointer-events: none;
-  -webkit-mask-image: url("/images/hero-tooth-floral.png");
-  mask-image: url("/images/hero-tooth-floral.png");
+  -webkit-mask-image: var(--tooth-mask-image);
+  mask-image: var(--tooth-mask-image);
   -webkit-mask-position: center;
   mask-position: center;
   -webkit-mask-repeat: no-repeat;
@@ -778,6 +779,7 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
 }
 
 @media (max-width: 42rem) {
+  .hero-tooth-image-frame { --tooth-mask-image: url("/images/hero-tooth-mask-mobile.webp"); }
   body { padding-bottom: calc(4.25rem + env(safe-area-inset-bottom)); }
   .shell { width: min(calc(100% - 2rem), var(--content-width)); }
   h1 { font-size: clamp(3.35rem, 16vw, 5rem); }
