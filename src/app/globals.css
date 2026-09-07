@@ -314,7 +314,7 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
 .hero-photo { position: absolute; right: -7%; bottom: 7%; z-index: 3; width: clamp(8rem, 14vw, 13rem); aspect-ratio: .78; border: .5rem solid var(--color-canvas); box-shadow: 0 1.5rem 4rem rgb(24 34 29 / 15%); scale: 1; translate: 0 0; transform: translate3d(0, var(--hero-copy-y), 0) rotate(2.5deg); transition: transform 90ms linear, scale 300ms var(--ease-standard), translate 300ms var(--ease-standard), box-shadow 300ms var(--ease-out); }
 .hero-photo img { object-fit: cover; }
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
-  html:not([data-reduced-motion="true"]) .hero-photo:hover { box-shadow: 0 2rem 5rem rgb(24 34 29 / 24%); scale: 1.03; translate: 0 -.45rem; }
+  html:not([data-reduced-motion="true"]) .hero-photo:hover { box-shadow: 0 2rem 5rem rgb(24 34 29 / 24%); scale: 1.2; translate: 0 -.45rem; }
 }
 .hero-status, .hero-phone { align-self: end; min-height: 5.2rem; border-top: 1px solid var(--color-line); }
 .hero-status { display: flex; align-items: center; padding-right: 2rem; }
