@@ -4,6 +4,7 @@ import { DentalPracticeSchema, FaqBlock } from "@/components/content-components"
 import { LiveClinicStatus, TestimonialsCarousel, TreatmentIndex, type TreatmentPreview } from "@/components/experience";
 import { InteractiveHeroTooth } from "@/components/interactive-hero-tooth";
 import { ScrollVideoSequence } from "@/components/scroll-video-sequence";
+import { ArrowUpRightIcon } from "@/components/ui-icons";
 import { displayTitle, getPage, getWordPressItem, localMediaPath } from "@/content/content";
 import { localizedPath, type Locale } from "@/i18n/config";
 
@@ -153,7 +154,7 @@ export function HomePage({ locale }: { locale: Locale }) {
             </h1>
             <p className="hero-lead">{en ? "Personal dental care in a calm, welcoming practice for adults, children and patients with dental anxiety." : "Persoonlijke tandheelkundige zorg in een rustige, huiselijke praktijk voor volwassenen, kinderen en angstige patiënten."}</p>
             <div className="actions hero-actions">
-              <Link className="button" data-magnetic href={href("/maak-een-afspraak-1/#afspraak")}>{en ? "Make an appointment" : "Maak een afspraak"} <span aria-hidden="true">↗</span></Link>
+              <Link className="button" data-magnetic href={href("/maak-een-afspraak-1/#afspraak")}>{en ? "Make an appointment" : "Maak een afspraak"} <ArrowUpRightIcon /></Link>
               <Link className="text-link" href={href("/maak-een-afspraak-1/#inschrijven")}>{en ? "New patient? Register here" : "Nieuwe patiënt? Schrijf u in"}</Link>
             </div>
             <div className="hero-proof" data-reveal-stagger>
@@ -237,7 +238,7 @@ export function HomePage({ locale }: { locale: Locale }) {
             <div className="story-copy" data-reveal="split">
               <p className="lead">{en ? "Welcome to our practice, where quality, attentiveness and humanity come first." : "Welkom bij onze praktijk, waar kwaliteit, aandacht en menselijkheid centraal staan."}</p>
               <p>{en ? "No conveyor-belt dentistry and no commercial pressure—just personal attention, calm and time for every individual." : "Geen lopende band-mentaliteit en geen commerciële druk — maar persoonlijke aandacht, rust en tijd voor ieder individu."}</p>
-              <Link className="arrow-link" data-directional href={href("/de-praktijk/")}>{en ? "Discover our practice" : "Ontdek onze praktijk"} <span aria-hidden="true">↗</span></Link>
+              <Link className="arrow-link" data-directional href={href("/de-praktijk/")}>{en ? "Discover our practice" : "Ontdek onze praktijk"} <ArrowUpRightIcon /></Link>
             </div>
             <ol className="story-pillars" data-reveal="stagger">
               <li data-story-step><span>01</span><strong>{en ? "Personal attention" : "Persoonlijke aandacht"}</strong><p>{en ? "Care tailored to your pace, understanding and comfort." : "Zorg afgestemd op uw tempo, begrip en comfort."}</p></li>
@@ -283,7 +284,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         <div className="shell section-heading team-heading" data-reveal="split">
           <p className="eyebrow">{en ? "Our team" : "Ons team"}</p>
           <h2>{en ? <>Skilled hands.<br /><em>Familiar faces.</em></> : <>Bekwame handen.<br /><em>Bekende gezichten.</em></>}</h2>
-          <Link className="arrow-link" href={href("/ons-team/")}>{en ? "Meet the entire team" : "Ontmoet het hele team"} <span aria-hidden="true">↗</span></Link>
+          <Link className="arrow-link" href={href("/ons-team/")}>{en ? "Meet the entire team" : "Ontmoet het hele team"} <ArrowUpRightIcon /></Link>
         </div>
         <div className="shell team-editorial-grid">
           {team.map((member, index) => (
@@ -342,7 +343,7 @@ export function HomePage({ locale }: { locale: Locale }) {
               <p className="eyebrow">{en ? "From our journal" : "Uit ons journal"}</p>
               <h2>{displayTitle(latestPost.title)}</h2>
               <p>{latestPost.metaDescription}</p>
-              <Link className="arrow-link" href={href("/kind-wil-niet-tandenpoetsen/")}>{en ? "Read the article" : "Lees het artikel"} <span aria-hidden="true">↗</span></Link>
+              <Link className="arrow-link" href={href("/kind-wil-niet-tandenpoetsen/")}>{en ? "Read the article" : "Lees het artikel"} <ArrowUpRightIcon /></Link>
               <Link className="text-link" href={href("/blog/")}>{en ? "View all articles" : "Bekijk alle artikelen"}</Link>
             </div>
           </div>
@@ -365,7 +366,7 @@ export function HomePage({ locale }: { locale: Locale }) {
           <p className="eyebrow">{en ? "Welcome to Veenendaal" : "Welkom in Veenendaal"}</p>
           <h2>{en ? <>Ready for dental care<br />that <em>suits you?</em></> : <>Klaar voor mondzorg <br />die bij u <em>past?</em></>}</h2>
           <div className="actions">
-            <Link className="button button-light" data-magnetic href={href("/maak-een-afspraak-1/")}>{en ? "Make an appointment" : "Maak een afspraak"} <span aria-hidden="true">↗</span></Link>
+            <Link className="button button-light" data-magnetic href={href("/maak-een-afspraak-1/")}>{en ? "Make an appointment" : "Maak een afspraak"} <ArrowUpRightIcon /></Link>
             <a className="text-link text-link-light" href="tel:+31318501376">{en ? "Or call 0318 501376" : "Of bel 0318 501376"}</a>
           </div>
         </div>

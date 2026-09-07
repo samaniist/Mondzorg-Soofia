@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type PointerEvent, type RefObject } from "react";
 import { localizedPath, type Locale } from "@/i18n/config";
+import { ArrowLeftIcon, ArrowRightIcon, ArrowUpRightIcon, ChevronDownIcon } from "@/components/ui-icons";
 
 const EnamelCanvas = dynamic(() => import("./enamel-canvas"), {
   ssr: false,
@@ -398,14 +399,14 @@ export function LiveClinicStatus({ compact = false, locale = "nl" }: { compact?:
           <strong>{status ? (status.isOpen ? (locale === "en" ? "Open now" : "Nu geopend") : (locale === "en" ? "Closed" : "Gesloten")) : (locale === "en" ? "Practice status" : "Praktijkstatus")}</strong>
           <small>{status ? `${status.time} · ${locale === "en" ? "Today" : "Vandaag"} ${status.todayHours}` : (locale === "en" ? "Loading local time" : "Lokale tijd wordt geladen")}</small>
         </span>
-        <span className="live-status-chevron" aria-hidden="true">⌄</span>
+        <ChevronDownIcon className="live-status-chevron" />
       </button>
       <div className="live-status-detail" hidden={!expanded}>
         <p><strong>{status ? `${locale === "en" ? "Today" : "Vandaag"}, ${status.day}` : (locale === "en" ? "Today" : "Vandaag")}</strong><span>{status?.todayHours ?? "—"}</span></p>
         {!status?.isOpen && status?.nextOpen ? <p><span>{locale === "en" ? "Reopens" : "Weer geopend"}</span><strong>{status.nextOpen}</strong></p> : null}
         <div>
           <a href="tel:+31318501376">{locale === "en" ? "Call 0318 501376" : "Bel 0318 501376"}</a>
-          <Link href={localizedPath(locale, "/maak-een-afspraak-1/")}>{locale === "en" ? "Appointment" : "Afspraak"} ↗</Link>
+          <Link href={localizedPath(locale, "/maak-een-afspraak-1/")}>{locale === "en" ? "Appointment" : "Afspraak"} <ArrowUpRightIcon /></Link>
         </div>
       </div>
     </div>
@@ -472,7 +473,7 @@ export function TreatmentIndex({ treatments, locale = "nl" }: { treatments: Trea
               <strong>{treatment.name}</strong>
               <small>{treatment.description}</small>
             </span>
-            <span className="arrow-mark" aria-hidden="true"><span>{locale === "en" ? "View" : "Bekijk"}</span> ↗</span>
+            <span className="arrow-mark" aria-hidden="true"><span>{locale === "en" ? "View" : "Bekijk"}</span><ArrowUpRightIcon /></span>
           </Link>
         ))}
       </div>
@@ -560,8 +561,8 @@ export function TestimonialsCarousel({ reviews, locale = "nl" }: { reviews: Test
       <div className="reviews-controls">
         <p aria-live="polite"><span>{String(activeIndex + 1).padStart(2, "0")}</span> / {String(reviews.length).padStart(2, "0")}</p>
         <div>
-          <button aria-label={locale === "en" ? "Previous story" : "Vorige ervaring"} onClick={() => select(activeIndex - 1)} type="button">←</button>
-          <button aria-label={locale === "en" ? "Next story" : "Volgende ervaring"} onClick={() => select(activeIndex + 1)} type="button">→</button>
+          <button aria-label={locale === "en" ? "Previous story" : "Vorige ervaring"} onClick={() => select(activeIndex - 1)} type="button"><ArrowLeftIcon /></button>
+          <button aria-label={locale === "en" ? "Next story" : "Volgende ervaring"} onClick={() => select(activeIndex + 1)} type="button"><ArrowRightIcon /></button>
         </div>
       </div>
     </div>

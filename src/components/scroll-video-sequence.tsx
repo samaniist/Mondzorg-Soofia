@@ -15,7 +15,7 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
   const userPausedRef = useRef(false);
   const activeRef = useRef(false);
   const reducedMotionRef = useRef(true);
-  const [reducedMotion, setReducedMotion] = useState(true);
+  const loadRequestedRef = useRef(false);
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
@@ -33,8 +33,16 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
       process.env.NODE_ENV !== "production" && new URLSearchParams(window.location.search).get("motion") === "reduce"
     );
 
+    const ensureVideoLoaded = () => {
+      if (loadRequestedRef.current) return;
+      loadRequestedRef.current = true;
+      section.dataset.videoLoading = "true";
+      video.load();
+    };
+
     const playSafely = () => {
       if (reducedMotionRef.current || userPausedRef.current || !activeRef.current || document.hidden) return;
+      ensureVideoLoaded();
       const playPromise = video.play();
       if (playPromise) playPromise.catch(() => setIsPlaying(false));
     };
@@ -147,7 +155,6 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
     const updateMotionPreference = () => {
       const shouldReduce = shouldReduceMotion();
       reducedMotionRef.current = shouldReduce;
-      setReducedMotion(shouldReduce);
       section.dataset.reducedMotion = String(shouldReduce);
       if (shouldReduce) {
         video.pause();
@@ -174,8 +181,9 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
       if (document.hidden) video.pause();
       else playSafely();
     };
-    const onMetadata = () => {
+    const onReady = () => {
       section.dataset.videoReady = "true";
+      delete section.dataset.videoLoading;
       scheduleRender();
       playSafely();
     };
@@ -184,7 +192,7 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
     window.addEventListener("scroll", scheduleRender, { passive: true });
     window.addEventListener("resize", scheduleRender, { passive: true });
     document.addEventListener("visibilitychange", onVisibilityChange);
-    video.addEventListener("loadedmetadata", onMetadata);
+    video.addEventListener("canplay", onReady);
     visibilityObserver.observe(section);
     resizeObserver.observe(section);
     resizeObserver.observe(sticky);
@@ -198,7 +206,7 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
       window.removeEventListener("scroll", scheduleRender);
       window.removeEventListener("resize", scheduleRender);
       document.removeEventListener("visibilitychange", onVisibilityChange);
-      video.removeEventListener("loadedmetadata", onMetadata);
+      video.removeEventListener("canplay", onReady);
       visibilityObserver.disconnect();
       resizeObserver.disconnect();
       if (animationFrame) cancelAnimationFrame(animationFrame);
@@ -211,6 +219,11 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
     if (!video) return;
     if (video.paused) {
       userPausedRef.current = false;
+      if (!loadRequestedRef.current) {
+        loadRequestedRef.current = true;
+        sectionRef.current?.setAttribute("data-video-loading", "true");
+        video.load();
+      }
       const playPromise = video.play();
       if (playPromise) playPromise.catch(() => setIsPlaying(false));
     } else {
@@ -236,16 +249,16 @@ export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
             <video
               aria-describedby="clinic-sequence-description"
               aria-label={locale === "en" ? "Video impression of Mondzorgpraktijk Veenendaal" : "Video-impressie van Mondzorgpraktijk Veenendaal"}
-              autoPlay={!reducedMotion}
               loop
               muted
               onPause={() => setIsPlaying(false)}
               onPlay={() => setIsPlaying(true)}
               playsInline
-              poster="/videos/clinic-experience-poster.png"
-              preload="metadata"
+              poster="/videos/clinic-experience-poster.jpg"
+              preload="none"
               ref={videoRef}
             >
+              <source media="(max-width: 767px)" src="/videos/clinic-experience-mobile.mp4" type="video/mp4" />
               <source src="/videos/clinic-experience.mp4" type="video/mp4" />
               {locale === "en" ? "Your browser does not support this video." : "Uw browser ondersteunt deze video niet."}
             </video>

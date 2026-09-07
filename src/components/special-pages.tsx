@@ -10,6 +10,7 @@ import {
   TeamMemberCard,
 } from "@/components/content-components";
 import { BookingChoice, TreatmentIndex, type TreatmentPreview } from "@/components/experience";
+import { ArrowUpRightIcon } from "@/components/ui-icons";
 import {
   contentForPage,
   displayTitle,
@@ -217,7 +218,7 @@ export function BlogArchive({ page, locale }: { page: ExportedPage; locale: Loca
                   <p className="eyebrow">{item?.date ? new Intl.DateTimeFormat(en ? "en-GB" : "nl-NL", { dateStyle: "long" }).format(new Date(item.date)) : (en ? "Oral health" : "Mondgezondheid")}</p>
                   <h2>{displayTitle(post.title)}</h2>
                   {post.metaDescription ? <p>{post.metaDescription}</p> : null}
-                  <span className="arrow-link">{en ? "Read article" : "Lees artikel"} <span aria-hidden="true">↗</span></span>
+                  <span className="arrow-link">{en ? "Read article" : "Lees artikel"} <ArrowUpRightIcon /></span>
                 </div>
               </Link>
             </article>
@@ -260,7 +261,7 @@ export function ContactPage({ page, locale }: { page: ExportedPage; locale: Loca
             <p><span>Email</span><a href="mailto:info@mondzorgpraktijkveenendaal.nl">info@mondzorgpraktijkveenendaal.nl</a></p>
           </address>
           <p className="contact-note">{en ? "Open five days a week. Call for our current opening hours." : "5 dagen per week geopend. Bel voor de actuele openingstijden."}</p>
-          <Link className="button" data-magnetic href={localizedPath(locale, "/maak-een-afspraak-1/")}>{en ? "Make an appointment" : "Maak een afspraak"} <span aria-hidden="true">↗</span></Link>
+          <Link className="button" data-magnetic href={localizedPath(locale, "/maak-een-afspraak-1/")}>{en ? "Make an appointment" : "Maak een afspraak"} <ArrowUpRightIcon /></Link>
         </div>
         <div className="map-frame" data-reveal>
           <iframe
@@ -301,7 +302,7 @@ export function GenericPage({ page, locale }: { page: ExportedPage; locale: Loca
         <aside className="article-side" data-reveal>
           <p className="eyebrow">{en ? "Personal care" : "Persoonlijke zorg"}</p>
           <p>{en ? "Do you have questions about this information? Our team will be happy to help." : "Heeft u vragen over deze informatie? Ons team denkt graag met u mee."}</p>
-          <a className="arrow-link" href="tel:+31318501376">{en ? "Call 0318 501376" : "Bel 0318 501376"} <span aria-hidden="true">↗</span></a>
+          <a className="arrow-link" href="tel:+31318501376">{en ? "Call 0318 501376" : "Bel 0318 501376"} <ArrowUpRightIcon /></a>
         </aside>
         <div>
           <EditorialFlag page={page} />

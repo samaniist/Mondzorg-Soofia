@@ -3,6 +3,7 @@ import { displayTitle, localMediaPath, SITE_URL } from "@/content/content";
 import Image from "next/image";
 import Link from "next/link";
 import { localizedPath, type Locale } from "@/i18n/config";
+import { ArrowUpRightIcon } from "@/components/ui-icons";
 
 export function EditorialFlag(props: { page: ExportedPage }) {
   void props.page;
@@ -107,7 +108,7 @@ export function TreatmentPage({
         <aside className="article-side" data-reveal>
           <p className="eyebrow">{locale === "en" ? "Calm & clear" : "Rust & duidelijkheid"}</p>
           <p>{locale === "en" ? "We take the time to explain your treatment and tailor your care to your situation." : "We nemen de tijd om de behandeling uit te leggen en stemmen de zorg af op uw situatie."}</p>
-          <a className="arrow-link" href="tel:+31318501376">{locale === "en" ? "Discuss your question" : "Bespreek uw vraag"} <span aria-hidden="true">↗</span></a>
+          <a className="arrow-link" href="tel:+31318501376">{locale === "en" ? "Discuss your question" : "Bespreek uw vraag"} <ArrowUpRightIcon /></a>
         </aside>
         <div>
           <EditorialFlag page={page} />
@@ -153,7 +154,7 @@ export function BlogPost({
         <aside className="article-side" data-reveal>
           <p className="eyebrow">{locale === "en" ? "Reading guide" : "Leeswijzer"}</p>
           <p>{locale === "en" ? "Clear information about oral health, treatment and prevention." : "Heldere uitleg over mondgezondheid, behandeling en preventie."}</p>
-          <Link className="arrow-link" href={localizedPath(locale, "/blog/")}>{locale === "en" ? "Back to the journal" : "Terug naar het journal"} <span aria-hidden="true">↗</span></Link>
+          <Link className="arrow-link" href={localizedPath(locale, "/blog/")}>{locale === "en" ? "Back to the journal" : "Terug naar het journal"} <ArrowUpRightIcon /></Link>
         </aside>
         <div>
           <EditorialFlag page={page} />
@@ -189,7 +190,7 @@ export function TeamMemberCard({ name, role, treatments, href, big, image, image
         <h3>{name}</h3>
         <ul>{treatments.map((treatment) => <li key={treatment}>{treatment}</li>)}</ul>
         {big ? <p className="big-number">BIG-nummer: {big}</p> : null}
-        <span className="arrow-link">{href ? (locale === "en" ? `Read more about ${name}` : `Lees meer over ${name}`) : (locale === "en" ? "View team information" : "Bekijk teaminformatie")} <span aria-hidden="true">↗</span></span>
+        <span className="arrow-link">{href ? (locale === "en" ? `Read more about ${name}` : `Lees meer over ${name}`) : (locale === "en" ? "View team information" : "Bekijk teaminformatie")} <ArrowUpRightIcon /></span>
       </div>
     </>
   );
@@ -207,7 +208,7 @@ export function CallToAction({ locale = "nl" }: { locale?: Locale }) {
       <h2>{locale === "en" ? "Would you like to make an appointment?" : "Een afspraak maken?"}</h2>
       <p>{locale === "en" ? "Contact us if you have a question or would like to plan a visit." : "Neem contact op als u een vraag heeft of een bezoek wilt plannen."}</p>
       <div className="actions">
-        <Link className="button" data-magnetic href={localizedPath(locale, "/maak-een-afspraak-1/")}>{locale === "en" ? "Make an appointment" : "Maak een afspraak"} <span aria-hidden="true">↗</span></Link>
+        <Link className="button" data-magnetic href={localizedPath(locale, "/maak-een-afspraak-1/")}>{locale === "en" ? "Make an appointment" : "Maak een afspraak"} <ArrowUpRightIcon /></Link>
         <a className="button button-secondary" href="tel:+31318501376">{locale === "en" ? "Call 0318 501376" : "Bel 0318 501376"}</a>
       </div>
     </aside>

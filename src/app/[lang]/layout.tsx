@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Manrope, Newsreader } from "next/font/google";
 import { LiveClinicStatus, MotionDirector } from "@/components/experience";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { ArrowUpRightIcon } from "@/components/ui-icons";
 import { isLocale, localizedPath } from "@/i18n/config";
 import { getTranslations } from "@/i18n/translations";
 import "../globals.css";
@@ -106,7 +107,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <p className="footer-statement">{footerLines[0]}<br />{footerLines[1]}</p>
             <Link className="round-link" data-magnetic href={href("/maak-een-afspraak-1/")} aria-label={copy.makeAppointment}>
               <span>{copy.makeAppointment}</span>
-              <span aria-hidden="true">↗</span>
+              <ArrowUpRightIcon />
             </Link>
           </div>
           <div className="shell footer-grid">
@@ -146,7 +147,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.1 3.4 9.3 8 7.7 9.4c.8 2.1 2.8 4.1 4.9 4.9l1.4-1.6 4.6 2.2-.5 3.2c-.2 1.2-1.2 2-2.4 2C9.2 20.1 3.9 14.8 3.9 8.3c0-1.2.8-2.2 2-2.4l1.2-2.5Z" /></svg>
             <span>{copy.callUs}</span>
           </a>
-          <Link href={href("/maak-een-afspraak-1/")}>{copy.makeAppointment} <span aria-hidden="true">↗</span></Link>
+          <Link href={href("/maak-een-afspraak-1/")}>{copy.makeAppointment} <ArrowUpRightIcon /></Link>
         </div>
         <span className="cursor-follower" data-cursor-follower data-visible="false" aria-hidden="true" />
         <MotionDirector />
