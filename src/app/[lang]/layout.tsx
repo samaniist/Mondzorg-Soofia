@@ -139,7 +139,15 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
           </div>
           <div className="shell footer-bottom">
             <span>© {new Date().getFullYear()} Mondzorgpraktijk Veenendaal</span>
-            <span><Link href={href("/informatie/")}>{copy.patientInformation}</Link></span>
+            <span className="footer-meta">
+              <Link href={href("/informatie/")}>{copy.patientInformation}</Link>
+              <span aria-hidden="true">·</span>
+              <a href="https://nexlytic.de" rel="noopener noreferrer" target="_blank">
+                {lang === "en"
+                  ? "Crafted with care — design, development & marketing by Nexlytic"
+                  : "Met zorg gemaakt — design, ontwikkeling & marketing door Nexlytic"}
+              </a>
+            </span>
           </div>
         </footer>
         <div className="mobile-appointment-bar">

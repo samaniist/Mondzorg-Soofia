@@ -694,6 +694,9 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
 .footer-grid address { font-style: normal; }
 .footer-grid p, .footer-grid address { font-size: .82rem; }
 .footer-bottom { display: flex; min-height: 4.5rem; align-items: center; justify-content: space-between; border-top: 1px solid rgb(246 243 236 / 18%); color: rgb(246 243 236 / 58%); font-size: .68rem; }
+.footer-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: .25rem .7rem; }
+.footer-meta a { transition: color var(--motion-fast) ease; }
+.footer-meta a:hover, .footer-meta a:focus-visible { color: var(--color-cream); }
 .mobile-appointment-bar { display: none; }
 
 @media (max-width: 74rem) {
@@ -861,6 +864,7 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
   .footer-grid { grid-template-columns: 1fr; }
   .footer-brand { grid-column: auto; }
   .footer-bottom { min-height: 6rem; flex-direction: column; align-items: flex-start; justify-content: center; gap: .25rem; }
+  .footer-meta { justify-content: flex-start; }
   .mobile-appointment-bar { position: fixed; inset: auto 0 0; z-index: 200; display: grid; min-height: calc(4.25rem + env(safe-area-inset-bottom)); grid-template-columns: 5rem 1fr; padding-bottom: env(safe-area-inset-bottom); background: var(--color-cream); box-shadow: 0 -1rem 2.5rem rgb(24 34 29 / 10%); }
   .mobile-appointment-bar a { display: flex; min-height: 4.25rem; align-items: center; justify-content: center; gap: .65rem; border-top: 1px solid var(--color-line); font-size: .72rem; font-weight: 750; text-decoration: none; text-transform: uppercase; }
   .mobile-appointment-bar a:first-child { flex-direction: column; gap: .15rem; border-right: 1px solid var(--color-line); font-size: .6rem; }
