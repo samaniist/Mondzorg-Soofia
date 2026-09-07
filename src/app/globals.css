@@ -697,7 +697,9 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
 .footer-bottom { display: flex; min-height: 4.5rem; align-items: center; justify-content: space-between; border-top: 1px solid rgb(246 243 236 / 18%); color: rgb(246 243 236 / 58%); font-size: .68rem; }
 .footer-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: .25rem .7rem; }
 .footer-meta a { transition: color var(--motion-fast) ease; }
+.footer-meta .nexlytic-credit { color: var(--color-champagne); font-weight: 750; text-decoration-line: underline; text-decoration-color: currentColor; text-decoration-thickness: .1em; text-underline-offset: .3em; }
 .footer-meta a:hover, .footer-meta a:focus-visible { color: var(--color-cream); }
+.footer-meta .nexlytic-credit:focus-visible { outline-color: var(--color-champagne); }
 .mobile-appointment-bar { display: none; }
 
 @media (max-width: 74rem) {
