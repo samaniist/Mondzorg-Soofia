@@ -142,11 +142,14 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <span className="footer-meta">
               <Link href={href("/informatie/")}>{copy.patientInformation}</Link>
               <span aria-hidden="true">·</span>
-              <a className="nexlytic-credit" href="https://nexlytic.de" rel="noopener noreferrer" target="_blank">
+              <span>
                 {lang === "en"
-                  ? "Crafted with care — design, development & marketing by Nexlytic"
-                  : "Met zorg gemaakt — design, ontwikkeling & marketing door Nexlytic"}
-              </a>
+                  ? "Crafted with care — design, development & marketing by "
+                  : "Met zorg gemaakt — design, ontwikkeling & marketing door "}
+                <a className="nexlytic-credit" href="https://nexlytic.de" rel="noopener noreferrer" target="_blank">
+                  Nexlytic.de
+                </a>
+              </span>
             </span>
           </div>
         </footer>
