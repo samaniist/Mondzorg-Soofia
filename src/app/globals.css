@@ -311,8 +311,11 @@ html[data-motion="ready"] [data-tilt][data-revealed="true"] { transform: perspec
 .enamel-fallback::before { content: ""; position: absolute; inset: 0; clip-path: polygon(48% 3%, 65% 0, 88% 15%, 92% 36%, 78% 60%, 74% 94%, 58% 98%, 51% 67%, 40% 70%, 35% 100%, 20% 96%, 20% 65%, 6% 40%, 10% 14%, 34% 0); background: radial-gradient(circle at 35% 20%, white, #eee8dd 55%, #c8bfae); }
 .enamel-stage-note { position: absolute; right: 7%; bottom: 10%; display: flex; width: 12rem; align-items: center; gap: .75rem; font-size: .62rem; letter-spacing: .08em; line-height: 1.4; text-transform: uppercase; }
 .enamel-stage-note span:first-child { color: var(--color-champagne); }
-.hero-photo { position: absolute; right: -7%; bottom: 7%; z-index: 3; width: clamp(8rem, 14vw, 13rem); aspect-ratio: .78; border: .5rem solid var(--color-canvas); box-shadow: 0 1.5rem 4rem rgb(24 34 29 / 15%); transform: translate3d(0, var(--hero-copy-y), 0) rotate(2.5deg); transition: transform 90ms linear; }
+.hero-photo { position: absolute; right: -7%; bottom: 7%; z-index: 3; width: clamp(8rem, 14vw, 13rem); aspect-ratio: .78; border: .5rem solid var(--color-canvas); box-shadow: 0 1.5rem 4rem rgb(24 34 29 / 15%); scale: 1; translate: 0 0; transform: translate3d(0, var(--hero-copy-y), 0) rotate(2.5deg); transition: transform 90ms linear, scale 300ms var(--ease-standard), translate 300ms var(--ease-standard), box-shadow 300ms var(--ease-out); }
 .hero-photo img { object-fit: cover; }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  html:not([data-reduced-motion="true"]) .hero-photo:hover { box-shadow: 0 2rem 5rem rgb(24 34 29 / 24%); scale: 1.03; translate: 0 -.45rem; }
+}
 .hero-status, .hero-phone { align-self: end; min-height: 5.2rem; border-top: 1px solid var(--color-line); }
 .hero-status { display: flex; align-items: center; padding-right: 2rem; }
 .hero-phone { display: flex; align-items: center; justify-content: flex-end; gap: 1rem; padding-left: 2rem; font-size: .76rem; text-decoration: none; text-transform: uppercase; }
