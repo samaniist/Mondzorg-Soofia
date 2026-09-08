@@ -8,6 +8,9 @@ import { ArrowUpRightIcon } from "@/components/ui-icons";
 import { displayTitle, getPage, getWordPressItem, localMediaPath } from "@/content/content";
 import { localizedPath, type Locale } from "@/i18n/config";
 
+const googleReviewRating = "4,7";
+const googleReviewCount = 55;
+
 const faqsNl = [
   {
     question: "Welke regio's bedient uw tandartspraktijk in Veenendaal?",
@@ -158,10 +161,10 @@ export function HomePage({ locale }: { locale: Locale }) {
               <Link className="text-link" href={href("/maak-een-afspraak-1/#inschrijven")}>{en ? "New patient? Register here" : "Nieuwe patiënt? Schrijf u in"}</Link>
             </div>
             <div className="hero-proof" data-reveal-stagger>
-              <div className="rating-block" aria-label={en ? "Google rating 4.6 out of 5, based on 47 reviews" : "Google-beoordeling 4,6 van 5, gebaseerd op 47 reviews"}>
+              <div className="rating-block" aria-label={en ? `Google rating ${googleReviewRating.replace(",", ".")} out of 5, based on ${googleReviewCount} reviews` : `Google-beoordeling ${googleReviewRating} van 5, gebaseerd op ${googleReviewCount} reviews`}>
                 <span className="stars" aria-hidden="true">★★★★★</span>
-                <strong>4,6/5</strong>
-                <span>{en ? "47 Google reviews" : "47 Google-reviews"}</span>
+                <strong>{googleReviewRating}/5</strong>
+                <span>{googleReviewCount} {en ? "Google reviews" : "Google-reviews"}</span>
               </div>
               <span className="vertical-rule" aria-hidden="true" />
               <p><span className="status-check" aria-hidden="true">✓</span> {en ? "We are accepting new patients" : "Wij nemen nieuwe patiënten aan"}</p>
@@ -322,7 +325,7 @@ export function HomePage({ locale }: { locale: Locale }) {
       <section className="reviews-section section-space">
         <div className="shell reviews-heading" data-reveal="split">
           <p className="eyebrow">{en ? "Patient stories" : "Ervaringen"}</p>
-          <div className="review-score"><span className="stars" aria-hidden="true">★★★★★</span><strong>4,6</strong><span>{en ? "47 Google reviews" : "47 Google-reviews"}</span></div>
+          <div className="review-score"><span className="stars" aria-hidden="true">★★★★★</span><strong>{googleReviewRating}</strong><span>{googleReviewCount} {en ? "Google reviews" : "Google-reviews"}</span></div>
         </div>
         <div className="shell" data-reveal="mask"><TestimonialsCarousel locale={locale} reviews={reviews} /></div>
       </section>
