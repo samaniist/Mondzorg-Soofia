@@ -1,3 +1,4 @@
+import { treatmentImages } from "./treatment-images";
 import exportData from "../../content-export.json";
 import englishPages from "./english-pages.json";
 import wordpressPages from "./wordpress-pages.json";
@@ -60,7 +61,10 @@ const wpItems = new Map<string, WordPressItem>(
 );
 
 export function getPage(path: string, locale: Locale = "nl") {
-  const page = pages.find((candidate) => candidate.path === path);
+  const source = pages.find((candidate) => candidate.path === path);
+  const page = source && treatmentImages[path]
+    ? { ...source, images: [{ src: treatmentImages[path], alt: displayTitle(source.title) }] }
+    : source;
   if (!page || locale === "nl") return page;
 
   const english = englishByPath[path];
@@ -86,6 +90,7 @@ export function getWordPressItem(path: string) {
 }
 
 export function localMediaPath(src: string) {
+  if (/LOGO_MPV/i.test(src)) return "/images/tandartspraktijk-corridor-horizontal.png";
   try {
     const url = new URL(src);
     if (url.hostname === "mondzorgpraktijkveenendaal.nl") return decodeURIComponent(url.pathname);
@@ -323,7 +328,12 @@ export function contentForPage(path: string, locale: Locale = "nl") {
   }
   const item = getWordPressItem(path);
   if (!item?.content.rendered) return { html: "", faqs: [] as FaqItem[] };
-  return cleanWordPressHtml(item.content.rendered);
+  const cleaned = cleanWordPressHtml(item.content.rendered);
+  if (treatmentImages[path]) {
+    // The selected hero replaces legacy promotional images embedded in the copy.
+    cleaned.html = cleaned.html.replace(/<img\b[^>]*>/gi, "");
+  }
+  return cleaned;
 }
 
 export function reviewFlag(page: ExportedPage) {

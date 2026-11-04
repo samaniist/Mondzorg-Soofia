@@ -38,7 +38,11 @@ export function RichContent({ html, locale = "nl" }: { html: string; locale?: Lo
       </div>
     );
   }
-  return <div className="rich-content" dangerouslySetInnerHTML={{ __html: html }} />;
+  const brandedHtml = html.replace(
+    /(?:https?:\/\/mondzorgpraktijkveenendaal\.nl)?\/wp-content\/uploads\/2025\/09\/LOGO_MPV_LANG_LICHT-GOUD-1\.png/g,
+    "/images/tandartspraktijk-corridor-horizontal.png",
+  );
+  return <div className="rich-content" dangerouslySetInnerHTML={{ __html: brandedHtml }} />;
 }
 
 export function FaqBlock({ items, locale = "nl" }: { items: FaqItem[]; locale?: Locale }) {
@@ -222,7 +226,7 @@ export function DentalPracticeSchema({ locale = "nl" }: { locale?: Locale }) {
     name: "Mondzorgpraktijk Veenendaal",
     url: `${SITE_URL}${localizedPath(locale, "/") === "/" ? "" : localizedPath(locale, "/")}`,
     telephone: "+31 318 501376",
-    email: "info@mondzorgpraktijkveenendaal.nl",
+    email: "info@tandarts-corridor.nl",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Wolweg 29",

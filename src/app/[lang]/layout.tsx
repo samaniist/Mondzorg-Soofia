@@ -53,13 +53,13 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <header className="site-header" data-site-header>
           <span className="header-scroll-progress" data-scroll-progress aria-hidden="true" />
           <div className="shell header-inner">
-            <Link className="site-name" href={href("/")} aria-label="Mondzorgpraktijk Veenendaal, home">
+            <Link className="site-name" href={href("/")} aria-label="Tandartspraktijk Corridor, home">
               <Image
-                alt="Mondzorgpraktijk Veenendaal"
-                height={60}
+                alt="Tandartspraktijk Corridor"
+                height={724}
                 priority
-                src="/wp-content/uploads/2025/09/LOGO_MPV_LANG_LICHT-GOUD-1.png"
-                width={347}
+                src="/images/tandartspraktijk-corridor-horizontal.png"
+                width={2172}
               />
             </Link>
             <nav className="desktop-nav" aria-label={copy.mainNavigation}>
@@ -113,10 +113,10 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
           <div className="shell footer-grid">
             <div className="footer-brand">
               <Image
-                alt="Mondzorgpraktijk Veenendaal"
-                height={60}
-                src="/wp-content/uploads/2025/09/LOGO_MPV_LANG_LICHT-GOUD-1.png"
-                width={347}
+                alt="Tandartspraktijk Corridor"
+                height={724}
+                src="/images/tandartspraktijk-corridor-horizontal.png"
+                width={2172}
               />
               <p>{copy.footerDescription}</p>
             </div>
@@ -128,7 +128,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <div>
               <p className="footer-label">{copy.contact}</p>
               <p><a href="tel:+31318501376">0318 501376</a><br />
-              <a href="mailto:info@mondzorgpraktijkveenendaal.nl">info@mondzorgpraktijkveenendaal.nl</a></p>
+              <a href="mailto:info@tandarts-corridor.nl">info@tandarts-corridor.nl</a></p>
               <p><Link href={href("/contact/")}>{copy.routeContact}</Link></p>
             </div>
             <div>
@@ -141,16 +141,15 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <span>© {new Date().getFullYear()} Mondzorgpraktijk Veenendaal</span>
             <span className="footer-meta">
               <Link href={href("/informatie/")}>{copy.patientInformation}</Link>
-              <span aria-hidden="true">·</span>
-              <span>
-                {lang === "en"
-                  ? "Crafted with care — design, development & marketing by "
-                  : "Met zorg gemaakt — design, ontwikkeling & marketing door "}
-                <a className="nexlytic-credit" href="https://nexlytic.de" rel="noopener noreferrer" target="_blank">
-                  Nexlytic.de
-                </a>
-              </span>
             </span>
+            <a className="studio-credit" href="https://nexlytic.de" rel="noopener noreferrer" target="_blank" aria-label="Design, development & marketing by Nexlytic, Saman Pouryaghma (opens in a new tab)">
+              <span className="studio-credit-text">
+                <span className="studio-credit-eyebrow">Design, Development &amp; Marketing</span>
+                <span className="studio-credit-brand">by <strong>nexlytic.de</strong><ArrowUpRightIcon /></span>
+              </span>
+              <span className="studio-credit-divider" aria-hidden="true" />
+              <span className="studio-signature" aria-hidden="true">Saman Pouryaghma</span>
+            </a>
           </div>
         </footer>
         <div className="mobile-appointment-bar">

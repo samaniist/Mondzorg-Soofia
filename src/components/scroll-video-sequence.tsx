@@ -1,300 +1,139 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Children, useEffect, useRef, type ReactNode } from "react";
 import type { Locale } from "@/i18n/config";
+import styles from "./scroll-video-sequence.module.css";
 
-const clamp = (value: number, minimum = 0, maximum = 1) => Math.min(maximum, Math.max(minimum, value));
-const mix = (from: number, to: number, progress: number) => from + (to - from) * clamp(progress);
-const phaseProgress = (progress: number, start: number, end: number) => clamp((progress - start) / (end - start));
+// Scene windows follow the existing 52-second clinic film: entrance, lounge,
+// treatment room, patient arrival, consultation, and the closing invitation.
+// Gaps deliberately leave the picture alone; all timing is reversible by scroll.
+const chapters = [
+  { start: 0, end: .12, direction: 0 },
+  { start: .15, end: .25, direction: -1 },
+  { start: .28, end: .36, direction: 1 },
+  { start: .39, end: .56, direction: 0 },
+  { start: .60, end: .74, direction: 1 },
+  { start: .84, end: 1, direction: 0 },
+];
 
-export function ScrollVideoSequence({ locale = "nl" }: { locale?: Locale }) {
-  const sectionRef = useRef<HTMLElement>(null);
-  const stickyRef = useRef<HTMLDivElement>(null);
+const clamp = (value: number) => Math.min(1, Math.max(0, value));
+
+export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Locale; children: ReactNode }) {
+  const rootRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
-  const progressNumberRef = useRef<HTMLSpanElement>(null);
-  const userPausedRef = useRef(false);
-  const activeRef = useRef(false);
-  const reducedMotionRef = useRef(true);
-  const loadRequestedRef = useRef(false);
-  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    const section = sectionRef.current;
-    const sticky = stickyRef.current;
+    const root = rootRef.current;
     const video = videoRef.current;
-    if (!section || !sticky || !video) return;
-
-    const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
-    let animationFrame = 0;
-    let renderedProgress = 0;
-    let currentPhase = "anticipation";
+    if (!root || !video) return;
+    const panels = Array.from(root.querySelectorAll<HTMLElement>("[data-video-panel]"));
+    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let frame = 0;
     let disposed = false;
-    const shouldReduceMotion = () => motionQuery.matches || (
-      process.env.NODE_ENV !== "production" && new URLSearchParams(window.location.search).get("motion") === "reduce"
-    );
+    let reduced = false;
 
-    const ensureVideoLoaded = () => {
-      if (loadRequestedRef.current) return;
-      loadRequestedRef.current = true;
-      section.dataset.videoLoading = "true";
-      video.load();
-    };
-
-    const playSafely = () => {
-      if (reducedMotionRef.current || userPausedRef.current || !activeRef.current || document.hidden) return;
-      ensureVideoLoaded();
-      const playPromise = video.play();
-      if (playPromise) playPromise.catch(() => setIsPlaying(false));
-    };
-
-    const applyProgress = (progress: number) => {
-      let x = 116;
-      let scale = 0.86;
-      let rotation = 2.4;
-      let opacity = 0.58;
-      let radius = 1.45;
-      let depthY = 8;
-      let mediaScale = 1.018;
-      let phase = "anticipation";
-
-      if (progress < 0.12) {
-        const local = phaseProgress(progress, 0, 0.12);
-        x = mix(116, 98, local);
-        scale = mix(0.86, 0.88, local);
-        rotation = mix(2.4, 1.9, local);
-        opacity = mix(0.58, 0.76, local);
-        depthY = mix(8, 5, local);
-        mediaScale = mix(1.018, 1.016, local);
-      } else if (progress < 0.35) {
-        const local = phaseProgress(progress, 0.12, 0.35);
-        phase = "entrance";
-        x = mix(98, 0, local);
-        scale = mix(0.88, 1, local);
-        rotation = mix(1.9, 0, local);
-        opacity = mix(0.76, 1, local);
-        radius = mix(1.45, 0.8, local);
-        depthY = mix(5, 0, local);
-        mediaScale = mix(1.016, 1.014, local);
-      } else if (progress < 0.68) {
-        const local = phaseProgress(progress, 0.35, 0.68);
-        phase = "center";
-        x = 0;
-        scale = mix(1, 1.03, local);
-        rotation = 0;
-        opacity = 1;
-        radius = mix(0.8, 0.28, local);
-        depthY = mix(0, -4, local);
-        mediaScale = mix(1.014, 1.022, local);
-      } else if (progress < 0.92) {
-        const local = phaseProgress(progress, 0.68, 0.92);
-        phase = "exit";
-        x = mix(0, -122, local);
-        scale = mix(1.03, 0.92, local);
-        rotation = mix(0, -2.4, local);
-        opacity = local < 0.72 ? 1 : mix(1, 0.18, phaseProgress(local, 0.72, 1));
-        radius = mix(0.28, 1.2, local);
-        depthY = mix(-4, -10, local);
-        mediaScale = mix(1.022, 1.015, local);
-      } else {
-        const local = phaseProgress(progress, 0.92, 1);
-        phase = "release";
-        x = mix(-122, -130, local);
-        scale = 0.92;
-        rotation = -2.4;
-        opacity = mix(0.18, 0, local);
-        radius = 1.2;
-        depthY = mix(-10, -12, local);
-        mediaScale = 1.015;
-      }
-
-      const copyOpacity = Math.min(phaseProgress(progress, 0.27, 0.39), 1 - phaseProgress(progress, 0.7, 0.82));
-      const cueOpacity = 1 - phaseProgress(progress, 0.14, 0.3);
-      const nextOpacity = phaseProgress(progress, 0.75, 0.88);
-      const anticipationOpacity = 1 - phaseProgress(progress, 0.22, 0.42);
-
-      sticky.style.setProperty("--sequence-x", `${x}%`);
-      sticky.style.setProperty("--sequence-scale", String(scale));
-      sticky.style.setProperty("--sequence-rotate", `${rotation}deg`);
-      sticky.style.setProperty("--sequence-opacity", String(opacity));
-      sticky.style.setProperty("--sequence-radius", `${radius}rem`);
-      sticky.style.setProperty("--sequence-depth-y", `${depthY}px`);
-      sticky.style.setProperty("--sequence-media-scale", String(mediaScale));
-      sticky.style.setProperty("--sequence-progress", String(progress));
-      sticky.style.setProperty("--sequence-copy-opacity", String(Math.max(0, copyOpacity)));
-      sticky.style.setProperty("--sequence-cue-opacity", String(cueOpacity));
-      sticky.style.setProperty("--sequence-next-opacity", String(nextOpacity));
-      sticky.style.setProperty("--sequence-anticipation-opacity", String(anticipationOpacity));
-
-      if (progressNumberRef.current) progressNumberRef.current.textContent = String(Math.round(progress * 100)).padStart(2, "0");
-      if (phase !== currentPhase) {
-        section.dataset.sequencePhase = phase;
-        currentPhase = phase;
+    // Seeking stays paused: scrolling is the only video clock, in either direction.
+    const paint = () => {
+      frame = 0;
+      if (disposed || reduced) return;
+      const sticky = root.firstElementChild as HTMLElement;
+      const travel = Math.max(1, root.offsetHeight - sticky.offsetHeight);
+      const scrollProgress = clamp(-root.getBoundingClientRect().top / travel);
+      const duration = Number.isFinite(video.duration) && video.duration > 0
+        ? Math.max(0, video.duration - .04) : 0;
+      // currentTime reports the requested time during a seek, not a displayed frame.
+      // Hold both the copy and progress until seeked confirms that frame is ready.
+      if (video.seeking) return;
+      const calm = document.documentElement.dataset.calm === "true";
+      const progress = duration > 0 && !calm && root.dataset.videoError !== "true"
+        ? clamp(video.currentTime / duration) : scrollProgress;
+      root.style.setProperty("--film-progress", String(progress));
+      root.style.setProperty("--film-exit", String(clamp((progress - .94) / .06)));
+      let visibleOpacity = 0;
+      panels.forEach((panel, index) => {
+        const chapter = chapters[index];
+        if (!chapter) return;
+        const local = (progress - chapter.start) / (chapter.end - chapter.start);
+        const inside = local >= 0 && local <= 1;
+        const enter = index === 0 ? 1 : clamp(local / .22);
+        const leave = index === panels.length - 1 ? 1 : 1 - clamp((local - .78) / .22);
+        const opacity = inside ? Math.min(enter, leave) : 0;
+        panel.style.setProperty("--panel-opacity", String(opacity));
+        panel.style.setProperty("--panel-y", `${(1 - enter) * 16 - (1 - leave) * 12}px`);
+        panel.style.setProperty("--panel-x", `${chapter.direction * (1 - enter) * 22}px`);
+        const detail = index === 0 ? 1 : clamp((local - .12) / .22);
+        panel.style.setProperty("--detail-opacity", String(detail));
+        panel.style.setProperty("--detail-y", `${(1 - detail) * 10}px`);
+        panel.inert = opacity < .1;
+        panel.setAttribute("aria-hidden", String(opacity < .1));
+        if (inside) root.dataset.scene = String(index);
+        visibleOpacity = Math.max(visibleOpacity, opacity);
+      });
+      root.style.setProperty("--story-shade", String(.18 + visibleOpacity * .64));
+      video.pause();
+      if (duration > 0 && !calm && root.dataset.videoError !== "true") {
+        const time = scrollProgress * duration;
+        if (Math.abs(video.currentTime - time) > .035) video.currentTime = time;
       }
     };
-
-    const getTargetProgress = () => {
-      if (reducedMotionRef.current) return 0;
-      const bounds = section.getBoundingClientRect();
-      const travel = Math.max(1, section.offsetHeight - window.innerHeight);
-      return clamp(-bounds.top / travel);
+    const schedule = () => {
+      if (!disposed && !frame) frame = requestAnimationFrame(paint);
     };
-
-    const render = () => {
-      const targetProgress = getTargetProgress();
-      const difference = targetProgress - renderedProgress;
-      renderedProgress = Math.abs(difference) < 0.0006 ? targetProgress : renderedProgress + difference * 0.11;
-      applyProgress(renderedProgress);
-      animationFrame = Math.abs(targetProgress - renderedProgress) > 0.0006 ? requestAnimationFrame(render) : 0;
+    const preference = () => {
+      reduced = motion.matches || (process.env.NODE_ENV !== "production" && new URLSearchParams(location.search).get("motion") === "reduce");
+      root.dataset.enhanced = String(!reduced);
+      video.pause();
+      if (reduced) {
+        panels.forEach(panel => { panel.inert = false; panel.removeAttribute("aria-hidden"); });
+      } else schedule();
     };
-
-    const scheduleRender = () => {
-      if (disposed) return;
-      if (!animationFrame) animationFrame = requestAnimationFrame(render);
-    };
-
-    const updateMotionPreference = () => {
-      const shouldReduce = shouldReduceMotion();
-      reducedMotionRef.current = shouldReduce;
-      section.dataset.reducedMotion = String(shouldReduce);
-      if (shouldReduce) {
-        video.pause();
-        renderedProgress = 0;
-        applyProgress(0);
-      } else {
-        scheduleRender();
-        playSafely();
-      }
-    };
-
-    const visibilityObserver = new IntersectionObserver(
-      ([entry]) => {
-        activeRef.current = entry.isIntersecting;
-        section.dataset.sequenceActive = String(entry.isIntersecting);
-        if (entry.isIntersecting) playSafely();
-        else video.pause();
-      },
-      { rootMargin: "35% 0px", threshold: 0.01 },
-    );
-
-    const resizeObserver = new ResizeObserver(scheduleRender);
-    const onVisibilityChange = () => {
-      if (document.hidden) video.pause();
-      else playSafely();
-    };
-    const onReady = () => {
-      section.dataset.videoReady = "true";
-      delete section.dataset.videoLoading;
-      scheduleRender();
-      playSafely();
-    };
-
-    motionQuery.addEventListener("change", updateMotionPreference);
-    window.addEventListener("scroll", scheduleRender, { passive: true });
-    window.addEventListener("resize", scheduleRender, { passive: true });
-    document.addEventListener("visibilitychange", onVisibilityChange);
-    video.addEventListener("canplay", onReady);
-    visibilityObserver.observe(section);
-    resizeObserver.observe(section);
-    resizeObserver.observe(sticky);
-    document.fonts.ready.then(scheduleRender).catch(() => undefined);
-    updateMotionPreference();
-    scheduleRender();
-
+    const onError = () => { root.dataset.videoError = "true"; schedule(); };
+    const resize = new ResizeObserver(schedule);
+    resize.observe(root);
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule, { passive: true });
+    window.addEventListener("clinic-motion-change", schedule);
+    video.addEventListener("loadedmetadata", schedule);
+    video.addEventListener("loadeddata", schedule);
+    video.addEventListener("seeked", schedule);
+    video.addEventListener("error", onError);
+    motion.addEventListener("change", preference);
+    preference();
     return () => {
       disposed = true;
-      motionQuery.removeEventListener("change", updateMotionPreference);
-      window.removeEventListener("scroll", scheduleRender);
-      window.removeEventListener("resize", scheduleRender);
-      document.removeEventListener("visibilitychange", onVisibilityChange);
-      video.removeEventListener("canplay", onReady);
-      visibilityObserver.disconnect();
-      resizeObserver.disconnect();
-      if (animationFrame) cancelAnimationFrame(animationFrame);
+      cancelAnimationFrame(frame);
+      resize.disconnect();
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+      window.removeEventListener("clinic-motion-change", schedule);
+      video.removeEventListener("loadedmetadata", schedule);
+      video.removeEventListener("loadeddata", schedule);
+      video.removeEventListener("seeked", schedule);
+      video.removeEventListener("error", onError);
+      motion.removeEventListener("change", preference);
       video.pause();
     };
   }, []);
 
-  const togglePlayback = () => {
-    const video = videoRef.current;
-    if (!video) return;
-    if (video.paused) {
-      userPausedRef.current = false;
-      if (!loadRequestedRef.current) {
-        loadRequestedRef.current = true;
-        sectionRef.current?.setAttribute("data-video-loading", "true");
-        video.load();
-      }
-      const playPromise = video.play();
-      if (playPromise) playPromise.catch(() => setIsPlaying(false));
-    } else {
-      userPausedRef.current = true;
-      video.pause();
-    }
-  };
-
   return (
-    <section
-      aria-labelledby="clinic-sequence-title"
-      className="scroll-video-sequence"
-      data-pointer-reactive
-      data-sequence-phase="anticipation"
-      ref={sectionRef}
-    >
-      <div className="scroll-video-sticky" ref={stickyRef}>
-        <div className="sequence-grid" aria-hidden="true" />
-        <div className="sequence-anticipation" aria-hidden="true" />
-
-        <div className="sequence-frame">
-          <div className="sequence-media">
-            <video
-              aria-describedby="clinic-sequence-description"
-              aria-label={locale === "en" ? "Video impression of Mondzorgpraktijk Veenendaal" : "Video-impressie van Mondzorgpraktijk Veenendaal"}
-              loop
-              muted
-              onPause={() => setIsPlaying(false)}
-              onPlay={() => setIsPlaying(true)}
-              playsInline
-              poster="/videos/clinic-experience-poster.webp"
-              preload="none"
-              ref={videoRef}
-            >
-              <source media="(max-width: 767px)" src="/videos/clinic-experience-mobile.mp4" type="video/mp4" />
-              <source src="/videos/clinic-experience.mp4" type="video/mp4" />
-              {locale === "en" ? "Your browser does not support this video." : "Uw browser ondersteunt deze video niet."}
-            </video>
-          </div>
+    <section className={styles.hero} ref={rootRef} aria-label={locale === "en" ? "Welcome to our practice" : "Welkom in onze praktijk"}>
+      <div className={styles.sticky}>
+        <div className={styles.backdrop} aria-hidden="true">
+          <video ref={videoRef} muted playsInline preload="auto" poster="/videos/clinic-experience-poster.webp" tabIndex={-1}>
+            <source media="(max-width: 767px)" src="/videos/clinic-experience-scrub-mobile.mp4" type="video/mp4" />
+            <source src="/videos/clinic-experience-scrub.mp4" type="video/mp4" />
+          </video>
         </div>
-
-        <div className="sequence-editorial">
-          <p className="eyebrow">{locale === "en" ? "Inside our practice" : "Binnen bij Mondzorg"}</p>
-          <h2 id="clinic-sequence-title">{locale === "en" ? <>See the calm.<br /><em>Feel the care.</em></> : <>Rust ziet u.<br /><em>Aandacht voelt u.</em></>}</h2>
-          <p id="clinic-sequence-description">{locale === "en" ? "A continuous impression of our calm, welcoming practice in Veenendaal." : "Een doorlopende impressie van onze rustige, huiselijke praktijk in Veenendaal."}</p>
+        <div className={styles.panels}>
+          {Children.toArray(children).map((child, index) => (
+            <div className={styles.panel} data-video-panel key={index}>{child}</div>
+          ))}
         </div>
-
-        <button
-          aria-label={isPlaying ? (locale === "en" ? "Pause video" : "Video pauzeren") : (locale === "en" ? "Play video" : "Video afspelen")}
-          className="sequence-play-toggle"
-          data-playing={isPlaying}
-          onClick={togglePlayback}
-          type="button"
-        >
-          <span className="sequence-control-icon" aria-hidden="true"><i /><i /></span>
-          <span>{isPlaying ? (locale === "en" ? "Pause" : "Pauzeer") : (locale === "en" ? "Play" : "Afspelen")}</span>
-        </button>
-
-        <div className="sequence-cue" aria-hidden="true">
-          <span>{locale === "en" ? "Keep scrolling" : "Scroll verder"}</span>
-          <i className="sequence-cue-line"><b /></i>
-          <svg viewBox="0 0 16 16"><path d="m3 6 5 5 5-5" /></svg>
+        <div className={styles.footer}>
+          <span>{locale === "en" ? "Scroll to explore · scroll back to rewind" : "Scroll om te ontdekken · terug om terug te spoelen"}</span>
+          <span aria-hidden="true" className={styles.progress}><i /></span>
+          <a href="#treatments">{locale === "en" ? "Explore treatments ↓" : "Ontdek de behandelingen ↓"}</a>
         </div>
-
-        <div className="sequence-progress" aria-hidden="true">
-          <span ref={progressNumberRef}>00</span>
-          <i><b /></i>
-          <small>100</small>
-        </div>
-
-        <p className="sequence-next-hint" aria-hidden="true"><span>{locale === "en" ? "Up next" : "Hierna"}</span> {locale === "en" ? "Personal care, step by step." : "Persoonlijke zorg, stap voor stap."}</p>
       </div>
     </section>
   );

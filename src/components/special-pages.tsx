@@ -1,3 +1,5 @@
+import { treatmentImages } from "@/content/treatment-images";
+import { teamNl, teamEn } from "@/content/team";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -68,7 +70,7 @@ function getTreatmentPreviews(locale: Locale): TreatmentPreview[] {
     name,
     href: localizedPath(locale, path),
     description,
-    image: treatmentPage?.images[0]?.src ? localMediaPath(treatmentPage.images[0].src) : fallback,
+    image: treatmentImages[path] ?? fallback,
     imageAlt: treatmentPage?.images[0]?.alt || (locale === "en" ? `${name} at Mondzorgpraktijk Veenendaal` : `${name} bij Mondzorgpraktijk Veenendaal`),
   };
   });
@@ -82,7 +84,7 @@ export function TreatmentsOverview({ page, locale }: { page: ExportedPage; local
       <div className="shell overview-hero">
         <PageHeader page={page} eyebrow={en ? "From prevention to restoration" : "Van preventie tot herstel"} intro={en ? "Explore our preventive, restorative and cosmetic treatments for a healthy smile." : "Bekijk onze behandelingen voor preventie, herstel en een gezonde glimlach."} />
         <figure data-reveal>
-          <Image alt={en ? "Cristian Zandi of Mondzorgpraktijk Veenendaal" : "Cristian Zandi van Mondzorgpraktijk Veenendaal"} fill priority sizes="(max-width: 768px) 100vw, 42vw" src="/wp-content/uploads/2025/11/banner10-768x768.jpg" />
+          <Image alt={en ? "Dental examination" : "Tandheelkundige controle"} fill priority sizes="(max-width: 768px) 100vw, 42vw" src={treatmentImages["/behandelingen/periodieke-controles/"]} />
         </figure>
       </div>
       <section className="shell overview-index" data-reveal aria-labelledby="treatment-index-title">
@@ -96,80 +98,6 @@ export function TreatmentsOverview({ page, locale }: { page: ExportedPage; local
     </main>
   );
 }
-
-const teamNl = [
-  {
-    name: "Cristian Zandi",
-    role: "Geregistreerd mondhygiënist, praktijkeigenaar",
-    treatments: ["Gebitsreiniging, GBT gecertificeerd", "Tandvleesbehandeling (parodontitis)", "Kindertandheelkunde, GewoonGaaf methode gecertificeerd", "Angstbegeleiding"],
-    href: "/ons-team/cristian-zandi/",
-    image: "/wp-content/uploads/2025/10/Cristian-Zandi.jpg",
-  },
-  {
-    name: "Huusder Barmer",
-    role: "Tandarts",
-    treatments: ["Periodieke controle", "Vullingen", "Wortelkanaalbehandeling", "Kroon en brug", "Prothese (kunstgebit)", "Aligner (doorzichtige beugel)"],
-    href: "/ons-team/huusder-barmer-2/",
-    big: "49051467902",
-    image: "/wp-content/uploads/2025/11/Huusder-Barmer.jpg",
-  },
-  {
-    name: "Elmira Eslami",
-    role: "Tandarts",
-    treatments: ["Periodieke controle", "Vullingen", "Wortelkanaalbehandeling", "Kroon en brug", "Prothese (kunstgebit)", "Aligner (doorzichtige beugel)"],
-    big: "69934497602",
-    image: "/wp-content/uploads/2026/08/Elmira-eslami.webp",
-  },
-  {
-    name: "Narjis",
-    role: "Allround assistente",
-    treatments: ["Baliewerkzaamheden", "Behandelkamer gereed maken", "Assistentie bij behandelingen", "Patiënt- en behandelregistratie"],
-    image: "/wp-content/uploads/2026/05/mondzorgpraktijk-veenendaal-dental-assistant-3.jpg",
-  },
-  {
-    name: "Mahsa",
-    role: "Allround assistente / preventieassistente",
-    treatments: ["Baliewerkzaamheden", "Behandelkamer gereed maken", "Assistentie bij behandelingen", "Patiënt- en behandelregistratie", "Preventieve behandelingen en gebitsreiniging"],
-    image: "/wp-content/uploads/2026/05/mondzorgpraktijk-veenendaal-dental-assistant-4.jpg",
-  },
-];
-
-const teamEn = [
-  {
-    name: "Cristian Zandi",
-    role: "Registered dental hygienist, practice owner",
-    treatments: ["Dental cleaning, GBT certified", "Gum treatment (periodontitis)", "Paediatric dentistry, certified in the Gewoon Gaaf method", "Dental anxiety support"],
-    href: "/ons-team/cristian-zandi/",
-    image: "/wp-content/uploads/2025/10/Cristian-Zandi.jpg",
-  },
-  {
-    name: "Huusder Barmer",
-    role: "Dentist",
-    treatments: ["Periodic check-ups", "Fillings", "Root canal treatment", "Crowns and bridges", "Dentures", "Clear aligners"],
-    href: "/ons-team/huusder-barmer-2/",
-    big: "49051467902",
-    image: "/wp-content/uploads/2025/11/Huusder-Barmer.jpg",
-  },
-  {
-    name: "Elmira Eslami",
-    role: "Dentist",
-    treatments: ["Periodic check-ups", "Fillings", "Root canal treatment", "Crowns and bridges", "Dentures", "Clear aligners"],
-    big: "69934497602",
-    image: "/wp-content/uploads/2026/08/Elmira-eslami.webp",
-  },
-  {
-    name: "Narjis",
-    role: "All-round dental assistant",
-    treatments: ["Reception duties", "Preparing the treatment room", "Assisting during treatments", "Patient and treatment records"],
-    image: "/wp-content/uploads/2026/05/mondzorgpraktijk-veenendaal-dental-assistant-3.jpg",
-  },
-  {
-    name: "Mahsa",
-    role: "All-round dental and prevention assistant",
-    treatments: ["Reception duties", "Preparing the treatment room", "Assisting during treatments", "Patient and treatment records", "Preventive treatments and dental cleaning"],
-    image: "/wp-content/uploads/2026/05/mondzorgpraktijk-veenendaal-dental-assistant-4.jpg",
-  },
-];
 
 export function TeamOverview({ page, locale }: { page: ExportedPage; locale: Locale }) {
   const en = locale === "en";
@@ -237,7 +165,7 @@ export function BookingPage({ page, locale }: { page: ExportedPage; locale: Loca
         <PageHeader page={page} eyebrow={en ? "Welcome" : "Welkom"} intro={en ? "Choose below whether you are already a patient or would like to register with our practice." : "Kies hieronder of u al patiënt bent of zich bij onze praktijk wilt inschrijven."} />
         <aside data-reveal>
           <p className="eyebrow">{en ? "Prefer personal contact?" : "Liever persoonlijk contact?"}</p>
-          <p>{en ? "Call" : "Bel"} <a href="tel:+31318501376">0318 501376</a> {en ? "or email" : "of mail naar"} <a href="mailto:info@mondzorgpraktijkveenendaal.nl">info@mondzorgpraktijkveenendaal.nl</a>.</p>
+          <p>{en ? "Call" : "Bel"} <a href="tel:+31318501376">0318 501376</a> {en ? "or email" : "of mail naar"} <a href="mailto:info@tandarts-corridor.nl">info@tandarts-corridor.nl</a>.</p>
         </aside>
       </div>
       <div className="shell" data-reveal><BookingChoice locale={locale} /></div>
@@ -258,7 +186,7 @@ export function ContactPage({ page, locale }: { page: ExportedPage; locale: Loca
           <address>
             <p><span>{en ? "Visit" : "Bezoek"}</span><strong>Wolweg 29<br />3901 TD Veenendaal</strong></p>
             <p><span>{en ? "Phone" : "Telefoon"}</span><a href="tel:+31318501376">0318 501376</a></p>
-            <p><span>Email</span><a href="mailto:info@mondzorgpraktijkveenendaal.nl">info@mondzorgpraktijkveenendaal.nl</a></p>
+            <p><span>Email</span><a href="mailto:info@tandarts-corridor.nl">info@tandarts-corridor.nl</a></p>
           </address>
           <p className="contact-note">{en ? "Open five days a week. Call for our current opening hours." : "5 dagen per week geopend. Bel voor de actuele openingstijden."}</p>
           <Link className="button" data-magnetic href={localizedPath(locale, "/maak-een-afspraak-1/")}>{en ? "Make an appointment" : "Maak een afspraak"} <ArrowUpRightIcon /></Link>

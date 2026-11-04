@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type PointerEvent, type RefObject } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, useSyncExternalStore, type CSSProperties, type PointerEvent, type RefObject } from "react";
 import { localizedPath, type Locale } from "@/i18n/config";
 import { ArrowLeftIcon, ArrowRightIcon, ArrowUpRightIcon, ChevronDownIcon } from "@/components/ui-icons";
 
@@ -11,6 +11,22 @@ const EnamelCanvas = dynamic(() => import("./enamel-canvas"), {
   ssr: false,
   loading: () => <div className="enamel-fallback" aria-hidden="true" />,
 });
+
+const subscribeCalmMode = (notify: () => void) => {
+  window.addEventListener("clinic-motion-change", notify);
+  return () => window.removeEventListener("clinic-motion-change", notify);
+};
+const readCalmMode = () => document.documentElement.dataset.calm === "true";
+
+export function CalmMode({ locale = "nl" }: { locale?: Locale }) {
+  const calm = useSyncExternalStore(subscribeCalmMode, readCalmMode, () => false);
+  const toggle = () => {
+    const next = !calm;
+    document.documentElement.dataset.calm = String(next);
+    window.dispatchEvent(new Event("clinic-motion-change"));
+  };
+  return <div className="calm-control"><button type="button" aria-pressed={calm} onClick={toggle}><span aria-hidden="true" className="calm-indicator" />{locale === "en" ? "At your pace" : "Op uw tempo"}<span>{calm ? (locale === "en" ? "Calm mode on" : "Rustige modus aan") : (locale === "en" ? "Reduce motion" : "Minder beweging")}</span></button><p aria-live="polite">{calm ? (locale === "en" ? "Decorative movement is reduced. You can keep exploring at your own pace." : "Decoratieve beweging is verminderd. Ontdek de praktijk op uw eigen tempo.") : (locale === "en" ? "Prefer a quieter page? You decide." : "Liever een rustigere pagina? U bepaalt het tempo.")}</p></div>;
+}
 
 export function MotionDirector() {
   const pathname = usePathname();
@@ -26,7 +42,7 @@ export function MotionDirector() {
     document.querySelectorAll<HTMLDetailsElement>("details.mobile-menu[open]").forEach((menu) => menu.removeAttribute("open"));
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
-    const shouldReduceMotion = () => reducedMotion.matches || (
+    const shouldReduceMotion = () => root.dataset.calm === "true" || reducedMotion.matches || (
       process.env.NODE_ENV !== "production" && new URLSearchParams(window.location.search).get("motion") === "reduce"
     );
     const reveals = Array.from(document.querySelectorAll<HTMLElement>("[data-reveal]"));
@@ -197,12 +213,14 @@ export function MotionDirector() {
       window.addEventListener("blur", leave);
       document.documentElement.addEventListener("pointerleave", leave);
       reducedMotion.addEventListener("change", updatePointerMotion);
+      window.addEventListener("clinic-motion-change", updatePointerMotion);
       cleanups.push(() => {
         window.removeEventListener("pointermove", move);
         window.removeEventListener("blur", leave);
         document.documentElement.removeEventListener("pointerenter", enter);
         document.documentElement.removeEventListener("pointerleave", leave);
         reducedMotion.removeEventListener("change", updatePointerMotion);
+        window.removeEventListener("clinic-motion-change", updatePointerMotion);
         if (pointerFrame) cancelAnimationFrame(pointerFrame);
       });
     }
@@ -489,7 +507,7 @@ export function TreatmentIndex({ treatments, locale = "nl" }: { treatments: Trea
             loading="lazy"
             src={active.image}
           />
-          <span aria-live="polite">{active.name}</span>
+          <span aria-live="polite"><strong>{active.name}</strong><small>{active.description}</small></span>
         </div>
       ) : null}
     </div>
@@ -560,7 +578,7 @@ export function TestimonialsCarousel({ reviews, locale = "nl" }: { reviews: Test
             <blockquote aria-hidden={index !== activeIndex} key={review.author}>
               <span className="quote-mark" aria-hidden="true">“</span>
               <p>{review.quote}</p>
-              <footer><span>{String(index + 1).padStart(2, "0")}</span>{review.author}</footer>
+              <footer><span className="review-initials" aria-hidden="true">{review.author.split(" ").map(part => part[0]).slice(0, 2).join("")}</span><span className="review-author"><strong>{review.author}</strong><small>{locale === "en" ? "Patient experience" : "Patiëntervaring"}</small></span></footer>
             </blockquote>
           ))}
         </div>
