@@ -31,6 +31,10 @@ export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Loca
     let frame = 0;
     let disposed = false;
     let reduced = false;
+    let priming = false;
+    let unlocked = false;
+    const touchDevice = window.matchMedia("(pointer: coarse)").matches;
+    const startButton = root.querySelector<HTMLButtonElement>("[data-video-start]");
 
     // Seeking stays paused: scrolling is the only video clock, in either direction.
     const paint = () => {
@@ -38,15 +42,15 @@ export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Loca
       if (disposed || reduced) return;
       const sticky = root.firstElementChild as HTMLElement;
       const travel = Math.max(1, root.offsetHeight - sticky.offsetHeight);
-      const scrollProgress = clamp(-root.getBoundingClientRect().top / travel);
+      const stickyTop = parseFloat(getComputedStyle(sticky).top) || 0;
+      const scrollProgress = clamp((stickyTop - root.getBoundingClientRect().top) / travel);
       const duration = Number.isFinite(video.duration) && video.duration > 0
         ? Math.max(0, video.duration - .04) : 0;
-      // currentTime reports the requested time during a seek, not a displayed frame.
-      // Hold both the copy and progress until seeked confirms that frame is ready.
-      if (video.seeking) return;
       const calm = document.documentElement.dataset.calm === "true";
-      const progress = duration > 0 && !calm && root.dataset.videoError !== "true"
-        ? clamp(video.currentTime / duration) : scrollProgress;
+      // Scroll owns the story clock. A delayed mobile decoder must never freeze
+      // the copy or navigation. Only one seek is in flight; seeked picks up the
+      // latest scroll position instead of replaying a backlog of stale targets.
+      const progress = scrollProgress;
       root.style.setProperty("--film-progress", String(progress));
       root.style.setProperty("--film-exit", String(clamp((progress - .94) / .06)));
       let visibleOpacity = 0;
@@ -70,10 +74,16 @@ export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Loca
         visibleOpacity = Math.max(visibleOpacity, opacity);
       });
       root.style.setProperty("--story-shade", String(.18 + visibleOpacity * .64));
-      video.pause();
-      if (duration > 0 && !calm && root.dataset.videoError !== "true") {
+      if (!priming) video.pause();
+      if (!priming && duration > 0 && !video.seeking && !calm && root.dataset.videoError !== "true") {
         const time = scrollProgress * duration;
-        if (Math.abs(video.currentTime - time) > .035) video.currentTime = time;
+        const delta = time - video.currentTime;
+        // Short mobile seeks avoid a single large jump after a touch fling.
+        // The next seeked event continues toward the latest target, including
+        // reverse scrolling, and stops as soon as that target is reached.
+        const mobile = window.matchMedia("(max-width: 767px)").matches;
+        const step = mobile ? Math.sign(delta) * Math.min(Math.abs(delta), .5) : delta;
+        if (Math.abs(delta) > .035) video.currentTime += step;
       }
     };
     const schedule = () => {
@@ -87,6 +97,28 @@ export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Loca
         panels.forEach(panel => { panel.inert = false; panel.removeAttribute("aria-hidden"); });
       } else schedule();
     };
+    // iPhone Safari may expose metadata yet refuse to decode a paused video
+    // until playback has been activated by a real touch. Prime once during that
+    // gesture, then immediately pause; scroll remains the playback clock.
+    const unlock = () => {
+      if (!touchDevice || unlocked || priming || reduced || disposed) return;
+      priming = true;
+      video.muted = true;
+      video.play().then(() => {
+        video.pause();
+        priming = false;
+        if (disposed) return;
+        unlocked = true;
+        root.dataset.videoActivation = "ready";
+        schedule();
+      }).catch(() => {
+        priming = false;
+        if (!disposed) root.dataset.videoActivation = "needed";
+      });
+    };
+    root.addEventListener("touchstart", unlock, { passive: true });
+    root.addEventListener("touchend", unlock, { passive: true });
+    startButton?.addEventListener("click", unlock);
     const onError = () => { root.dataset.videoError = "true"; schedule(); };
     const resize = new ResizeObserver(schedule);
     resize.observe(root);
@@ -103,6 +135,9 @@ export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Loca
       disposed = true;
       cancelAnimationFrame(frame);
       resize.disconnect();
+      root.removeEventListener("touchstart", unlock);
+      root.removeEventListener("touchend", unlock);
+      startButton?.removeEventListener("click", unlock);
       window.removeEventListener("scroll", schedule);
       window.removeEventListener("resize", schedule);
       window.removeEventListener("clinic-motion-change", schedule);
@@ -120,7 +155,7 @@ export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Loca
       <div className={styles.sticky}>
         <div className={styles.backdrop} aria-hidden="true">
           <video ref={videoRef} muted playsInline preload="auto" poster="/videos/clinic-experience-poster.webp" tabIndex={-1}>
-            <source media="(max-width: 767px)" src="/videos/clinic-experience-scrub-mobile.mp4" type="video/mp4" />
+            <source media="(max-width: 767px)" src="/videos/clinic-experience-scrub-mobile-v2.mp4" type="video/mp4" />
             <source src="/videos/clinic-experience-scrub.mp4" type="video/mp4" />
           </video>
         </div>
@@ -129,6 +164,9 @@ export function ScrollVideoSequence({ locale = "nl", children }: { locale?: Loca
             <div className={styles.panel} data-video-panel key={index}>{child}</div>
           ))}
         </div>
+        <button className={styles.activate} data-video-start type="button">
+          {locale === "en" ? "Enable scroll video" : "Activeer scrollvideo"}
+        </button>
         <div className={styles.footer}>
           <span>{locale === "en" ? "Scroll to explore · scroll back to rewind" : "Scroll om te ontdekken · terug om terug te spoelen"}</span>
           <span aria-hidden="true" className={styles.progress}><i /></span>

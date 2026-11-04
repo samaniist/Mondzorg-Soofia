@@ -65,7 +65,7 @@
   .panel h2 { font-size: clamp(2.6rem, 6.5vw, 4.5rem); }
 }
 @media (max-width: 42rem) {
-  .hero[data-enhanced='true'] .sticky { height: calc(100svh - 4.25rem - env(safe-area-inset-bottom)); min-height: 30rem; }
+  .hero[data-enhanced='true'] .sticky { top: 4.5rem; height: calc(100svh - 8.75rem - env(safe-area-inset-bottom)); min-height: 0; }
   .hero[data-enhanced='true'] .panel, .hero[data-enhanced='true'] .panel:nth-child(2), .hero[data-enhanced='true'] .panel:nth-child(4) { padding-block: 5.5rem 3.8rem; align-items: center; }
   .panel h1 { font-size: clamp(2.8rem, 12vw, 4.5rem); }
   .panel h2, .panel:nth-child(2) h2, .panel:nth-child(4) h2, .panel:nth-child(5) h2 { font-size: clamp(2.3rem, 9.5vw, 3.6rem); }
@@ -93,3 +93,32 @@
 @media (prefers-reduced-motion: reduce) { .backdrop video { visibility: hidden; } }
 
 .hero[data-enhanced="true"] .sticky::after { content: ""; position: absolute; inset: 0; background: var(--color-canvas, #f3f0e9); opacity: var(--film-exit, 0); pointer-events: none; z-index: 3; }
+
+/* Mobile story stays between the fixed header and appointment bar. */
+@media (max-width: 42rem) {
+  .hero[data-enhanced='true'] { height: 800svh; }
+  .hero[data-enhanced='true'] .panel,
+  .hero[data-enhanced='true'] .panel:nth-child(2),
+  .hero[data-enhanced='true'] .panel:nth-child(4) { padding-block: 1.5rem 3.5rem; }
+  .panel h1 { font-size: clamp(2.5rem, 10.5vw, 3.4rem); }
+  .panel h2, .panel:nth-child(2) h2, .panel:nth-child(4) h2,
+  .panel:nth-child(5) h2 { font-size: clamp(2.1rem, 8.5vw, 3rem); }
+  .panel :global(.story-actions) { margin-top: 1rem; }
+  .panel :global(.story-welcome) { margin-top: .8rem; }
+  .panel :global(.story-description) { line-height: 1.45; }
+  .hero[data-enhanced='true'] .footer { inset-inline: 1rem; bottom: .5rem; }
+}
+@media (max-width: 42rem) and (max-height: 740px) {
+  .panel h1 { font-size: 2.5rem; }
+  .panel h2, .panel:nth-child(2) h2, .panel:nth-child(3) h2,
+  .panel:nth-child(4) h2, .panel:nth-child(5) h2 { font-size: 2rem; }
+  .panel :global(.story-description) { font-size: .8rem; margin-top: .65rem; }
+  .panel :global(.story-actions) { margin-top: .65rem; gap: .4rem; }
+  .panel :global(.story-actions) :global(.button) { min-height: 3rem; padding-block: .3rem; }
+  .panel :global(.story-actions) :global(.text-link) { min-height: 2.4rem; padding-block: .35rem; }
+  .panel :global(.story-welcome) { margin-top: .6rem; font-size: .65rem; }
+  .panel :global(.story-status) { margin-top: .3rem; }
+}
+
+.activate { display: none; }
+.hero[data-video-activation="needed"] .activate { display: block; position: absolute; z-index: 4; top: .75rem; right: 1rem; padding: .7rem 1rem; border: 1px solid #e7d4ac; border-radius: 6px; background: #13221b; color: #fcf8ef; font: inherit; font-size: .8rem; cursor: pointer; }
