@@ -93,7 +93,7 @@ export function TreatmentPage({
   return (
     <article className="page-layout treatment-detail">
       <div className="shell treatment-hero">
-        <PageHeader page={page} eyebrow={locale === "en" ? "Treatment · Mondzorgpraktijk Veenendaal" : "Behandeling · Mondzorgpraktijk Veenendaal"} />
+        <PageHeader page={page} eyebrow={locale === "en" ? "Treatment · Tandartspraktijk Corridor" : "Behandeling · Tandartspraktijk Corridor"} />
         {image ? (
           <figure className="treatment-hero-image" data-reveal="mask" data-pointer-reactive data-tilt>
             <Image
@@ -223,7 +223,7 @@ export function DentalPracticeSchema({ locale = "nl" }: { locale?: Locale }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Dentist",
-    name: "Mondzorgpraktijk Veenendaal",
+    name: "Tandartspraktijk Corridor",
     url: `${SITE_URL}${localizedPath(locale, "/") === "/" ? "" : localizedPath(locale, "/")}`,
     telephone: "+31 318 501376",
     email: "info@tandarts-corridor.nl",

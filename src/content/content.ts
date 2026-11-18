@@ -6,7 +6,7 @@ import wordpressPosts from "./wordpress-posts.json";
 import type { Locale } from "@/i18n/config";
 import { englishTitle, polishEnglish } from "./english-polish";
 
-export const SITE_URL = "https://mondzorgpraktijkveenendaal.nl";
+export const SITE_URL = "https://tandarts-corridor.nl";
 
 export type ExportedPage = {
   url: string;
@@ -106,7 +106,7 @@ export function isIndexable(page: ExportedPage) {
 
 export function displayTitle(title: string) {
   return decodeHtml(title)
-    .replace(/\s+[|–]\s+Mondzorgpraktijk Veenendaal.*$/i, "")
+    .replace(/\s+[|–]\s+Tandartspraktijk Corridor.*$/i, "")
     .trim();
 }
 

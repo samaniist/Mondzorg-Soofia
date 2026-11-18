@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
   if (!isLocale(lang)) notFound();
 
   return {
-    metadataBase: new URL("https://mondzorgpraktijkveenendaal.nl"),
-    title: "Mondzorgpraktijk Veenendaal",
+    metadataBase: new URL("https://tandarts-corridor.nl"),
+    title: "Tandartspraktijk Corridor",
     description: lang === "en"
       ? "Personal dental and preventive care in Veenendaal."
       : "Persoonlijke tandheelkundige en preventieve mondzorg in Veenendaal.",
@@ -138,7 +138,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             </div>
           </div>
           <div className="shell footer-bottom">
-            <span>© {new Date().getFullYear()} Mondzorgpraktijk Veenendaal</span>
+            <span>© {new Date().getFullYear()} Tandartspraktijk Corridor</span>
             <span className="footer-meta">
               <Link href={href("/informatie/")}>{copy.patientInformation}</Link>
             </span>

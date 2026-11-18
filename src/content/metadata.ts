@@ -6,7 +6,7 @@ const descriptionOverrides: Record<string, string> = {
   "/behandelingen/tanden-trekken-extracties/":
     "Wanneer een tand niet behouden kan worden, zorgen we voor een rustige extractie met duidelijke uitleg en persoonlijke nazorg in Veenendaal.",
   "/ons-team/cristian-zandi/":
-    "Maak kennis met Cristian Zandi, geregistreerd mondhygiënist en praktijkeigenaar bij Mondzorgpraktijk Veenendaal.",
+    "Maak kennis met Cristian Zandi, geregistreerd mondhygiënist en praktijkeigenaar bij Tandartspraktijk Corridor.",
 };
 
 export function metadataForPage(page: ExportedPage, locale: Locale = "nl"): Metadata {
@@ -49,7 +49,7 @@ export function metadataForPage(page: ExportedPage, locale: Locale = "nl"): Meta
       locale: locale === "en" ? "en_GB" : "nl_NL",
       alternateLocale: locale === "en" ? ["nl_NL"] : ["en_GB"],
       url: canonical,
-      siteName: "Mondzorgpraktijk Veenendaal",
+      siteName: "Tandartspraktijk Corridor",
       title: page.title,
       description,
       images: image ? [{ url: image, alt: page.images[0]?.alt || page.title }] : [],

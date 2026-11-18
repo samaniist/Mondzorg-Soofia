@@ -19,14 +19,14 @@ const faqsNl = [
   },
   {
     question: "Worden nieuwe patiënten aangenomen?",
-    answer: "Ja, Mondzorgpraktijk Veenendaal neemt nieuwe patiënten aan. Bel ons of gebruik de afspraakpagina om uw aanmelding te bespreken.",
+    answer: "Ja, Tandartspraktijk Corridor neemt nieuwe patiënten aan. Bel ons of gebruik de afspraakpagina om uw aanmelding te bespreken.",
   },
   {
     question: "Wordt mijn tandartsbehandeling vergoed?",
     answer: "De vergoeding hangt af van uw leeftijd, behandeling en polis. Mondzorg voor kinderen tot 18 jaar valt meestal onder de basisverzekering. Controleer voor andere behandelingen uw polisvoorwaarden of neem contact op met uw verzekeraar.",
   },
   {
-    question: "Welke behandelingen biedt Mondzorgpraktijk Veenendaal aan?",
+    question: "Welke behandelingen biedt Tandartspraktijk Corridor aan?",
     answer: "U kunt bij ons terecht voor controles, vullingen, wortelkanaalbehandelingen, kronen en bruggen, protheses, extracties, aligners, facings, tanden bleken, preventieve mondzorg, kindertandheelkunde, tandvleesbehandeling, GBT en begeleiding bij tandartsangst.",
   },
 ];
@@ -38,14 +38,14 @@ const faqsEn = [
   },
   {
     question: "Are you accepting new patients?",
-    answer: "Yes, Mondzorgpraktijk Veenendaal is accepting new patients. Call us or use the appointment page to discuss your registration.",
+    answer: "Yes, Tandartspraktijk Corridor is accepting new patients. Call us or use the appointment page to discuss your registration.",
   },
   {
     question: "Will my dental treatment be reimbursed?",
     answer: "Reimbursement depends on your age, treatment and insurance policy. Dental care for children under 18 is generally covered by basic Dutch health insurance. For other treatments, check your policy or contact your insurer.",
   },
   {
-    question: "Which treatments does Mondzorgpraktijk Veenendaal offer?",
+    question: "Which treatments does Tandartspraktijk Corridor offer?",
     answer: "We provide check-ups, fillings, root canal treatments, crowns and bridges, dentures, extractions, clear aligners, veneers, teeth whitening, preventive care, paediatric dentistry, gum treatment, Guided Biofilm Therapy and support for dental anxiety.",
   },
 ];

@@ -71,7 +71,7 @@ function getTreatmentPreviews(locale: Locale): TreatmentPreview[] {
     href: localizedPath(locale, path),
     description,
     image: treatmentImages[path] ?? fallback,
-    imageAlt: treatmentPage?.images[0]?.alt || (locale === "en" ? `${name} at Mondzorgpraktijk Veenendaal` : `${name} bij Mondzorgpraktijk Veenendaal`),
+    imageAlt: treatmentPage?.images[0]?.alt || (locale === "en" ? `${name} at Tandartspraktijk Corridor` : `${name} bij Tandartspraktijk Corridor`),
   };
   });
 }
@@ -194,11 +194,11 @@ export function ContactPage({ page, locale }: { page: ExportedPage; locale: Loca
         <div className="map-frame" data-reveal>
           <iframe
             allowFullScreen
-            aria-label={en ? "Map showing the location of Mondzorgpraktijk Veenendaal" : "Kaart met de locatie van Mondzorgpraktijk Veenendaal"}
+            aria-label={en ? "Map showing the location of Tandartspraktijk Corridor" : "Kaart met de locatie van Tandartspraktijk Corridor"}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19640.262026440534!2d5.558256!3d52.024501!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c65315268335cd%3A0xaa9096af0d79435b!2sMondzorgpraktijk%20Veenendaal!5e0!3m2!1snl!2snl!4v1758538760195!5m2!1snl!2snl"
-            title={en ? "Mondzorgpraktijk Veenendaal on Google Maps" : "Mondzorgpraktijk Veenendaal op Google Maps"}
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19640.262026440534!2d5.558256!3d52.024501!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c65315268335cd%3A0xaa9096af0d79435b!2sTandartspraktijk%20Corridor!5e0!3m2!1snl!2snl!4v1758538760195!5m2!1snl!2snl"
+            title={en ? "Tandartspraktijk Corridor on Google Maps" : "Tandartspraktijk Corridor op Google Maps"}
           />
         </div>
       </section>
@@ -223,7 +223,7 @@ export function GenericPage({ page, locale }: { page: ExportedPage; locale: Loca
   return (
     <main id="hoofdinhoud" className="page-layout generic-page">
       <div className="shell generic-page-hero">
-        <PageHeader page={page} eyebrow="Mondzorgpraktijk Veenendaal" />
+        <PageHeader page={page} eyebrow="Tandartspraktijk Corridor" />
         {image ? <figure data-reveal><Image alt={image.alt || displayTitle(page.title)} fill priority sizes="(max-width: 768px) 100vw, 44vw" src={localMediaPath(image.src)} /></figure> : null}
       </div>
       <div className="shell article-content-grid">
